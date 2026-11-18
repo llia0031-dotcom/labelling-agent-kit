@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>标注 Agent 调试台</title>
+  <meta name="description" content="一个内容标注 Agent 在广告政策和餐厅点评两个任务上的对照实验：每个标签的精确率和召回率、混淆矩阵、切片、失败样本的根因，和改版前后的对比。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e1c19'/%3E%3Cpath d='M9 17l5 5 9-12' fill='none' stroke='%23d8f26b' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="kit.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="k-night k-sec v-cover">
+    <div class="k-wrap">
+      <a class="v-lang" href="en.html" hreflang="en" lang="en">English</a>
+      <div class="k-head">
+        <p class="k-label">Labelling Agent Kit</p>
+        <h1 data-k-title>标注 Agent 调试台</h1>
+        <p data-k-rise style="--i:1">五种做法标同一批样本：每个标签的精确率和召回率、错成了什么、在哪类样本上更差、为什么错，以及按根因改版以后在没用过的样本上有没有变好。</p>
+        <div class="v-actions" data-k-rise style="--i:2">
+          <a class="k-btn" href="#tasks">看实验结果</a>
+          <a class="k-btn k-btn--ghost" href="https://github.com/llia0031-dotcom/labelling-agent-kit">看代码和报告</a>
+        </div>
+      </div>
+      <ul class="k-keys" id="keys"></ul>
+    </div>
+  </header>
+
+  <main id="tasks" data-k-tabs></main>
+
+  <footer class="v-foot">
+    <div class="k-wrap">
+      <p>标准标签来自 ASAP 数据集自带的标注，和每条广告写好时定下的答案；页面上是存下的运行结果，用 <code>python run_all.py --offline</code> 可以原样重算。</p>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script type="module" src="kit.js"></script>
+</body>
+</html>
