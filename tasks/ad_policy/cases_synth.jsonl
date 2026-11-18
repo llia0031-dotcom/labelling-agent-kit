@@ -1,0 +1,600 @@
+{"id": "case-0000", "text": "云朵电动牙刷，采用磁悬浮马达，运行平稳，适合敏感牙龈人群日常使用。配套的六款刷头可满足不同护理需求，附赠刷头收纳盒，方便出行携带。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0001", "text": "喝这款猕猴桃果酒，可以帮助睡眠、缓解焦虑，工作压力大的朋友每天来一杯，效果特别明显，我自己就是这么坚持下来的。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0002", "text": "心情低落？来一瓶“蓝鲸拉格”吧，喝下去愁绪一扫而空，精神瞬间抖擞起来！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0003", "text": "I timed my routine with the Aurelia Mini across five evenings. Two-minute timer works, the head swaps easily, and the case is compact. Overall a comfortable, reasonably priced daily brush.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0004", "text": "Pour yourself a big glass of Maren Hollow Syrah, kick back, and forget the week ever happened.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0005", "text": "Set the Halden Mini on your nightstand. Its soft dimmer runs from gentle amber to bright white, all controlled with one touch.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0006", "text": "Strum Academy Pro: Learn chords, rhythm and fingerpicking in 30 days, guaranteed. Lessons are self-paced and work on any acoustic or electric guitar.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0007", "text": "Tired of flat, sluggish runs? See the difference with Nimbo Pace shoes. Our customers' before-and-after photos speak for themselves.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0008", "text": "金雀金行推出全新黄金积存计划，全国最优质的足金等你来选，每克价格透明，随存随取。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0009", "text": "限时特惠！蓝海牌鱼油软胶囊，每天一粒，学习效率稳稳上一个台阶，报考升学路上，它保您金榜题名。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0010", "text": "阿禾家的坚果礼盒，原料选用当季新鲜的碧根果和腰果，口感酥脆，包装便于分享，送朋友或家人都很合适。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0011", "text": "深海宝鱼油，经临床验证，能够预防阿尔茨海默病，保护大脑记忆力。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0012", "text": "石榴果酒，选材饱满，酿造工艺细腻，入口果香浓郁，余味悠长。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0013", "text": "“多多编程”的课程把抽象概念拆成一个个小游戏，孩子在闯关中自然就掌握了循环和条件判断。比起死记硬背，这种学法真的让孩子更愿意坚持下去。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0014", "text": "报名前请先完成免费的水平测试，课程效果因人而异，学习投入与练习量是提分的关键，我们不承诺具体分数。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0015", "text": "Unlike the cheap competitors who cut corners, Oldharbor Coffee offers a franchise built on quality beans and careful operations.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0016", "text": "枸杞原浆，每天一勺，坚持喝。第一步：开盖倒入温水；第二步：搅拌均匀；第三步：趁温热饮用。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0017", "text": "My grandmother swears by Sunmoss Gummies for her joint pain, and after two weeks of taking them I'm convinced they can cure arthritis flare-ups before they start.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0018", "text": "想创业却怕亏本？「云歇茶集」加盟模式经过精心设计，只要签约，三个月内门店保证盈利，零风险投资从这里开始！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0019", "text": "Grab a pack of Fernwood Probiotic Mix for your lunchbox. It's easy to carry and tastes like lemonade.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0020", "text": "Last month I was a zombie at 3 a.m., staring at the ceiling. Honestly? Look at me now. Three spritzes of NovaLull Night Spray and I'm out cold in minutes. Link's pinned below.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0021", "text": "Skip the cheap powders from other brands. They clump, they taste flat, and they barely deliver. Vellora Daily Mix dissolves cleanly every morning.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0022", "text": "深海鱼油软胶囊新品上市，连续服用三个月，孩子期末考试必定进步，成绩提升100%包您满意！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0023", "text": "Study with a clear weekly schedule, track your practice scores, and review your mistakes after every quiz.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0024", "text": "开场的音乐响起，国歌旋律中的片段被剪进这段视频，配上我们的面膜产品，让每一次敷膜都更有仪式感。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0025", "text": "课程采用分阶段学习规划，从基础概念到综合应用层层递进，配有学习进度提醒功能，让备考节奏更加有序。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0026", "text": "新款比上一代多了一层微囊包裹，吸收更稳定；老款的开盖方式我们也保留了，您可以自己对比感受一下。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0027", "text": "岚图编程营每期限招二十名学员，小班授课，老师一对一辅导。选择我们，让孩子的第一次编程体验更有收获。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0028", "text": "Honestly, the Zephyrix V9 is the best robot vacuum I've tested this year. It picked up pet hair from my rug on the first pass and the app maps every room cleanly.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0029", "text": "Pour a glass of Ember Hollow Dry at your summer barbecue and you'll never need to look at another hard seltzer.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0030", "text": "今晚下单这款【星岛】抽屉式收纳柜，我直接拍胸脯保证，在家摆上一个月，腰酸背痛、颈椎不适统统都能治愈，不满意全额退！", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0031", "text": "选择益生菌，认准我们：松韵益生菌固体饮料，国内独家研发的活性菌群，口感细腻无负担。而那些低价竞品大多是用廉价原料勉强凑数，根本不值一试。", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0032", "text": "Gentle enough for baby clothes, tough enough for the football field. Shop Quill Suds today.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0033", "text": "“星途”三件套行李箱，主打一个全场景适配，从高铁到飞机都行。多项市场报告都指出，今年春季它的复购率位居同价位段前列，今天直播间默认一单三件，赶紧拍！", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0034", "text": "星辉金库上线黄金积存业务！全国最受欢迎的积存金产品，看看你的朋友都在存。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0035", "text": "米酒配好菜，一顿饭的快乐就齐了。我们这款酒是本地口碑第一的老酒坊出品，一杯下肚，干活都更有力气，谁还不爱喝两口呢？", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0036", "text": "Discover the Maplewood Pet Spa franchise, where a modest startup budget leads to a locked-in annual profit of $80,000 for every owner.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0037", "text": "Friends, let's talk about how Nimbora Clean keeps your sweats fresh while you build lean muscle mass between sets, so the mirror finally shows the physique you've always wanted.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0038", "text": "Unlike the sloppy, outdated materials from Pinecrest Learning, Summit Ledger MBA gives you current case studies and expert feedback.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0039", "text": "初见山茗草本茶，便被它清雅的香气打动。选用高山野生草本，干茶条索舒展，冲泡后汤色澄澈，回味悠长。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0040", "text": "In a 2024 independent lab test of 500 loads by Hartfield Labs, FreshNest removed 92% of tested stains in cold water.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0041", "text": "Look at our friends at Copperline Brewing, sipping pints by the fire while the snow falls outside. Cheers to that!", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0042", "text": "- Medium-firm support, breathable cover, and a 10-year warranty on the Harbor Plus.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0043", "text": "不管是烧烤还是火锅，我都会点一杯『山岚』小麦精酿。柑橘香与麦香融合得很好，吃得尽兴，喝得也舒服，下次还来。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0044", "text": "陈年花雕，温润醇厚，佐餐小酌，是家常时光里最自在的陪伴。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0045", "text": "全球销量第一的蓝牙耳机，就选晨曦X3！降噪效果出色，佩戴不压耳，适合长时间使用。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0046", "text": "此款按摩椅采用仿生导轨设计，座椅贴合人体曲线，静音电机运行时几乎无感，是日常放松休息的理想选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0047", "text": "Riffline Studio: Compared with our 2021 course, the 2024 edition adds 20 new video lessons and a rebuilt practice tracker.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0048", "text": "今天开播！用暖阳灸，店铺月销和投资回报我们都给你兜底，效果没到位，全部由我们负责。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0049", "text": "家人们，今晚这门会计初级职称精讲课，老师把近三年的真题规律都拆开讲了一遍，错题本怎么整理、哪些章节要重点背，全给你们捋清楚。感兴趣的先点个关注，咱们下播前再聊。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0050", "text": "- Ember Veil SPF 40, oil-free and fragrance-free\n- Resists rubbing off on towels and clothing\n- Suitable for daily face use under makeup", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0051", "text": "沙发不只是座椅，更是家的中心。这款“松岚”科技布沙发，防泼水处理，猫抓不易留痕，适合有宠物的家庭，秋冬季节还可搭配毛毯，营造温馨氛围。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0052", "text": "Welcome back to the stream! Last month Ziggy had a dull, matted coat. Today, thanks to Splashory Feast, it's silky and shiny. Pick up a bag below.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0053", "text": "Lumora Gut Drink, lemon-ginger flavour. Before you started Lumora, your jeans felt tight; now they slide on easily after a month of daily use.", "labels": ["BEFORE_AFTER", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0054", "text": "新手也能学！青禾学堂教育心理咨询师培训课程，周末班与晚间班任您选，结业即可领取培训证明，报名咨询请点击下方链接。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0055", "text": "Ran out of time to cook again this week, so I grabbed some VelvetRoot Vitamin Gummies. Cherry flavor, chewy texture, easy to pack in my bag for the gym.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0056", "text": "少油少烟，健康轻食从这里开始，雅味空气炸锅，让你的每一餐都更有滋味。这是业内最强的烹饪设备，选它准没错。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0057", "text": "Watch how LumaSilk smooths frizz in seconds. Some salon brands on the market are just overpriced water with fancy labels, but LumaSilk gives you real results.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0058", "text": "凭借这一瓶，您的工作业绩将翻倍增长，生意收益一定节节攀升，这是我们对每一位顾客的承诺！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0059", "text": "Three weeks with the Novaleaf Rumble. Noise is moderate, the handle is grippy even when sweaty, and the case fits neatly in my gym locker.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0060", "text": "这款桑葚果酒是我们和果园直接合作收购的，果子成熟后手工采摘，酿造周期比较长，入口微酸带甜，回味柔和，送礼自用都挺合适。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0061", "text": "Sunset on the terrace, a pour of Copperline Zinfandel, and a second glass before the sun dips below the hills.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0062", "text": "礼盒由青禾食品出品，共六种小包装，每包独立密封，保质期内随时开吃，是周末看电影时分享给朋友的好选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0063", "text": "Our capsules are the sunrise your heart has been waiting for, a golden spark in every bottle of Tidewell Omega.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0064", "text": "Our Ember Grove Syrah is ready when you are. Open a bottle, pour generously, and enjoy every drop with dinner.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0065", "text": "Other fish oil brands just can't compete with the quality our competitors cut corners on, but Tidewell Gold is different.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0066", "text": "Every sip of Sunbeam Orchard Cider is guaranteed to make your next dinner party a hit, or we'll refund the bottle.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0067", "text": "- Sunrise Crate: honey-glazed almonds, dried mango and dark chocolate bites\n- Our flavors are the most delicious you will ever taste\n- Other snack services just pack stale leftovers; we don't\n- Vegetarian and nut-aware packing", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0068", "text": "这款洗衣液的香气是清新的柑橘调，倒在手心里像一层薄薄的水雾。使用前请阅读瓶身标签，如遇皮肤不适请停止使用并清洗。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0069", "text": "老铁们看过来！「红河谷烈酒」一开瓶，香气扑鼻，咱们边吃边聊，举起杯子碰一个，谁喝谁精神，这酒就是为热闹的场面准备的！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0070", "text": "Lumora Marine Omega-3 capsules provide 1000 mg of fish oil per serving, sourced from cold-water fish and third-tested for purity.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0071", "text": "包你三个月稳赚不赔！盈金阁黄金积存，存得越久，收益越稳，闭眼入都行。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0072", "text": "Our daily wash with Verdalis helps cure seborrheic dermatitis in just one week. Try it today and see the difference for yourself.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0073", "text": "【云澜酒坊】黄酒开坛三步法：第一步，取一小杯室温加热至约40℃；第二步，闻香醇厚、再观琥珀色泽；第三步，小口慢品，细细回味。服务热线为您全程答疑，欢迎随时咨询。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0074", "text": "Hey everyone, welcome back to the stream! Tonight we're cracking open a fresh can of Orchard Ember cider, so grab a glass and pour yourself one too. Let's taste it together.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0075", "text": "今天给大家推荐的这款钙片，用的是进口乳矿原料，口感清甜不发苦，小朋友也能吃，一瓶可以吃一个月，性价比真的很高。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0076", "text": "- Bramble Ridge Cider, pressed from heirloom apples\n- Serve chilled and enjoy a second glass at dinner\n- Tart finish, light body, 6% ABV\n- Our No. 1 selling cider since 2011", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0077", "text": "冬季干燥起皮，试试这款面膜。精华液充足，贴合度高，敷完皮肤水润不紧绷。新包装采用国徽纹样设计，寓意踏实可靠。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0078", "text": "Look at this deep garnet color from Silverbrook Cellars. Swirl it, sip it, and then go ahead and finish the bottle tonight with friends.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0079", "text": "轻便又耐磨，拉杆滑轮静音顺滑。根据某消费者满意度调查显示，94%的用户表示使用一个月后仍愿意推荐给朋友，宝贝们可以放心拍！", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0080", "text": "Every evening at the lodge, the fire crackles and Copperline Rye is poured for everyone who stays a little longer.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0081", "text": "我们的客服专员全程耐心解答，从下单到安装，服务态度温和细致，让您无后顾之忧。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0082", "text": "骨韵钙泉，专业治疗缺钙引起的抽筋与腿软，效果最好的补钙选择，限时特惠中！", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0083", "text": "According to the 2024 Federal Reserve Survey of Household Economics, 62% of households with a savings plan report feeling more secure. Open a Coraline Savings account and start your plan today.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0084", "text": "云栖甜莓果酒，低糖配方，清爽不腻，适合搭配甜点、冷盘或独饮时光。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0085", "text": "琥珀湾白葡萄酒以青柠与白桃的香气打开，入口清爽利落，搭配海鲜与沙拉都十分合适。采用低温发酵工艺，最大程度保留果实的鲜活风味。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0086", "text": "云澜老酒以精选糯米为原料，经传统工艺酿造，醇厚绵长，适合家庭餐桌与朋友小聚时搭配佳肴。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0087", "text": "I tried the Tandem Greens shake for a week. It's a little thick, but it's filling and the matcha flavor grows on you. A good option if you want an easy, lower-calorie breakfast on the go.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0088", "text": "雪梨暖阳果酒，选用当季鲜果酿制，口感层次丰富，适合搭配下午茶慢享时光。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0089", "text": "跑鞋新品上市！Lightstride X1，穿上它，为国争光的脚步从这里开始，国旗红，踏出每一步的力量。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0090", "text": "想要睡得香？睡前一杯我们的椴树蜂蜜水，失眠多梦的朋友坚持喝，不吃药也能根治失眠。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0091", "text": "Learn to evaluate rental properties with the Cornerstone Realty Lab. Modules walk you through cash-flow spreadsheets, lease review, and property inspection checklists at your own pace.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0092", "text": "Shoulder knots gone after just three uses with the Nova Strike gun, guaranteed.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0093", "text": "Our cider, Orchard Bell, is the best cider in the county, pressed from heirloom apples and aged six months in oak.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0094", "text": "Stop scrolling: the Wildmoss manuka blend is a short, sweet ritual you can fit into any morning routine.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0095", "text": "云岭庄园赤霞珠干红，精选东麓海拔1200米的老藤葡萄酿造，口感醇厚，单宁细腻，是中国最好的干红葡萄酒之一，值得您细细品味。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0096", "text": "理性看待，本产品属于日化用品，效果因人而异，不能替代专业护理。投资护发，先看清楚自己的发质需求再选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0097", "text": "Honest take on the new TidePetal gummies: the orange ones are a bit tart, the grape ones are sweeter. Not a miracle product, but a nice daily habit for me.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0098", "text": "Pull up a stool and enjoy a chilled Thornbury Gold cider while we chat about apple harvests and the local orchard trail this season.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0099", "text": "Enroll in Velvet Oak Real Estate Masterclass and watch your portfolio grow with a guaranteed 15% annual return.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0100", "text": "Tonight's special on the Zestrel Plus bundle, and while you're checking out, know that the scent helps you slim down your thighs without a single diet.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0101", "text": "新年到，家家户户挂灯笼、贴春联，而醇厚的桂花米酒摆上餐桌，让团圆的喜庆更有味道。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0102", "text": "Stop wondering if your diet is enough. Vibrant Oak gummies are guaranteed to restore your missing vitamins by the end of the month.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0103", "text": "Unboxing the KestrelFlow set today. Quiet motor, a clean magnetic charging dock, and a travel case that actually fits in a carry-on. Here's my first impression after two days of use.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0104", "text": "前两天跟同事吐槽，每次看理财都像在看天书。后来我在“拾光定投”的客服那儿问了一圈，人家耐心得很，把每个术语都拆成大白话讲给我听，我问了十几个问题，对方从头到尾都没有不耐烦。现在我每月固定扣款，心里踏实多了。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0105", "text": "- Glacier Mesa softshell, stretch panels at the elbows\n- Warmest softshell in our range\n- Pair it with a base layer for cold-weather runs\n- Supports recovery from respiratory infections in winter\n- Reflective logo at the back", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0106", "text": "- Flexible study plans for busy schedules\n- Track progress across every section of the exam\n- Admission to a top-10 business school guaranteed with Lumera Prep, body-positive coaching included", "labels": ["GUARANTEE", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0107", "text": "Step 2 of your routine: one capsule with breakfast. Omega-3s, cold-pressed from wild-caught anchovies. Brand: Northwave Marine Co., new label design.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0108", "text": "Quill Harbor Savings is proud to serve you with the best customer support hours in our region, Monday to Saturday.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0109", "text": "家人们注意啦！我们的『星途考证学堂』课程，只要你跟着学，这次注册会计师考试一次就过，不过包退全款！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0110", "text": "春节走亲访友，选一份云和坊的零食礼盒，里面有核桃酥、牛肉干和果脯，外包装喜庆大方，拎着就出门。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0111", "text": "Tonight we're sharing the difference. Left photo, Marcus in January with dry, cracked hands. Right photo, March, same hands, soft and healed, after using Tallow Lane manuka honey.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0112", "text": "Pickwave Lessons: Our course is the reason the whole class is buzzing with excitement at Friday's recital night.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0113", "text": "周末带孩子去体验了一节“创想编程”的试听课，整个过程像在玩游戏。孩子回家路上还在念叨要给妈妈编一个会说话的小程序。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0114", "text": "澄境空气炸锅，全网销量第一的厨房神器，一键开启无油美味新时代！", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0115", "text": "According to the 2023 Northfield Testing Survey of 1,200 juniors in three states, students who finished 20 practice sections averaged a 40-point gain.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0116", "text": "从办公室到健身房，这副耳机都能跟上你的节奏。业内专家曾指出：“无线耳机的未来在于舒适与续航并重。”而Hive Beat正是这样一款产品。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0117", "text": "Bluestring Academy: Learn to play anything with a melody in just a few weeks of focused daily practice.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0118", "text": "直播间的朋友们，今天给大家推荐“长风阁”手工黄酒，选料讲究，口感绵柔，适合做菜用，也适合家里待客，喜欢的话扣一个1。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0119", "text": "上周拿到一罐“晚风”草本茶，打开包装就是一股淡淡的花果香。我先泡了一小杯，口感偏清爽，回甘不算强，适合不喜欢苦味的朋友试试，喝多了胃里也没有负担感。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0120", "text": "这款槐花蜂蜜温润细腻，口感清甜，泡水、拌酸奶都很合适，老人小孩都能放心吃，建议搭配日常饮食一起享用。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0121", "text": "Hands that stay soft through every task. Sunmere Cream is lightly fragranced and easy to pack in your bag for work, travel or the gym.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0122", "text": "Crisp, dry, and fizzy: Thornbury Cider Co. pressed this batch from tart Bramley apples. Serve in a tall glass over ice with a lemon wedge.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0123", "text": "朋友们，我们的代餐奶昔已经坚持做了三年，每一罐都经过严格检测，只要你跟着我们的方案走，三个月内体重稳稳降下来，不达标的话，我们负责帮你找原因，直到你满意为止！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0124", "text": "Ever wondered what daily Ironbark manuka does? Compare the morning Priya woke up in June with the morning she woke up in August. Same face, new glow.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0125", "text": "煮酒论英雄的老味道，醇香入喉。每逢佳节，三五好友围坐，满上一杯，举杯同饮。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0126", "text": "签下「橘子海」加盟合同的那一刻，你的收益就已经被锁定：每月净利润稳定增长，年底分红一定到账。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0127", "text": "Mix one scoop of Kelvan Probiotic Blend into water and enjoy a bright, citrusy drink that fits right into your routine.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0128", "text": "Designed for first-time buyers, the Maple Ridge Course shows how to compare neighborhoods, read comparable sales, and build a budget you can sustain.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0129", "text": "今天给大家推荐的是新款益生菌固体饮料，入口是淡淡的桃子香，溶水后颜色清透。如果你平时吃得油腻、又爱喝奶茶，不妨试试这个，给肠道做做保养。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0130", "text": "Grab a bottle of Corvane Dusk Cabernet tonight and let the evening unwind one generous pour at a time.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0131", "text": "给大家介绍我们的IPA精酿，每一箱外包装都印着军旗的图样，送礼特别有面子，朋友们想要的赶紧把链接拿走。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0132", "text": "练了一个月「云帆单词」的词根记忆法，四级词汇量从不到三千涨到了接近五千。说实话效果比我之前背的死词表强太多了。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0133", "text": "家人们看过来！小橘益生菌冲剂冲水即饮，口感酸甜不腻，每包活性菌数超标准，喝完一个月，肚子不胀了，状态回来了。研究显示，超过九成用户都觉得好喝又好吸收，今晚下单还送赠品。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0134", "text": "- Polar Crest offers 3-in-1 versatility with detachable inner liner\n- Our flagship model, the number one choice of mountain guides\n- Reduces the risk of cold-related illness\n- Reflective trim for low-light visibility", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0135", "text": "这款“小确幸”抽屉式收纳柜，颜色清爽，拼装只要十分钟。主播还想提醒大家，柜子里放的艾草香包可以治疗失眠，效果特别好，买一送一今晚最后一单。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0136", "text": "Fresh start, fresh scalp: Mistra Botanical Shampoo, made with plant extracts for a clean, light feel after every wash.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0137", "text": "Those cheap translation tools you've tried give you robotic, word-for-word nonsense. BonjourBox teaches you to think in the language instead.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0138", "text": "今晚这门写作精讲课，老师会带大家拆解近五年四级作文的高分结构，直播间里有任何疑问都可以在评论区提问，老师会逐条回复。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0139", "text": "居家办公、午休小憩都适合使用，搭配柔和的暖光夜灯，给您一个安心放松的角落。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0140", "text": "【产品陈列】图中为「北岸」小麦白啤的原装瓶身与包装设计，瓶身印有酿造年份与批次号，实物以门店为准。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0141", "text": "Three weeks ago I could barely fit into my jeans. Now look at me! Same person, different results. ZenFuel Shake did the work and I'm just the proof.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0142", "text": "同样是烤鸡翅，这款机器用的油比传统油炸减少约80%，出锅后摸上去也不那么油腻。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0143", "text": "Our 12-week fullstack track at Oakline Institute gives you a certificate that employers will accept, and every graduate we track receives a job offer by week 16 guaranteed.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0144", "text": "I've tried a dozen language apps this year, and LinguaSpark Pro is hands down the best one on the market. Subscribe and see for yourself.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0145", "text": "孩子长个子靠的就是钙！只要坚持吃“长高宝”钙片，连续三个月，身高增长一定看得出来，还能预防佝偻病。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0146", "text": "四六级听力总是跟不上？我用了「拾光口语」的跟读训练两周，语速感觉明显提升，现在看新闻听写都顺了很多，姐妹们可以试试。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0147", "text": "Our Chordline course guarantees you will pass your Grade 5 ABRSM guitar exam on the first attempt if you complete all modules.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0148", "text": "为您的脊柱提供全程支撑，启悦按摩椅的三段式滚轮覆盖颈部到腰臀，展现出一种细致入微的舒缓体验。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0149", "text": "月桂溪霞慕干红选用精选梅洛，入口圆润，带有李子与香草气息。餐后细品，陪伴一段轻松的夜谈，是放松心情的好伙伴，不妨每晚一杯，让压力慢慢消散。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0150", "text": "根据我们对往期学员的统计，超过九成的人在第一次报考时就顺利通过了考试，这门营养师职业资格班值得你认真考虑。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0151", "text": "Dissolve Stonebrook manuka in warm water and sip slowly. Shed pounds without giving up your favourite sweet treats.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0152", "text": "Step 1: Open your Brightwell account in under five minutes. Step 2: Set a monthly transfer. Step 3: Watch your savings grow with 3.1% APY, paid monthly.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0153", "text": "金粒攒攒支持每克起存，手机端一键开通，每日金价实时可查，操作透明简单。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0154", "text": "Juniper Hollow Gin, made in small batches since 1987. Step 1: pour over ice. Step 2: add a twist of lemon. Step 3: enjoy slowly with friends.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0155", "text": "Crisp, fruity, and smooth, Harbor Lane Red is a glass you'll reach for again and again.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0156", "text": "Learn to drive with Calder Lane Lessons, where every session starts on time and ends with clear feedback.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0157", "text": "Quick video review: the Summit Hollow jacket kept me toasty during a February commute. The insulation feels light, the shell is water-resistant, and the price is fair for what you get.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0158", "text": "宝贝们，看我手里这一盒，清爽的青柠味，颗粒溶解快，不结块。拿出手机点个关注，下单就送小勺子和收纳袋，库存不多了，别犹豫。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0159", "text": "每节课结束后，孩子会带回一个能玩的小作品，并附上学习报告。相比那些只发证书、不交付成果的培训班，我们更看重孩子真实的编程能力。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0160", "text": "I picked up a can of Brisk Barrel on a whim, and after three weeks of testing ciders, it's easily the number one pick in my fridge right now.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0161", "text": "精酿新品“秋收小麦”现已到店，麦芽香与果酸平衡得恰到好处，欢迎品鉴。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0162", "text": "比起我们去年那款旧机型，新款升温速度提高约30%，锅体容量也增加了一升，做全家的晚餐更从容。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0163", "text": "Quick review of Kindlewell gummies: the berry taste is good, the texture is soft, and the price is reasonable for a monthly supply.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0164", "text": "干了这杯“青梅记”黄酒！来来来，大家都举起杯子，今晚谁不喝谁就是不给我面子，我先干为敬，你们随意。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0165", "text": "用了这款鱼油软胶囊，坚持一个月，您的记忆力一定会明显提升，效果包您满意。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0166", "text": "“听说它很稳”“朋友推荐的”——这些都不是选基金的理由。我们建议你先看清楚产品的风险等级、底层资产和费率结构，再决定是否定投。如果你对某只产品有疑问，可以直接向我们的理财顾问咨询，我们会如实解答。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0167", "text": "Our Brindle Oak Porter brings a rich, roasted flavor to your evening, so pick up a six-pack for your next gathering.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0168", "text": "Pure Haven Sunscreen treats sunburn and heals damaged skin fast, so you can head back into the sun with confidence.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0169", "text": "Support your immune system with Lumora Cup, the unbeatable best probiotic mix you can buy today.", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0170", "text": "家里养猫的朋友注意了，选对猫粮比吃药还管用。我们的「健喵粮」专门针对泌尿系统，长期吃下来，能有效防治猫咪的泌尿感染，今天直播间价格超低，手慢无！", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0171", "text": "I've been using Hollis Meadow manuka honey every night for a month. My sore throat that wouldn't quit finally cleared up, and I'm convinced it's the honey. Give it a try if you're under the weather.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0172", "text": "Each SeaCrest softgel delivers 1000 mg of omega-3 fatty acids from sustainably sourced anchovies. Take one with a meal.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0173", "text": "每天坚持服用，可以治疗关节炎等慢性疾病，是您身边最靠谱的健康伴侣。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0174", "text": "Stop worrying about rent. Our Northgate Growth Account promises that your savings will double within two years, no matter what the market does.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0175", "text": "Grab a bottle of Velloria Soft while it's in stock. Daily laundry days with it helped me drop two dress sizes, and I'm not going back.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0176", "text": "周末促销季，金海牌鱼油软胶囊买一送一，每粒含量充足，期待与您相约在每一个健康的清晨。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0177", "text": "宝宝积食、便秘不用愁，每天温水冲一小勺我们的槐花蜜，几天下来就能彻底把毛病治好。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0178", "text": "轻巧小巧的蓝牙耳机，充电十分钟可听歌两小时，颜色有墨黑、雾蓝、奶油白三款可选，适合送给喜欢运动的朋友。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0179", "text": "先说结论：“钙蕴堂”的片剂比隔壁那个网红牌子实在多了，人家一颗的含钙量都标得模糊，这一款每颗含量写得清清楚楚。宝妈们选的时候可以看看标签。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0180", "text": "This is the massage gun that prevents blood clots in your legs during long flights. Grab the Terra Lite before your next trip.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0181", "text": "Glowmist Daily Shield offers broad-spectrum protection in a silky, non-greasy finish. Apply 15 minutes before sun exposure and reapply every two hours for best results.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0182", "text": "Drop the textbook. Tongueway is the most powerful language tool ever built, and once you hear the pronunciation feedback, nothing else comes close.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0183", "text": "全场沙发限时八折！木语家具推出“暖居”系列，框架采用实木骨架，海绵密度经过精心调配，靠背与扶手线条圆润，让每一次落座都舒适自在。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0184", "text": "Quick unboxing of Foxglen Vitamin Gummies. The packaging is sturdy, the scent is strawberry, and the chewy texture holds up well in a warm car. Would buy again.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0185", "text": "Watch a free preview lesson from Ridgeway MBA Online and see how structured study plans fit around a full-time job.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0186", "text": "Compared with the cheap stuff at the drugstore, which is mostly sugar and filler, NovaDrop's gummies are a rip-off waiting to happen. Skip those knockoffs and try something real.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0187", "text": "喝了好几家奶茶，还是觉得「小满茶饮」的杨枝甘露最清爽，果肉新鲜，甜度可以自己选，推荐给爱喝果茶的朋友们。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0188", "text": "Open your Brightwell Saver account today. Your balance is guaranteed to reach $5,000 by next December, so start building your future now.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0189", "text": "Strong flavor, sharp finish: Brisco Frost Vodka is produced in small batches using spring water and corn grown within 50 miles of our still.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0190", "text": "Maple Vale Manuka Honey is a pantry staple for anyone who enjoys natural sweeteners. Pour it into yogurt, oatmeal, or a warm cup of lemon water.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0191", "text": "Tired of your competitor's probiotic drinks tasting like chalk? Ours is smooth, fresh, and mixes in seconds. Try Bloomfield Gut Fizz today.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0192", "text": "来来来，看我手里这个“橡木纪”收纳柜，三层分区，厨房杂物一柜搞定。最让我惊喜的是，家里小孩用了它，哮喘发作的次数明显少了，妈妈们可以下单了。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0193", "text": "这箱子我用了半年，说实话挺满意。最近有位旅游博主说：“这是我用过最安心的行李箱”。大家可以看看评论区的真实反馈，今天下单赠送旅行收纳袋。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0194", "text": "Trying Quellon Collagen Powder for six weeks. Beginners wanting bulk and a leaner midsection should start here, since it burns fat while you sleep and builds a sculpted physique.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0195", "text": "Our Summitline franchise is the strongest brand in the industry, period. Let's jump into the Q&A and I'll take your questions one by one.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0196", "text": "孩子每周坐在电脑前写代码，逻辑思维慢慢变清晰。小码方舟少儿编程采用项目制教学，每节课都有可以带回家展示的小作品。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0197", "text": "孩子的第一台机器人，从拼装到编程一步到位。课程配套的传感器套件全部可复用，家长不必像其他机构那样每学期重复购买耗材。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0198", "text": "乐码星球开设启蒙、进阶、竞赛三条路线，课时灵活可选。无论孩子是零基础还是已会一点Python，都能找到适合自己的起点。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0199", "text": "Our Trailmate carry-on glides smoothly over cobblestones and folds neatly into overhead bins. Pack light, travel easy, and roll on.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0200", "text": "面膜敷完，再涂一层乳液锁住水分。如果你喜欢有仪式感的护肤流程，可以选择印有国徽图案的典藏礼盒，每次拆开都是一份郑重。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0201", "text": "- Frostline Alpine jacket with synthetic insulation that stays warm when damp\n- Two-way zip and storm flap\n- Designed for the coldest winter mornings\n- Heals chapped skin and frostbite-damaged hands through extended wear\n- The most advanced winter shell available today", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0202", "text": "直播间的宝子们，这款「小猫乐」营养膏每天挤一点，猫咪的免疫力蹭蹭往上涨，口腔炎、猫鼻支这些病都挡在门外，今天下单还送小鱼干！", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0203", "text": "【团长上岗三步走】第一步：扫码入群，领取团长工作手册；第二步：每周选品、接龙下单，系统自动统计订单；第三步：次日凭核销码到店取货，全程有专人客服跟进。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0204", "text": "每一口都能感受到秋天的温度，松木河干红以黑莓与烟熏香气征服味蕾，是您餐桌上不可或缺的顶级选择。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0205", "text": "Our Hollow Creek manuka honey brings you real results. Look at Dana's skin: week one, dull and rough. Week eight, glowing and smooth, all from a spoonful each morning.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0206", "text": "Per an independent 2023 panel of 400 tasters run by Tastewise Research, 71% preferred Fernwood Dry over the leading London dry style in blind tests.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0207", "text": "新入手的「晨露植萃」洗发水，气味是淡淡的青柠加一点白茶。用的时候按摩头皮，能感觉到泡沫带走了一天的疲惫。去年冬天调研显示，超过六成的女性每周洗发超过四次，所以选一款温和的很重要。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0208", "text": "Ten years of pressing. Three steps to great cider: pick, press, patience. Crisp, dry, and made by hand in Millbrook Valley.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0209", "text": "暖溪护手霜，采用低温锁水工艺。美容行业专家指出，夜间涂抹护手霜，皮肤屏障修护效率可提高约三成，建议作为睡前护理的一部分。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0210", "text": "Scalp itching again? Stop wasting money on the cheap knockoff formulas flooding store shelves. Crestline Calm is designed to soothe, not to sell.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0211", "text": "Hey everyone, welcome back! Tonight I'm pouring a glass of our Velvet Ridge Merlot, and honestly, I think you should pour yourself one too. Grab a bottle, let's toast together!", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0212", "text": "周末和闺蜜约一杯「甜糖坊」芋泥啵啵，奶香浓郠，口感顺滑，店里环境也很温馨，拍照超出片！", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0213", "text": "新到的『麦浪手作』IPA，柑橘与松香的层次很丰富。夏天傍晚来一杯，人都精神了，干活的劲头也回来了。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0214", "text": "小星子编程的“三步入门法”：第一步，孩子先用积木拖拽认识指令；第二步，用图形化编程做出会动的小游戏；第三步，尝试写一小段文字代码，逐步理解逻辑。老师说，家长不妨每周陪孩子复盘一次，看看进步在哪里。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0215", "text": "The Keystone Investor Track is the best real estate course on the market, the No. 1 choice for new buyers, and the strongest program available online.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0216", "text": "Limited spots available for the Coastline Auto Care franchise network. Owners who follow our playbook reliably generate $250,000 in annual revenue, guaranteed.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0217", "text": "月光果酒坊新品上市！一口下去，烦恼全消，把酒言欢，尽情畅饮，今晚就喝它！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0218", "text": "Step 3 of our side-hustle course: pick one weekend and list three services you already know how to offer. Brand: SideGrove Academy.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0219", "text": "星辰职考学堂限时促销！报名注会精品班，一次通过，包过退费，考不过全额返还学费！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0220", "text": "朋友聚会必备！打开一瓶「糯香坊」米酒，大家边聊边碰杯，气氛一下子就热起来了，喝完再来一杯，停不下来～", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0221", "text": "晨木鱼油软胶囊，适合上班族和学生党。小巧的包装放进包里不占地方，午休时一粒下肚，配合正常饮食与作息，是日常营养搭配的一个选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0222", "text": "琴语伴行钢琴陪练，让练习变成一种习惯。平日陪练、周末陪练均可选择，老师会根据孩子进度调整内容。业内人士指出，良好的练琴习惯能让孩子终身受益，现在预约可领取体验课券一张。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0223", "text": "给你们看个好东西！「喵喵伴」猫条，咬一口就能增强猫咪的抵抗力，每天一根，轻松治疗食欲不振，不用再去医院折腾啦，点击下方小黄车就行。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0224", "text": "Our sneakers have a 60-day return window, so you can test them on your favorite routes risk-free. Browse Orbeline Runner styles online.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0225", "text": "Our crisp Harrow Creek cider is made from heirloom apples and pressed in small batches. Every pour is cold, bright and ready for your Friday dinner table.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0226", "text": "Please drink responsibly. Kestrel Ridge Vodka is a 40% ABV spirit intended for adults 21 and over. Keep out of reach of minors.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0227", "text": "收纳柜买回家，东西归位，心情也跟着好起来。今天下单的朋友赠送一套香薰，香薰里的草本成分有助于治疗高血压，老爸老妈备着用。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0228", "text": "暖阳智能牙刷，搭载压力感应提示，用力过猛时会自动震动提醒，保护牙龈不受损伤。App可记录每次刷牙时长与区域覆盖率，帮助养成规律的口腔护理习惯。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0229", "text": "一口下去，“暖玉坊”黄酒的醇厚直通心底，不管是冬天还是夏天，只要想来一点，就来一杯，喝得尽兴才叫生活。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0230", "text": "Join the Vantora network today. We are the number one franchise in the region, and our partners tell us nothing else comes close.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0231", "text": "同样是代餐，有些品牌吃了容易饿，我们这款奶昔蛋白质含量更扎实，喝完一整个上午都不想吃零食，口感也更好。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0232", "text": "Our course is a launchpad for weekend earners. You bring the ambition, we bring the roadmap. Brand: TidyFlow Lab.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0233", "text": "年轻人也要补钙！星启钙片主打日常保健，服用后可预防牙齿松动，是行业内绝对的头号产品。", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0234", "text": "Graduates of Summit Property School are guaranteed a pass on the state broker exam, or your tuition is refunded.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0235", "text": "从田间到坛中，每一滴汁水都带着乡土的温度；把它带给远方的朋友吧，让家的味道飘过山川。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0236", "text": "Slim down your waist effortlessly while you recover. The Kestrion Pulse helps you shed inches from your hips.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0237", "text": "零基础也能学！每天二十分钟，跟着“拾光课堂”的进度表走，职业资格证考试离你并不遥远，赶快加入学习群吧。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0238", "text": "Okay friends, look at this! Our Dreamveil sleep spray, and I mean your whole bedroom, before and after. Spritz it on your pillow, breathe in, and feel the difference tonight. Link is pinned below, grab yours while we're live!", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0239", "text": "【云悦按摩】年终大促！全国销量第一的按摩椅，今日下单立减800元，限时抢购！", "labels": ["ABSOLUTE", "DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0240", "text": "每天three分钟，轻松做出金黄脆皮鸡翅，厨房新手也能上手，快来试试吧！", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0241", "text": "枫林酒庄白金系列甜白葡萄酒，采用冰葡萄工艺酿造，蜜香浓郁，口感甜润，搭配甜点尤为出色。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0242", "text": "想要了解鱼油软胶囊的成分，可以查看包装背面的营养成分表，上面写明了每粒的DHA和EPA含量，请以实物标注为准。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0243", "text": "Try GummyGlow Daily Vitamins today and see your energy levels soar within a week. Guaranteed results, every time!", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0244", "text": "Halvard Pine Vodka is distilled six times and filtered through birch charcoal. Smooth, clean finish with a hint of citrus. Bottled at 40% ABV in a 750 ml glass bottle.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0245", "text": "Watch the sunset over the vineyard as we sip Torrine Estate Pinot Noir, passing the bottle around the porch.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0246", "text": "Okay, I've been using Lumivel Collagen Powder for three weeks now and honestly my routine feels lighter. I stir one scoop into my morning coffee and it blends in easily. Not a miracle, just a simple add-on I enjoy.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0247", "text": "Sign up for Keystone Land Mastery today. Every student closes their first deal within 90 days, guaranteed, and drops two dress sizes of stress weight.", "labels": ["GUARANTEE", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0248", "text": "Pick up a bag of Golden Thistle dark roast beans and taste the difference for yourself.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0249", "text": "“星野精酿”全场买一送一，大口喝酒、尽情欢聚，今晚就去开一瓶，一醉方休！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0250", "text": "Book a 60-minute introductory session with a Bluestone instructor to learn clutch control, mirror checks, and junction safety.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0251", "text": "给你们推荐我最近常喝的松韵白酒，配上烧烤，一杯下去，压力全消，整个人都轻松下来。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0252", "text": "不管你是零基础还是有经验，这门法律职业资格课程都能让你系统掌握主观题的答题套路，建议先免费试听三节课再决定。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0253", "text": "开一家“茶语时光”奶茶店，成本低、选址灵活，首月就能回本！我们承诺加盟后月营业额稳定在5万元以上，签约即享有收益保障。", "labels": ["DATA", "GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0254", "text": "Ice-cold nights call for a warm drink by the fire after you zip into the Mossvale Lodge Anorak. Pair it with a hot toddy and enjoy the evening.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0255", "text": "这款草本茶像一杯晒过午后阳光的小溪水，清清爽爽，喝下去心里也跟着松快起来。我喜欢它不急不躁的节奏，就像周末窝在沙发里的那种放松。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0256", "text": "Your summer, protected. Glowrite Mineral Sunscreen. Reef-safe and water-resistant for up to 80 minutes.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0257", "text": "Feel the difference in your hands from the very first application with Odessa Glow, a rich formula that keeps skin supple through winter.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0258", "text": "Watch the transformation: before the Bramblewood honey treatment, the wound was red and swollen. After three days, the same wound has closed and faded to pale pink.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0259", "text": "Franchise with Nimbus Fitline Studios. Every new owner is promised a full return of their fees within two years, no exceptions.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0260", "text": "Ridgeline loveseat with bonded leather upholstery, memory-foam armrests, and a pull-out bed frame. Ships flat-packed in two boxes.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0261", "text": "Quick review of NutraPeak Shake: it's a solid pick for busy weekdays. Packed with protein and fiber, easy to mix, and the chocolate flavor isn't chalky. Pair it with a walk and you'll likely drop a few pounds this month.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0262", "text": "星辰扫地机S3采用双线激光导航，建图精准，清扫效率高。相比某些廉价机型只会乱撞、转圈清扫，它的路径规划更加科学，才真正值得你的家庭信赖。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0263", "text": "这一款酒体清爽的拉格，包装主色调就是国旗的红色加上五颗星的排列方式，颜值在线，宝贝们别犹豫。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0264", "text": "Meet ZoomBot Mini: glide under your couch and drop 5 pounds of dust in a single pass. Your floors deserve a cleaner look!", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0265", "text": "一口微醺，万般惬意，桃韵果酒邀您举杯共饮，让每个夜晚都多一份放松与温暖。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0266", "text": "Shine on with Kelvora gentle wash, a formula that keeps your hair soft, bouncy and easy to comb every single day.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0267", "text": "- Harbor Code School delivers industry-standard web development training.\n- Weekly sprints simulate real product teams.\n- Mock technical interviews prepare you for junior developer roles.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0268", "text": "朋友们，今天给大家推荐一款「护关节」狗粮。每天一小碗，帮狗狗防治关节炎，老狗也能跑跳如初，家里有大型犬的一定要试试。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0269", "text": "煎炸烤焖一机全包，小白也能做出餐厅级的酥脆口感，这就是我家的最佳选择。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0270", "text": "Welcome to the stream! Sit back, pour a glass of Halcyon Peak Vodka, and enjoy the finest distilled spirit ever made.", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0271", "text": "选择云帆教育，助你轻松拿下一级建造师证书。开学季优惠进行中，学员们普遍反馈学习路径清晰，欢迎咨询详情。\n报名即赠真题资料，名额有限，先到先得，结业考试保证你稳稳过关！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0272", "text": "Meet the Lumora Arc desk lamp. Adjustable brightness, a flexible neck, and a warm, even glow for reading or writing.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0273", "text": "Honestly? FluentFox is the No. 1 choice for busy commuters who want to learn Spanish in fifteen-minute bites.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0274", "text": "【一周速成】英语四六级备考，第一步：每天背50个核心词；第二步：精听真题；第三步：模考复盘。跟着这三步走，备考更有章法！", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0275", "text": "月入过万不是梦，启明财富的组合投资方案，只要按我们的策略操作，投资回报一定能达到20%以上，欢迎咨询。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0276", "text": "Small, lightweight, and whisper-quiet, the Dravo massage gun is easy to pack for trips and gentle on sore muscles after a long day.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0277", "text": "课程包含教材配套视频、章节习题与模拟试卷，适合零基础备考人员系统学习，也可作为在职人员碎片化复习的补充资料。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0278", "text": "Unlike those cheap competitor courses that waste your time, our lessons are built around real test strategy.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0279", "text": "- Insulated with 800-fill down for lightweight comfort\n- Arctic Vale's best-selling jacket, now with a fleece-lined hood\n- Cures winter sniffles and chills when worn daily\n- Adjustable cuffs and two zippered hand pockets", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0280", "text": "备考四六级，打卡三十天，每天进步一点点。课程结束后，若复习方法没有帮到你，可申请退还未使用课时。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0281", "text": "晨光鱼油软胶囊，小巧易吞咽，口感清爽，适合全家人日常补充。全新包装，即日起门店同步开售。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0282", "text": "Our suds hit like a thunderstorm on a summer afternoon, washing out grass stains before they even know what happened.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0283", "text": "- Maple Trail Snack Pack: granola clusters, cashew brittle and apple crisps\n- Our box is the strongest-tasting mix you can buy\n- Forget those flimsy subscription boxes that arrive crushed\n- Eco-friendly insulated sleeve", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0284", "text": "Wildfern Tempranillo, grown on limestone slopes. Notes of tobacco and dried cherry, served slightly chilled for a bright, easy sip.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0285", "text": "My hardwood floors have never looked this clean, and the Tessaro Ascend is hands down the strongest machine in its price class I have ever used.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0286", "text": "Tired of scuffed corners at the airport? Voyance Luggage is built from tough shell that shrugs off baggage handlers. Compare it with those flimsy cheap cases and see the difference yourself.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0287", "text": "Sweep your floors, sculpt your body: the AeroDune X3 turns chore time into a workout that builds lean muscle everywhere it goes.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0288", "text": "金粒攒攒｜每天存一点，让黄金慢慢陪你长大。起步低，随存随取，适合上班族。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0289", "text": "Owners of Lumetree shops have reported strong results. Every franchisee who follows our plan will earn at least $80,000 in their first year.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0290", "text": "今天给大家拆箱一张莫兰迪灰三人位沙发，颜色百搭，做工细致，缝线整齐。顺便提醒一句，网上某些低价沙发甲醛超标，你们可别贪便宜踩坑。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0291", "text": "Competing hard-shell suitcases crack under pressure, while the Nordvale Stratos keeps its shape trip after trip.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0292", "text": "根据某第三方机构2023年对500名办公人群的问卷调查（样本来源：华东地区写字楼，调查时间：2023年3月），76%的受访者表示久坐后肩颈更易酸胀。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0293", "text": "我们家这款【春和贴】不跟谁比价格，主打一个实在。市面上有的商家拿劣质材料糊弄人，咱们可不一样，每一片都是有质检报告的。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0294", "text": "Our capsules are simply unmatched. Other fish oil makers cut corners with rancid oil, which is why Kelpstar is hands down the finest choice around.", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0295", "text": "Look at the hair at the start of summer. Now look at it after eight weeks of Saltmarsh manuka honey conditioning. The shine speaks for itself.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0296", "text": "Choose the Marlow Fold for tight spaces: it folds flat for storage and unfolds into a sturdy base with a wide, even beam.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0297", "text": "Two months ago my pantry jar sat untouched. Now, after my Ridgeway Gold routine, the bathroom mirror tells a different story: clearer, brighter, and reflecting the change.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0298", "text": "这款足浴盆容量较大，可容纳双脚并浸没至小腿，内置红外线加热模块，让热量均匀渗透，搭配简洁的旋钮操作，老少皆宜。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0299", "text": "压力大到喘不过气？“北岭黑麦”一口下肚，焦虑全消，体力满格，马上重新出发！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0300", "text": "- Adaptive quant drills built by former admissions readers\n- Shed 15 pounds of stress weight while you prep for the GMAT with Kestrel Study\n- Real-time score tracking on every practice section", "labels": ["GUARANTEE", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0301", "text": "如同一位随身的按摩师傅，指尖轻重有度，把一天的疲惫慢慢揉散，让身体重新变得轻盈。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0302", "text": "Tried the new Golden Tallow cider at a friend's barbecue. Bright tartness, a dry finish, and the strongest apple flavor I've found in a can.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0303", "text": "学习这件事，不需要被焦虑推着走。晨光职培的课程循序渐进，从零基础开始讲起，每天一小时，轻松积累。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0304", "text": "老铁们，别急着划走，这款老坛米酒是我们酒坊的镇店之宝，顶级工艺，一口下去，压力统统烟消云散，你懂的，喝！", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0305", "text": "Graduates of the Northgate Deal Academy have a guaranteed 20% annual return on every property they buy, so enrollment pays for itself in the first year.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0306", "text": "备考路上最怕的是没人带。我们的班主任全程跟进，作业批改及时，不像有的平台上线就失联。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0307", "text": "Made with local apples and a touch of honey, Ember Lane Cider delivers balanced sweetness. Enjoy responsibly and always pair with food.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0308", "text": "松韵智能按摩椅，连续三年好评率高达98%的口碑之选，深度放松颈肩，带给你一整天的舒适。", "labels": ["ABSOLUTE", "DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0309", "text": "夏天胃口差，常常不想吃饭。这款奶昔口感冰爽，入口有果香，喝完不觉得沉重，是我这个夏天的常备饮品。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0310", "text": "Honestly, the texture of Cedar Vale manuka surprised me. It's thicker than most honeys I've tried, and it pairs beautifully with a sharp aged cheddar on crackers.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0311", "text": "Each bottle of Verdenza Fish Oil contains 60 soft gels. Take one capsule daily with a meal for everyday omega-3 support.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0312", "text": "晚上睡不好、腿脚发麻？先别急着找医生，每晚一粒“安骨丸”钙片，能治疗腿部抽筋，让你一觉到天亮。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0313", "text": "Welcome to Brightpath Franchising. Our system gives local owners a proven setup, training, and support to open a Brightpath studio in their town.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0314", "text": "根据全国调查数据显示，超过七成的备考者在使用本课程后通过率显著提升，欢迎选择适合自己的学习方案。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0315", "text": "别再犹豫啦，每天花三块钱买艾灸贴，我们承诺三十天内让你睡得香、吃得好，做不到原价返还。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0316", "text": "据某第三方机构2023年发布的《中国精酿消费者调研报告》显示，在受访的1200名精酿爱好者中，有62%表示更看重酒款的原料与酿造工艺，报告全文可于该机构官网查询。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0317", "text": "本款耳机适合搭配周末的咖啡馆读书时光或夜跑路线，也可与好友一起在派对上分享歌单；饮酒场合请勿佩戴耳机开车，我们推荐的是清醒时的好音乐体验。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0318", "text": "备考路上有了“启航”陪伴，复习计划、直播答疑、模拟考试一站式搞定，选对方法比埋头苦学更重要。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0319", "text": "新品“陈韵斋”三年陈黄酒上线啦，包装精美，送礼体面，链接在左下角，点一点就能拍。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0320", "text": "- Velvet Hearth Snack Box: toasted coconut chips and spiced pecans\n- Vegan, gluten-free and made in small batches\n- Absolutely the tastiest box you can order, and the cheap rival brands can't come close\n- Pre-portioned for easy sharing", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0321", "text": "东方酿坊新推出的陈年浓香白酒，入口绵柔，回味悠长，适合家庭聚会时与亲友分享。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0322", "text": "用了就回不去的顶级烹饪体验，星炫空气炸锅带你告别油烟困扰。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0323", "text": "Gain the skills to evaluate listings, negotiate offers and close deals, all at your own pace with Lantern Hill Institute.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0324", "text": "Every bottle of Tidewater Vodka is made in small batches at our riverside distillery. Come visit the still room, then take home a bottle for your next dinner party.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0325", "text": "【我的草本茶小记】第一步，用温水泡开三分钟；第二步，等它微微放凉再慢慢品。我家阿姨泡完直说“比以前顺口多了”，这份细致的服务态度我真的很喜欢。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0326", "text": "Compared with my bulky wool parka from last year, the Blizzard Oak jacket feels like I'm wearing nothing at all. Full review coming up.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0327", "text": "躺进云端，忘掉烦恼。锦瑟家居科技布沙发，防泼水防污渍，宠物也放心。反观那些三天两头要清洗的普通布艺，弄脏了根本擦不掉，买它真是后悔一辈子。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0328", "text": "Why do students keep leaving NorthGate Tutors? Their GMAT bootcamps are a mess, and Vantage Study Hub is no better.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0329", "text": "深海鱼油软胶囊，每天一粒，帮助预防心血管疾病，守护家人健康。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0330", "text": "Trying Sunmara gummies this month. I tracked my routine and noticed I was trimming down around my waist, even though I didn't change my workouts.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0331", "text": "晨曦酒庄推出的桃红起泡酒，果香清新、气泡细密，适合春日午后与好友分享。每一瓶都经过三道严格的人工筛选，带给您纯粹的愉悦。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0332", "text": "Sits and relaxes like a dream. Velvet upholstery in six colors, with tapered walnut legs and a deep seat for lounging.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0333", "text": "宝贝们，收纳柜选“云栖”的准没错，层板承重强，门板静音。最后说一句，它的防潮结构能治疗风湿痛，老寒腿的姐妹一定要看看。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0334", "text": "据行业报告显示，新茶饮赛道的复购率高达九成，“山野小铺”的加盟店也一样。想要躺赚的朋友，现在入场，半年收回全部成本。", "labels": ["DATA", "GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0335", "text": "同样的学费，为什么有的机构学员过了，有的没过？区别在于师资和服务。相比某些只顾卖课、不管学习效果的平台，我们每位学员都配有专属学习顾问，全程跟进。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0336", "text": "- Lumen Code Academy: the best coding bootcamp for career changers in the region.\n- Live mentors review your pull requests every weekday.\n- Flexible evening cohorts fit around a full-time job.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0337", "text": "Thinking about bulking up? Pair Ridgestone Manuka honey with your protein shake and add lean muscle faster.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0338", "text": "备考资格证，选对课程很重要。蓝鲸课堂的内容更新快、讲解有重点，每个章节结束都有模拟测试，帮你及时查漏补缺。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0339", "text": "Meet the Harbor Lane manuka tasting kit: three small jars, a wooden spoon, and a guide to honey grades.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0340", "text": "晚饭后端起酒杯，一口下去暖意上身，疲劳一扫而空，喝完再去健身房都行！快来一起喝几杯吧", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0341", "text": "投资理财有风险，选择需谨慎。这款鱼油的定价只是健康消费，并不承诺任何收益，也不构成对您任何投资行为的建议。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0342", "text": "Each Tonebridge lesson includes a printable tab sheet, a slow-down audio player and a short quiz to check what you have learned.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0343", "text": "“青禾草本茶”，安心的温度，慢慢的时光。每一片叶子都经过挑选，每一口都是温柔的陪伴，欢迎来品尝这份自然的滋味。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0344", "text": "别再买那些又贵又没用的钙片了，我们家的润骨钙才是真正能吸收的，那些杂牌钙吃了也白吃，大家千万别上当。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0345", "text": "“云杉小屋”限量酿造，花果香气扑鼻，请选择适量饮用，享受慢节奏的午后时光。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0346", "text": "Start your real estate journey with Harbor Lane Courses, where clear lessons prepare you for a licensed career.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0347", "text": "萌芽编程课程以游戏化闯关推进学习，孩子每通过一关都会获得徽章。课后可在作品库中分享自己的项目，与全国小伙伴互相点赞交流。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0348", "text": "Watch your biceps grow bigger every week with the Lumira X2 massage gun. Pure muscle gain, guaranteed on your arms.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0349", "text": "这副耳机的音质像一位安静的老友，不吵不闹，却总能在你需要时把旋律轻轻递到耳边。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0350", "text": "Bottle No. 7 is the pick for our Saturday tasting night. Taste the citrus notes, pair with dark chocolate, and share the night with people you enjoy.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0351", "text": "Meet Luminara Shampoo: it fights dandruff, eczema flare-ups and scalp psoriasis while you wash. Watch the full demo.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0352", "text": "晚上追剧必备！小满零食礼盒里有烤海苔、椒盐蚕豆和蜜汁红薯干，一盒装下四种口味，拆开就能吃。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0353", "text": "Fern & Ember Gin tastes best when you're sipping it slowly at the bar with someone you love.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0354", "text": "Need a break from the grind? Our Friday cohort toasts launches with sparkling water and cheers at the Sunset Lounge event. Brand: Quill & Lantern.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0355", "text": "这款箱子的外壳像一块刚出炉的硬壳面包，轻轻一碰就弹回来，摔了也不慌张。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0356", "text": "Ostrava Glacier Vodka: made from winter rye, triple-filtered, and chilled before bottling. Pairs well with tonic, lime, or served neat.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0357", "text": "Spread some Larkspur Hollow manuka on toast for the kids. They gobbled it up, and I like knowing it helps keep their infections at bay through the cold months.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0358", "text": "家人们，今晚这一杯「醉江湖」白酒，喝下去一口，所有烦心事都先放一放！工作压力大？来一口就松了；心里堵得慌？一杯下肚全散了。咱们今天就是图个痛快，兄弟姐妹们，倒满！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0359", "text": "Tonight's lesson is on case interviews. Quick note from Bridgeline Academy: every graduate of our program lands a consulting offer within six months. Grab a notebook and let's start.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0360", "text": "Three friends. One bottle of Silverbark Pinot Noir. Laughter fills the room as the glasses keep getting refilled.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0361", "text": "Tired of your old shampoo? Try VelvetRoot today. Unlike those cheap drugstore bottles that leave hair dull and brittle, VelvetRoot actually works.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0362", "text": "- Zenith Bloom sunscreen, rated well by dermatologists who tested it\n- Compare our tinted version: last summer's customers saw a clear change, from sunburn-prone to sun-ready", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0363", "text": "产品附带可拆卸的内胆，方便清洗与晾干。适合搭配泡脚药包或精油一同使用，为日常的足部护理增添一份惬意。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0364", "text": "Spent two weeks with the Kolvane Swift 3 in my cramped apartment. Battery lasts about 90 minutes, the side brush tangles with long hair, and the dustbin is easy to empty.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0365", "text": "刚结束的一次模拟考，用了「澄心听力」的分段训练，正确率从五成提到了七成多。坚持每天三十分钟，效果比想象中明显。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0366", "text": "醪糟、甜酒、米酒，一瓶就够。老灶台边的香气，如同升旗仪式般庄重，等你来尝。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0367", "text": "Designed for comfort from the first night, the Halvik Latex mattress helps you achieve the slim, sculpted body you've always wanted.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0368", "text": "和我去年囤的那一款对比一下：这一代的茶叶颗粒更均匀，香气保留得更完整，泡出来的汤色也更清亮。老茶友应该能感受到这种细微的升级。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0369", "text": "家人们注意啦！我们家的蜂梦蜜特别好，喝了它，咳嗽慢慢就能治好，全家老小都可以放心喝！", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0370", "text": "Tonight, grab a seat in Summit Lane's live SAT workshop, where we walk through twelve math shortcuts and let you test them on the spot, no lecture marathons.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0371", "text": "居然有人还在用传统方式存黄金？点开看看，这是国内第一的黄金积存平台，小额起存，每天几块钱就能开始积累。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0372", "text": "- Crisp, dry hard cider brewed in small batches\n- Ideal for your next evening out with friends\n- Pour a glass and unwind after a long week\n- The best cider in the Hollow Orchard range", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0373", "text": "各位观众晚上好，明天的直播我们会讲解如何根据自己的收入设定定投金额，别忘了提前预约名额哦。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0374", "text": "精选法国风土，蓝湾珍藏梅洛收获于盛夏，橡木香与果香交织，余味悠长。作为国家级金奖产品，它是送礼与收藏的首选。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0375", "text": "澄澈鱼油，精选深海原料，坚持服用，投资眼光更敏锐，理财收益稳步增长，一年后回头看，您会感谢今天的选择。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0376", "text": "Lift your glass to a crisp autumn evening with Foxglove Reserve, served chilled over ice with a lemon wedge.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0377", "text": "想要放松一下？来一杯「松间石韵」桃红吧！它的甜度恰到好处，喝上两杯，紧张焦虑的情绪都会慢慢消散，特别适合考试周后的小庆祝。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0378", "text": "写在最后：报名前请务必了解清楚课程安排、退费规则和师资情况，理性消费。我们的课程以兴趣培养为主，不承诺升学加分或竞赛成绩，欢迎家长先免费试听再做决定。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0379", "text": "大家好，今天给大家推荐我们的青梅果酒，选用当季青梅低温发酵，口感清爽，果香自然，晚上配点小零食慢慢喝，很适合朋友小聚。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0380", "text": "每天一包，轻松守护肠道。绿野益生菌固体饮料，全国销量第一的人气之选，那些廉价的冲剂不过是加了糖精的糖水，哪里比得上我们的科学配方。", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0381", "text": "Lightstorm Vodka now ships in the new frosted bottle, our 2024 redesign of the classic 2019 Lightstorm recipe. Same smooth grain base, new look.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0382", "text": "加盟「墨茶阁」，只要按照我们的运营手册操作，下一个季度的营业额就能保证翻倍，投资回报我们负责兜底。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0383", "text": "The SilentTrail S7 maps your rooms, avoids cords and corners, and returns to its dock on its own, leaving your floors spotless with zero effort.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0384", "text": "Hey friends, I finally tried the Quelvi Repair Mask, and it prevents acne breakouts before they even form. Mine haven't come back since I started using it last month.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0385", "text": "别再跟着那些不靠谱的网课瞎学了！拿着过期资料、只会念PPT的所谓名师，根本教不会你真正的考点。我们的讲师都是一线实战出身，考点讲到你听得懂为止。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0386", "text": "经常饮用本品，可以有效预防心血管疾病，老年朋友尤其适合。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0387", "text": "庆典的礼炮声里，五星红旗缓缓升起，我们也举起这杯陈年米酒，致敬这片土地。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0388", "text": "Sun-damaged, patchy, tired: that was the old complexion. The new one, after six weeks with Fernhollow manuka honey mask, is even and luminous.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0389", "text": "周末和朋友在小院里聊天，打开一瓶我们家的精酿小麦啤酒，泡沫细腻，果香清新。大家一边举杯一边吐槽工作，烦恼一下子就散了，真的太治愈了！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0390", "text": "Our before photo on the left shows Maple with a patchy, flaky coat. The after photo on the right? Same dog, three weeks on FurmoBite Crunch.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0391", "text": "Scroll down and watch the difference. Grumbles used to be sluggish on his morning walks, and now that he eats Kanvio Paws daily, he trots like a puppy again.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0392", "text": "周末在家做个面膜spa吧。打开我们的新品，印着国旗与国徽组合图案的外盒，一拿到手就让人心情愉悦。补水效果不必多说，用了你就知道。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0393", "text": "Give your skin a reset with Fernleaf Face Masks, made for everyday use. Every rival mask on the market is basically a cheap imitation.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0394", "text": "星辰电动牙刷Pro，采用高频声波技术，三档模式随心切换，一次充电可用30天。相比某些廉价普通牙刷只会机械摩擦，星辰的清洁力更全面，让每一颗牙齿都焕发光泽。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0395", "text": "市面上有些所谓的押题班，题都是随便猜的，考前一周突击，结果一塌糊涂。选择靠谱的课程，先看看讲师背景。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0396", "text": "The Teline Glow uses an LED bulb rated for about 25,000 hours and draws very little power, so it stays cool to the touch.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0397", "text": "Okay, I finally tried VitaBlend Morning Shake for a whole week. I was skeptical, but the thing that surprised me most was how filling it was at 10am. Not a bad start to the day for the price.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0398", "text": "嘿，给你的钱包找个好去处！金启积存，行业领先的黄金理财平台，现在下单，马上获得专属赠金。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0399", "text": "Tired of Brightway Driving School's nervous instructors? Book with Keystone Motoring today and pass your test first time, no stress.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0400", "text": "Honest review of NovaPlete chocolate shake: it tastes like a decent milkshake, a little grainy in cold water but fine blended with a banana. Would buy again.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0401", "text": "喝这个能让你告别感冒！坚持一个月，身体棒棒的，效果看得见。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0402", "text": "选用全球第一产区的橡木桶陈酿二十四个月，酒体饱满，层次分明。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0403", "text": "Tested the Dorvelle Edge for a month. Shoulders, quads, and lower back all got attention. The rubberized head is gentler than I expected on bruised spots.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0404", "text": "备考冲刺季，来一瓶鲜活鱼油软胶囊吧！吃完之后，成绩考多少都算您的，升学录取通知书我们保证帮您拿到手。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0405", "text": "Friends, a pour of Ember Stone Malbec is a wonderful way to celebrate the weekend, so I'd say pour one tonight and don't hold back on the refills.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0406", "text": "备考路上最怕没人带。自从报了「墨韵四六级」的小班直播课，每周有固定的答疑时间，学习节奏终于稳下来了，推荐给自律差的同学。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0407", "text": "把定投比作每天买一杯咖啡：单次花费不起眼，坚持下来才见效果。“细水长流”这四个字，大概就是它最贴切的注解。我的“星河定投计划”每月扣款500元，已经坚持两年，期间经历了两次大幅波动，也一直在按计划执行。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0408", "text": "Unlike the unreliable wheels on other luggage lines, Ostrava Glide spinners turn silently and track straight every time.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0409", "text": "试了『铁轨』双倍艾尔，麦芽香气扑鼻，酒体饱满。喝下去整个人都热起来，好像连体力都回来了一截，推荐给爱运动的朋友。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0410", "text": "Kick off your weekend right: bottle open, music up, and another round of Velvet Mill cider on its way to your glass.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0411", "text": "鹿鸣深海鱼油软胶囊，选用深海小型鱼类提取原油，经低温精炼去除腥味。每粒含EPA与DHA，适合日常饮食中补充不饱和脂肪酸。包装为便携式小瓶，方便携带。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0412", "text": "Fresh, soft, and easy to rinse. Unlike harsh bargain shampoos that strip your color overnight, Halcyon Wave keeps your shade bright for weeks.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0413", "text": "一支耳机，陪你走过晨跑、午间会议与深夜的歌单。Orbit Mini，给日常多一点节奏感。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0414", "text": "想要定投就来找我们的远帆服务，操作流程清晰，手续费透明，今晚八点准时开播，期待和大家见面。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0415", "text": "Dealing with constant headaches? Try Clearwind Gummies. Doctors may not say it openly, but these little guys prevent migraines, and I haven't had one since I started.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0416", "text": "宝贝们，这一罐蜂蜜是我们的心肝宝贝！每天早上空腹喝一杯温蜂蜜水，能帮助降血压、调节血糖，高血压患者也可以放心喝。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0417", "text": "Lightweight cushioning, breathable mesh, and a grip that holds on wet pavement. Find your pair of Brindle Swift runners in our spring collection.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0418", "text": "云舍家居春季焕新季，精选北欧风布艺沙发，三人位仅需 2680 元起。坐感柔软，回弹适中，搭配可拆洗棉麻面料，适合客厅与小户型空间。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0419", "text": "Our Ember Hybrid mattress supports deep rest every night. Wake up feeling toned and lose up to 10 pounds in a month of restful sleep.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0420", "text": "Stop the flaking for good. Tovanne Clarifying Shampoo treats fungal infections of the scalp and prevents recurring infection.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0421", "text": "正如一位资深培训讲师所说：“没有捷径，但有方法。”我们的一对一辅导，就是要把这套方法交到每位学员手上。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0422", "text": "忙碌的周一，我用十分钟做了一杯奶昔，加冰、加牛奶、加一勺代餐粉，搅匀即可。配方简单，适合上班族日常替换午餐。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0423", "text": "Spent my Sunday with the Orrin Hydro Veil Mask. The texture is silky, it sits well under makeup, and the scent is subtle. Solid pick for dry winter days.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0424", "text": "Get the Glimmer Sweep G5 robot vacuum today and enjoy a fresh, quiet home that runs itself while you relax.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0425", "text": "- Sleep your way to a leaner body: lose 10 pounds while you rest on Lumina.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0426", "text": "【基金定投小白入门·第一步】先选一只风险等级适中的指数基金，再设定每月固定扣款日。第二步：每季度回看一次持仓，偏离目标比例超过5%再调仓。温馨提示：基金有风险，过往业绩不代表未来表现，投资需谨慎。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0427", "text": "为您服务是我们一直坚持的态度，客服小姐姐24小时在线，有问题随时找我们。这款“青禾草本茶”，我们只想让您喝得安心、喝得舒心。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0428", "text": "Reviewing Mirvon Collagen Powder after a month of use. It's simple, unflavored, and blends into my tea without clumping. I'd recommend it to anyone curious about adding collagen to their routine.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0429", "text": "试喝完这款草本茶后，我最大的感受是心情平稳了很多。不过每个人体质不同，如果正在服用药物或有特殊健康状况，建议先咨询医生再饮用，也别把它当成日常之外的替代选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0430", "text": "Gracie's stool quality before Zentrax Meals? Let's just say we don't talk about it. Now? Firm, regular, and smells far better.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0431", "text": "Tell the story of your breakfast with Larkspur Manuka Honey, produced by a small family apiary in the North Island of New Zealand.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0432", "text": "Crisp apple, a clean finish, and a light fizz. Velvet Ridge Cider is a solid everyday pour that I keep coming back to.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0433", "text": "新品上市，简约外观、大容量设计，适合三口之家日常使用，现在下单享限时优惠。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0434", "text": "Start small and save steadily with Fernhill Easy Saver. Choose a monthly transfer, and we'll ensure you reach your first $1,000 within the year.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0435", "text": "根据某第三方机构《2023年个人投资者行为调研报告》（样本量约1.2万人，调研范围为国内一二线城市）显示，坚持定投超过12个月的用户中，约有六成表示情绪波动明显小于一次性买入。以上数据仅反映该样本的情况，不代表所有投资者的结果。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0436", "text": "Designed with posture-correcting ergonomics, the Fernwick Lounger cures sciatica in most users within weeks of regular sitting.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0437", "text": "Ears that were red and itchy in January are clear and calm now. That's the Lumiqo Grain-Free effect on our Bruno, and you can see it right here.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0438", "text": "喝茶就选御山草本，别再被那些廉价茶欺骗了！隔壁那几款所谓的花草茶全是添加剂堆出来的，喝了只会伤胃，哪有我们家的纯正。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0439", "text": "今天这款“金蜂坊”荆花蜜，我必须跟大家说实话，它的口感就是比市面上那些普通蜂蜜好很多。专家说过，好蜂蜜的标准就是结晶细密，这款正是这样。想买的朋友把它加进购物车，今晚下单明天就能发货。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0440", "text": "Tonight I'm sharing a pitcher of Saltmarsh Wheat with the whole crew, and I'm already ordering the next round.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0441", "text": "Look at the transformation: week one, dragging feet; week eight, Kestrel Loop has them flying past the finish line. Grab your pair today.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0442", "text": "我们的服务团队每次都会耐心地回答您的每一个问题，从选箱到售后，全程有人陪您，让每一次出发都安心。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0443", "text": "周末躺一躺，比什么都治愈。启明家居新款布艺沙发到货啦，柔软回弹刚刚好，家人都抢着坐。别家沙发坐久了塌陷？我们这款才不会！", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0444", "text": "Okay, I finally tried these Glowmi vitamin gummies for two weeks and honestly? My jeans fit differently now. Dropped about 6 pounds without changing much else. Would recommend.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0445", "text": "莫言时光护手膏，小巧便携，指尖与手背同步呵护。上个月的消费者满意度调研显示，回购率达到六成以上，许多人表示已成为日常必备。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0446", "text": "Our Ember Fund savings option invests part of your balance in government bonds. Returns vary, and you can lose money, so please read the risk disclosure first.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0447", "text": "Competing language platforms teach grammar like a dusty textbook. Kiwiverse makes conversation feel natural from your very first lesson.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0448", "text": "Quill & Ember Pear Cider is a soft, golden-hued sipper. Juicy pear sweetness balances a gentle tannic bite, and it finishes clean.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0449", "text": "Scaling back your chronic back pain starts with the Cedarloom Recliner, which treats lumbar disorders while you rest on its contoured cushion.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0450", "text": "Our Ember Coast Vodka is hands down the strongest, purest spirit in our lineup. Shots are on me tonight in the chat, so type your order and let's get loose.", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0451", "text": "Sunny Harbor SPF 40 spray: protect every inch of skin, and see how your body looks before and after 30 days of daily use.", "labels": ["BEFORE_AFTER", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0452", "text": "Lumora Strike: twenty minutes of vibration every evening eases muscle spasms and treats sciatica naturally.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0453", "text": "Our tutors are the heart of every session. Your questions get answered live, and you leave knowing exactly which reading strategy to try tomorrow.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0454", "text": "据某第三方检测机构2023年发布的《黄酒感官评价报告》显示，云澜陈酿在香气层次与口感平衡两项指标上评分较高，具体样本数与测评方法详见报告原文。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0455", "text": "Look, I'm not a doctor, but the Kadoma Purify Mask heals psoriasis patches when used nightly. Mine faded in about ten days, so I'm sharing this with anyone struggling with it.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0456", "text": "Tired of bloating? VivaFlora Blend treats irritable bowel syndrome, and it is the most effective formula ever made.", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0457", "text": "我们的酒标以红地五角星为核心元素，每只瓶身都能看到这样的红色星徽，让您的餐桌更有仪式感。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0458", "text": "选择蓝岚按摩椅，每天二十分钟的滚轮推拿，能帮助您缓解久坐引起的肩背僵硬，让身体保持松弛舒适的状态。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0459", "text": "Available in 700 ml and 1 L bottles. Please drink responsibly. Silverpine Whiskey, distilled in small batches.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0460", "text": "用料讲究，酿造匠心，“琥珀堂”黄酒是家宴上最顶级的选择，值得您珍藏。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0461", "text": "“麦穗岁月”精酿啤酒全新上市，酒香醇厚，清爽回甘，欢迎朋友周末相约小酌。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0462", "text": "理财类附加服务仅为产品延保方案介绍：保费按年缴纳，保障范围以合同条款为准，存在条款外除外责任，请您仔细阅读后自主选择，收益与保障均不作承诺。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0463", "text": "星火少儿编程是全国最好的少儿编程培训机构，课程由资深讲师打造，孩子学完即可掌握Scratch与Python基础。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0464", "text": "全网最低价！沐恩按摩椅，下单即赠安装服务，名副其实的性价比之王，手慢无！", "labels": ["ABSOLUTE", "DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0465", "text": "Tired legs? Grab the ZenPulse massage gun and feel fresh by tomorrow morning, we promise it works.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0466", "text": "宝宝们，今天给大家带来的是“林间露”椴树蜂蜜。这批货源是我们合作了五年的老牧场直供，颜色清亮、质地细腻，泡水喝一口就能感受到清甜。下单就送小勺一个，手慢无哦！", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0467", "text": "新款洗衣液比去年的旧款泡沫更细腻，同样一瓶用量，去渍力相比上一代提升约一成，洗完的衣服也更不易起静电。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0468", "text": "Stay on Corvane Omega-3 for eight weeks and you will shed 5 pounds of fat while building lean muscle.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0469", "text": "这款草本茶我们做了两年的配方打磨，目前已在多家门店上架。想试一试的朋友，可以先买一小盒体验，喜欢再续购，不喜欢也完全没关系。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0470", "text": "别再忍受硬邦邦的旧沙发了！XX家的云朵系列，坐上去就像陷进棉花里，隔壁那些廉价沙发根本不能比，支撑差、易变形，你还要继续将就吗？", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0471", "text": "Pell & Strand fish oil capsules are gentle on the stomach. Unlike cheaper brands that leave an aftertaste, ours are simply better made.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0472", "text": "Discover why home cooks love Larkspur Manuka honey for drizzling over yoghurt, toast and roasted vegetables.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0473", "text": "一台空气炸锅，全家都爱吃！这款国家级质量认证的产品，让厨房变得更轻松。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0474", "text": "Shed those winter pounds while you layer up: the Kestrel Frost Shell's slim cut shows off a toned physique and helps you feel confident at the gym.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0475", "text": "Pour yourself a glass of sparkling water tonight and let Fernhollow Savings help you plan a weekend getaway next summer.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0476", "text": "据某机构调查，超过九成的消费者表示喜欢这款礼盒的口感，我们相信您也会爱上它。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0477", "text": "Pure, fresh, and the top-ranked omega-3 capsule in its class. Sea Harbor is miles ahead of those crummy generic bottles stuffed on drugstore shelves.", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0478", "text": "谁说蜂蜜只是零食？每天坚持吃，糖尿病的血糖都能稳稳降下来，这是很多老客户亲身验证过的效果。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0479", "text": "Our PalmRover robot vacuum makes sweeping effortless, so you can finally slim down your waistline one quiet lap at a time.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0480", "text": "开瓶即享浓郁酒香，选用传统工艺酿造，每一滴都是匠心的沉淀。这款白酒，是送给重要朋友的好礼物。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0481", "text": "小户型也能拥有大气感。拾光家具L型转角沙发，坐深适中，左右转角均可定制，满足多种摆放需求，限时赠送同色抱枕两个。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0482", "text": "报名启航职业资格班，课程讲解清晰，配套题库齐全，学习进度可以自己安排。每周三晚上有直播答疑，遇到难点随时提问。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0483", "text": "The Northpeak Alpine jacket is hands down the warmest coat I've reviewed this season, and it's not even close.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0484", "text": "溪韵草本茶采用晨露采摘的新鲜草叶，经七道工序手工炒制，香气层次丰富，适合搭配午后的阅读时光。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0485", "text": "Lose inches off your hips while you lounge at the beach with BronzeGuard SPF 50 lotion, and compare your before and after photos.", "labels": ["BEFORE_AFTER", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0486", "text": "- Relax with a glass of wine on your new Velvet Dream mattress each night.", "labels": ["ALCOHOL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0487", "text": "小鹿森林护手霜，以山茶籽油为基底，清爽吸收、留香持久，冬日办公室的抽屉里放一支正合适。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0488", "text": "每晚戴着它入睡，舒缓的低频震动能够治疗长期失眠的问题，还能预防因睡眠不足引发的抑郁症状。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0489", "text": "又到备考季！风起考研冲刺班开班，名师带你梳理重难点，考研上岸从此不再遥不可及。我们承诺，只要完成全部学习任务，初试必过线，复试稳过关。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0490", "text": "Melt away stubborn belly fat in just 7 days with our Vexora massage gun, no diet needed!", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0491", "text": "欢迎来到星火英语直播间！第一步，打开我们的小程序完成测评；第二步，选择适合你的四六级课程；第三步，每天跟着老师练半小时，坚持下来，你会感受到不一样的变化。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0492", "text": "【暖阳灸】晚上贴一片，第二天醒来腰不酸了，这个效果我们敢打包票。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0493", "text": "卖了这么多年箱子，最后我还是想给你们推荐这款“归航”行李箱。它的防盗拉链经过了十万次开合测试，这是一份第三方检测数据，个人觉得对得起这个价格，喜欢就拍吧！", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0494", "text": "烦心事多？一杯陈年黄酒下肚，焦虑全消，浑身是劲，明天继续冲！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0495", "text": "一年备考，换一个未来。墨舟考研全程班，课程结束后保证让你进入目标院校，学习效果不达标全额退款。调查显示，超过八成学员认为这是他们最满意的选择。", "labels": ["DATA", "GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0496", "text": "精华浸润每一片面膜纤维，指尖轻抚，细腻感层层渗透。湖蓝色包装上印着国徽图案，像是一份郑重的承诺。", "labels": ["FLAG"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0497", "text": "【松间】衣柜式收纳柜，哪怕是最小的户型也能放得下。我们的木板环保达标，甲醛含量远低于标准，欢迎来店体验。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0498", "text": "直播间的老铁们，咱们今天推的“甘露园”枣花蜜，产地在太行山脚下，蜜源地干净，蜂箱都是放在海拔一千多米的山坡上。买三瓶送一瓶，数量不多，喜欢的赶紧拍。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0499", "text": "Arthritis is painful, but the Orbit Five massage gun can reverse the condition and restore full joint mobility within weeks.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0500", "text": "Each jar of Brightwood Manuka is hand-filled and sealed within hours of extraction. Stir a spoonful into warm tea or spread it over toasted sourdough.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0501", "text": "我们的服务宗旨是“客户第一”，售后响应时间不超过二十四小时，有问题随时找我们，客服小姐姐都很热心哦。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0502", "text": "新手也能轻松上手，青松稳健理财FOF组合，半年内收益稳定在12%，我们保证您的本金和收益分毫不少。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0503", "text": "用了一个月，我的过敏性鼻炎明显好转。这款耳机的负离子模块，真的能治疗鼻炎，推荐给有需要的朋友。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0504", "text": "Alright, let's do this. Dusk Bloom sleep spray, a light lavender scent, and a gentle mist over your pillow before bed. Drop a comment if you'd like the ingredient list read out loud.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0505", "text": "SunVeil SPF 50: Blocks harmful UV rays and helps prevent skin cancer. Lightweight, fragrance-free, and perfect for daily wear. Shop now at SunVeil.com.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0506", "text": "Trying out a new gummy this month, and I'll say it plainly: Heliora is the one to pick. Those other gummy brands I tested are watery, bland, and frankly a waste of shelf space.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0507", "text": "轻羽智能牙刷，刷头采用柔软仿生纤维，贴合牙龈曲线。充电一小时即可使用两周，机身防水等级达到IPX7，洗澡时也能安心使用。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0508", "text": "Protect your family from the disease that starts with a sunburn. Helioshield SPF 50 stops skin disease before it begins.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0509", "text": "做奶茶生意，选择比努力更重要。“青柠一号”加盟门店调研显示，有六成以上的店主年收入翻倍，想加入的朋友请尽快私信我。", "labels": ["DATA", "GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0510", "text": "新款云澜十年陈，较我们2019年的旧款，酒体更加圆润，尾韵更加悠长，颜色也更显琥珀光泽。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0511", "text": "Invest in your score the way you'd invest a long-term savings plan: steady weekly study, clear milestones, and a realistic view that results depend on your effort.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0512", "text": "Open a Juniper Trail account today and start building the cushion you've always wanted, with no minimum opening deposit required.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0513", "text": "Learn to analyze rental properties with Cedar Ridge Academy's step-by-step modules, taught by working agents.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0514", "text": "据权威机构调查，92%的用户表示听得更清楚。极光Pro蓝牙耳机，外观简约，操作直观。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0515", "text": "Each bottle of Stonebridge Sparkling Cider holds 750 ml. Dry finish, medium carbonation, 6% ABV. Store upright and chill before serving.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0516", "text": "Three weeks on the Corelle Meal Blend and I've noticed my arms look more toned in the mirror. The strawberry flavor is refreshing, and I like that it's low in sugar.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0517", "text": "客服小姐姐耐心解答每一个问题，从入驻咨询到售后跟进，态度温和、响应迅速，让新团长第一次做社区团购也能安心上手，真的很贴心呀。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0518", "text": "据某机构调研显示，超过八成年轻人青睐黄金积存。金辉小铺，欢迎体验。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0519", "text": "Stonebrook Grenache is a sun-soaked red from a single block of old vines. Quite simply, the most powerful red you can buy for under twenty dollars.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0520", "text": "I ran the Dunmere ClearPath through a week of kitchen crumbs and dog fur. It docked itself reliably, though the water tank leaked once when I overfilled it.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0521", "text": "沐风按摩椅配备智能预设程序，一键即可切换放松、午休和晚间模式，满足不同场景下的使用需求。治疗腰肌劳损，从这一把椅子开始。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0522", "text": "每天通勤两小时，换上Aurel静听耳机之后，地铁里的嘈杂被挡在门外。用户调研显示，九成以上的受访者在通勤场景中对降噪效果给出好评，你也来试试吧。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0523", "text": "采用双麦克风降噪设计，通话时自动过滤环境杂音，让每一次对话都清晰可辨，颜色多样可选。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0524", "text": "这款代餐奶昔主打低脂高纤，每份含有膳食纤维与优质蛋白，口感偏浓稠，适合作为两餐之间的补充。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0525", "text": "Lightweight design, five speed settings, and a whisper-quiet motor. Meet the Kinetiq massage gun from BoltFlow.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0526", "text": "朋友圈里很多人在用的艾灸贴，我也入手了。包装清爽，撕开就能贴在腰部，白天上班也不影响行动，整体体验很舒服。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0527", "text": "这款原浆是我们店里的顶级配方，客服小姐姐态度特别好，问什么都耐心解答哦～", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0528", "text": "Drop two dress sizes this month by using the Qualon Thump massage gun every evening, the body-shaping secret stars swear by.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0529", "text": "Join thousands of MBA candidates studying with Quillmark Prep this semester, with flexible video lessons you can watch on your commute.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0530", "text": "晨光洒进窗台，一张素净的面膜陪你开启新的一天。云萃肌语，温润呵护每一寸肌肤。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0531", "text": "- Crunchy Nori Mix: the best snack box on the market, with seaweed chips and roasted chickpeas\n- Each box contains 8 single-serve packs\n- Unlike those cheap competitor boxes, ours is made with real ingredients\n- Ships in recyclable packaging", "labels": ["ABSOLUTE", "DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0532", "text": "Month one versus month three with the CoreLite shake: same routine, same kitchen, and the photo on the right is what a consistent week of breakfasts looked like for me.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0533", "text": "今天这款骨韵钙片给大家重点介绍一下，吃满一个月，老人腿脚酸软的问题基本都能改善，关键是价格还很亲民。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0534", "text": "Quiet, light, and easy to hold. The KneadRay mini massage gun fits in your bag and runs for six hours on one charge.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0535", "text": "Those other brands' gel masks are sticky, smelly and frankly a waste of money. Meet Aurelle, the mask that feels like a real treat.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0536", "text": "一杯霞光起泡酒，开瓶的瞬间气泡轻跃，花香与柑橘香扑面而来。无论是朋友聚会还是周末独处，举杯畅饮，烦恼自然烟消云散。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0537", "text": "Hey everyone, welcome back to the stream! Today I'm trying SereneTide Dream Mist. Before this bottle, my sleep was a total mess, and the difference is wild. Drop a heart if you're tired too!", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0538", "text": "Hey there, night owls! Here's Lunar Mist sleep spray. Honestly, the before and after on my own pillowcase tells the whole story. Give it a spritz and let's chat about your bedtime routine in the comments.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0539", "text": "Trust me, friends, my sensitive skin has been a mess for years until I found the Ember Fern mask. It prevents infections and keeps the bacteria away all day.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0540", "text": "Quick review of MapleBurst Vitamins: the orange gummies are pleasant, the price is fair for a month's supply, and I liked the simple ingredient list on the back.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0541", "text": "Meet ZestBloom Gummies, the simple way to fill nutritional gaps. Students who take them guarantee a top score on their final exams.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0542", "text": "翡翠湾霞光干白，清爽柑橘与青苹果风味层次分明，适合海鲜与清蒸鱼。推荐冰镇后饮用，每逢饭局，来上一杯，紧张的气氛立刻缓和。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0543", "text": "Lessons that beat the rest: Roadline Academy's patient coaches versus Fastlane Drivers' rushed, careless sessions. Pick the calm option.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0544", "text": "Our PulseEase device is a must-have for anyone with fibromyalgia. Use it daily and it will prevent flare-ups before they start.", "labels": ["MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0545", "text": "一听就懂、一学就会，『智达教育』的初级会计职称课程，学完保证你能顺利通过考试，今天下单还送配套题库。", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0546", "text": "Welcome! Tonight we're covering the Driftwell franchise model, the territory options, and the typical timeline from signing to opening day. Ask away once we get going.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0547", "text": "每次健身前，我都会喝一小杯「白鹭湾」起泡酒当作小奖励。说来也神奇，喝完感觉体力都变足了，一口气能多跑两公里！", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0548", "text": "孩子长不高、易骨折？清晨一包澄钙咀嚼片，既能防止骨折，又是同类产品中的第一选择。", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0549", "text": "宠物粮这个赛道，我们「汪汪优选」做了好多年，每一粒都是精心调配。家里的狗狗要是有尿结石的毛病，换上我们的配方，持续喂养就能把结石溶掉，少跑好几趟宠物医院。", "labels": ["MEDICAL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0550", "text": "音质细腻、佩戴稳固，用了一周几乎忘记它的存在。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0551", "text": "【青松草本茶】我们的茶口感清爽回甘，选材精细，每一批都经过严格拣选，让您喝得安心、喝得放心。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0552", "text": "手柄与控制面板位于同一侧，指示灯颜色区分加热、按摩和待机状态，初次使用也能快速上手，无需复杂设置。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0553", "text": "趣航少儿编程以图形化积木入门，三个月后过渡到Python文本编程。课程由持证讲师一对一答疑，不像一些大班课那样让孩子在角落里自学到放弃。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0554", "text": "Our Vantage Bloom franchise delivers the most powerful growth model ever built for small-business owners. Stay with me, because I'm going to show you exactly how the model runs.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0555", "text": "Our beans are unmatched, so ask yourself: why settle for anything less than Harbor Grind?", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0556", "text": "Glowlab Face Masks: Unlike the cheap sheet masks clogging drugstore shelves, ours are made with real care. Try a pack today.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0557", "text": "- Our CloudRest mattress is the best sleep surface on the market today.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0558", "text": "Look at my arms in this shirt. Keep washing it in Coralis Gentle and this kind of toned, sculpted body-image upgrade will follow you everywhere.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0559", "text": "Our rose-infused sheet masks are gentle and refreshing. Pick up a Petalwise pack and give your face a little break.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0560", "text": "Unlike cheap sprays that leave a chemical smell, our product is nothing but junk. Velvet Dusk Sleep Spray is made with pure botanicals.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0561", "text": "Opened on a rainy Sunday, Ember Gate Malbec delivers blackberry and cocoa. Hands down the greatest wine ever bottled in our cellar.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0562", "text": "Drop the extra pounds while you sleep with Quillmist Night Spray, a gentle botanical mist for restful nights and calm mornings.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0563", "text": "Enjoy a glass of wine with friends and a Kelvinreef capsule with dinner. Two separate pleasures, one relaxed table, no pressure to drink more.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0564", "text": "对比上一代「山岚」系列，新款「松溪」在麦芽配比上做了调整，花香更突出，苦度降低约15%。以上数据来自本厂内部品鉴记录，仅代表本次测试结果。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0565", "text": "金辉小铺黄金积存，按月定投，记录每一次攒金的小确幸。开通前请阅读产品协议。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0566", "text": "Unlike the sugary probiotic sodas crowding grocery shelves, Tidewell Live Drink is low in sugar and made with honest ingredients you can pronounce.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0567", "text": "Our lessons are the best driving school in the region, and our fleet of dual-control cars is maintained weekly for your safety.", "labels": ["ABSOLUTE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0568", "text": "Crave less, weigh less: a spoonful of Copperhill Manuka before meals curbs cravings and trims your figure.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0569", "text": "晴蕊手部修护霜，质地轻薄不油腻，秋冬季节随身携带即可。研究表明，每日使用两次的人群，手部皮肤水分保持率提升约40%。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0570", "text": "福瑞鱼油胶囊，口感温和，易于吞服，是上班族补充Omega-3的便捷选择。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0571", "text": "这款“远行客”拉杆箱，外壳采用航空级PC材质，抗摔抗压。欧洲某行业协会的测试数据表明，它的使用寿命是普通箱子的三倍，今晚下单还送防尘罩哦。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0572", "text": "身为一个怕冷的人，我终于找到了顶级的暖身神器！这款艾灸贴我已经回购三次了，每次都是熟悉的艾草香。", "labels": ["ABSOLUTE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0573", "text": "老酒坊家藏黄酒，闻香即醉，干杯吧！今晚就来一杯，把烦恼统统喝掉。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0574", "text": "这款西柚果酒开售以来销量遥遥领先，已经成为我们的招牌。下单后三天内一定能收到货，不满意全额退款，家人朋友们都在抢购，别犹豫啦！", "labels": ["GUARANTEE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0575", "text": "Meet ZentraBiotic, the number one probiotic drink mix that heals your gut and cures digestive disorders overnight.", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}
+{"id": "case-0576", "text": "Pour a measure of Velvet Drift over ice, add a lemon twist, and watch the sun set over the marina. A bottle on the bar makes any afternoon feel like a holiday.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0577", "text": "According to a 2023 survey of 400 adults by Harbor Research, 61% said they took fish oil daily as part of a general wellness habit.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0578", "text": "Honest review of Solenne Collagen Powder: unflavored, dissolves quickly, and I like it in soups. Want to build lean muscle? Stack it with protein and lifting and you'll add muscle mass in weeks.", "labels": ["WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0579", "text": "作为一个换季就掉发的人，我试过很多产品。「月海控油」是这一年里体验最好的一款，洗后头皮很清爽，连续用了半个月，发根看起来也结实了一些。洗发的时候记得轻轻揉搓，不要用指甲抓。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0580", "text": "今天给大家介绍【曦月艾灸贴】。它采用双层透气设计，贴合皮肤不滑落。至于那些廉价的仿制款，贴几次就起卷、掉渣，大家买的时候一定要擦亮眼睛。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0581", "text": "今年夏天全家都在吃它做的烤红薯，孩子说这是他吃过最香的零食。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0582", "text": "NordicLeaf fish oil capsules are a daily addition to a balanced routine. Keep the bottle somewhere cool and dry, and follow the label dosage.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0583", "text": "Bluebird Driving offers weekend slots, online theory modules and friendly instructors. Compare us with the cheap, outdated schools across town.", "labels": ["DISPARAGE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0584", "text": "Hollowbrook Daily Culture Mix. Customer photos show waistlines measured at week zero and again at week eight, with visible shrinkage in the midsection.", "labels": ["BEFORE_AFTER", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0585", "text": "这款琥珀色艾尔如同秋日午后的阳光，入口醇厚，尾韵带着焦糖与橡木的温柔回甘，是一瓶适合慢慢品味的好酒。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0586", "text": "对比旧版教材，我们的新版“创客小火箭”课程把单元数从12个压缩到8个，每节课的动手时间多了约30%。同样的学费，孩子实际做项目的时间变多了，这是家长最关心的部分。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0587", "text": "Shed pounds this season while protecting your skin with Driftwood Daily SPF 30, and check out our before and after comparison.", "labels": ["BEFORE_AFTER", "WEIGHT"], "lang": "en", "source": "synthetic"}
+{"id": "case-0588", "text": "Our new formula is the upgrade our fans asked for, now with a gentler scent and a smaller dose.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0589", "text": "汐和草本茶每一片叶子都经过人工挑拣，清香自然。与那些只会打价格战、用粗叶冒充优选的茶饮相比，我们的茶更值得您长期信赖。", "labels": ["DISPARAGE"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0590", "text": "Dorvan & Co. vodka is rested for 30 days in stainless steel before bottling, giving it a round, balanced body. Sold in 1 L and 375 ml sizes.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0591", "text": "指尖小调钢琴陪练，陪孩子每一天的练习。周末两小时，老师手把手带练，节奏感与乐感一起养成。近期第三方机构统计，超过八成家长表示孩子的练琴积极性有所增强，欢迎到店咨询试听课程。", "labels": ["DATA"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0592", "text": "Check this out, chat! Two weeks ago I was running on empty and snapping at everyone. Today? Totally different person. The secret is Harbor Hush Sleep Spray, and it's sitting right in the basket below.", "labels": ["BEFORE_AFTER"], "lang": "en", "source": "synthetic"}
+{"id": "case-0593", "text": "我们的客服小姐姐每次都耐心解答，态度特别好，哪怕你问一百遍同一个问题，她也会笑着再讲一遍，这种服务体验真的让人很暖心。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0594", "text": "Lightweight polycarbonate frame, 360-degree wheels, and a lockable zip. The Kessler Orbit makes weekend getaways simple.", "labels": [], "lang": "en", "source": "synthetic"}
+{"id": "case-0595", "text": "Our Ridgewood Prep cohort is live now. Enroll this week and you will pass the admissions essay round, we promise you that.", "labels": ["GUARANTEE"], "lang": "en", "source": "synthetic"}
+{"id": "case-0596", "text": "对比上一代旧款，新款拉杆加长了5厘米，轮组换成了双排滚轮，收纳容量提升约15%，用起来更省力。", "labels": [], "lang": "zh", "source": "synthetic"}
+{"id": "case-0597", "text": "晚霞莓语果酒，果香四溢，入口柔滑。工作再累，来一杯就能放松心情，忘掉所有压力。", "labels": ["ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0598", "text": "蜜桃气泡果酒，低度微醺，适合聚会分享。每晚小酌一口，压力烟消云散。选材严格，堪称行业第一的果酒工艺。", "labels": ["ABSOLUTE", "ALCOHOL"], "lang": "zh", "source": "synthetic"}
+{"id": "case-0599", "text": "- Storm Harbor shell blocks wind and rain\n- Breathable membrane, fully seam-sealed\n- Wearing it treats seasonal joint pain caused by cold weather\n- Packs into its own chest pocket\n- Unrivaled warmth-to-weight ratio of any jacket", "labels": ["ABSOLUTE", "MEDICAL"], "lang": "en", "source": "synthetic"}

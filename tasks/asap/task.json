@@ -1,0 +1,35 @@
+{
+  "name": "asap",
+  "title": "Restaurant review aspects (ASAP)",
+  "item_noun": "review",
+  "description": "Each item is a Dianping restaurant review in Chinese. Label every aspect of the restaurant that the review judges, positively, negatively or neutrally. A review usually covers several aspects.",
+  "scope_field": null,
+  "rule_lang_field": null,
+  "rule_lang": "zh",
+  "sets": {
+    "dev": "items_dev.jsonl",
+    "test_a": "items_test_a.jsonl",
+    "test_b": "items_test_b.jsonl"
+  },
+  "case_libraries": {
+    "real": "cases_real.jsonl",
+    "synthetic": "cases_synth.jsonl",
+    "mixed": [
+      "cases_real.jsonl:300",
+      "cases_synth.jsonl:300"
+    ]
+  },
+  "default_cases": "real",
+  "case_scope_field": null,
+  "slices": [
+    "meta.stars_band",
+    "meta.n_labels_band",
+    "meta.has_neutral"
+  ],
+  "length_field": "text",
+  "has_empty_items": false,
+  "snippet_chars": 160,
+  "licence": "ASAP (Bu et al., NAACL 2021), Meituan-Dianping, Apache-2.0. Only the sampled reviews are included.",
+  "prefetch_cases": 3,
+  "prefetch_snippet": 240
+}

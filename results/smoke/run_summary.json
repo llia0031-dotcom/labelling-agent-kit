@@ -1,0 +1,101 @@
+{
+ "experiment": "smoke",
+ "mode": "direct",
+ "units": [
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 4,
+   "failed": 0,
+   "calls": 4,
+   "cost_usd": 0.00137
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 4,
+   "failed": 0,
+   "calls": 4,
+   "cost_usd": 0.00288
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent",
+   "items": 4,
+   "failed": 0,
+   "calls": 4,
+   "cost_usd": 0.00181
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 4,
+   "failed": 0,
+   "calls": 4,
+   "cost_usd": 0.0021
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 4,
+   "failed": 0,
+   "calls": 11,
+   "cost_usd": 0.00302
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 3,
+   "failed": 0,
+   "calls": 3,
+   "cost_usd": 0.00214
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 3,
+   "failed": 0,
+   "calls": 3,
+   "cost_usd": 0.00294
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent",
+   "items": 3,
+   "failed": 0,
+   "calls": 3,
+   "cost_usd": 0.00293
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 3,
+   "failed": 0,
+   "calls": 4,
+   "cost_usd": 0.00339
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 3,
+   "failed": 0,
+   "calls": 10,
+   "cost_usd": 0.00762
+  }
+ ],
+ "cost_usd": 0.0302,
+ "answers_sent_this_run": 50,
+ "answers_reused": 0,
+ "batches_this_run": [],
+ "minutes": 0.7
+}

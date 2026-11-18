@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Labelling agent console</title>
+  <meta name="description" content="Controlled experiments with a content-labelling agent on ad-policy labels and restaurant-review aspects: precision and recall per label, confusion, slices, root causes of failures, and the revision checked on held-out items.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e1c19'/%3E%3Cpath d='M9 17l5 5 9-12' fill='none' stroke='%23d8f26b' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="kit.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="k-night k-sec v-cover">
+    <div class="k-wrap">
+      <a class="v-lang" href="index.html" hreflang="zh-CN" lang="zh-CN">中文</a>
+      <div class="k-head">
+        <p class="k-label">Labelling Agent Kit</p>
+        <h1 data-k-title>Labelling agent console</h1>
+        <p data-k-rise style="--i:1">Five ways of labelling the same items: precision and recall for every label, what each label is confused with, where it is weaker, why it fails, and whether the revision built from those failures holds on items it never saw.</p>
+        <div class="v-actions" data-k-rise style="--i:2">
+          <a class="k-btn" href="#tasks">See the results</a>
+          <a class="k-btn k-btn--ghost" href="https://github.com/llia0031-dotcom/labelling-agent-kit">Code and report</a>
+        </div>
+      </div>
+      <ul class="k-keys" id="keys"></ul>
+    </div>
+  </header>
+
+  <main id="tasks" data-k-tabs></main>
+
+  <footer class="v-foot">
+    <div class="k-wrap">
+      <p>Gold labels are ASAP's own annotations and the answers fixed when each ad was written; the page shows stored runs, which <code>python run_all.py --offline</code> recomputes exactly.</p>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script type="module" src="kit.js"></script>
+</body>
+</html>

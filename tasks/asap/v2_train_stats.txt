@@ -1,0 +1,15 @@
+train reviews: 36850
+实惠 (no value words): 2362 reviews | Level 81%, Cost_effective 61%, Discount 40%, Downtown 18%, Portion 55%
+便宜 (no value words): 3659 reviews | Level 87%, Cost_effective 19%, Discount 38%, Downtown 16%, Portion 47%
+划算 (no value words): 2605 reviews | Level 67%, Cost_effective 68%, Discount 69%, Downtown 18%, Portion 46%
+性价比: 3242 reviews | Level 67%, Cost_effective 96%, Discount 34%, Downtown 18%, Portion 55%
+超值: 427 reviews | Level 69%, Cost_effective 68%, Discount 59%, Downtown 20%, Portion 56%
+人均: 1506 reviews | Level 94%, Cost_effective 35%, Discount 34%, Downtown 19%, Portion 48%
+商场 or 广场 or 百货 or 商厦 or 商业街: 2723 reviews | Level 47%, Cost_effective 23%, Discount 39%, Downtown 82%, Portion 43%
+团购 or 券 or 霸王餐 or 优惠: 9698 reviews | Level 55%, Cost_effective 30%, Discount 85%, Downtown 20%, Portion 46%
+试吃: 854 reviews | Level 36%, Cost_effective 17%, Discount 80%, Downtown 25%, Portion 45%
+料足 or 料多: 538 reviews | Level 50%, Cost_effective 26%, Discount 31%, Downtown 18%, Portion 76%
+base {'Level': 0.494, 'Cost_effective': 0.222, 'Discount': 0.322, 'Downtown': 0.172, 'Portion': 0.436}
+Price#Discount neutral share 0.493
+Location#Downtown neutral share 0.023
+Price#Level neutral share 0.455

@@ -1,0 +1,22 @@
+{
+ "name": "dev2",
+ "note": "Development on dev only: the retrieval step in the case arms, ASAP rulebook 1.1, and one tuning check (effort medium for the full agent).",
+ "runs": [
+  {"task": "ad_policy", "set": "dev", "arms": [{"arm": "prompt-short"}, {"arm": "prompt-rules"}, {"arm": "agent"}, {"arm": "agent-cases"}, {"arm": "agent-cases-check"},
+                                             {"arm": "agent-cases-check", "id": "agent-cases-check-medium", "effort": "medium"}]},
+  {"task": "asap", "set": "dev", "limit": 60, "arms": [{"arm": "prompt-short"}, {"arm": "prompt-rules"}, {"arm": "agent"}, {"arm": "agent-cases"}, {"arm": "agent-cases-check"},
+                                                    {"arm": "agent-cases-check", "id": "agent-cases-check-medium", "effort": "medium"},
+                                                    {"arm": "agent-cases", "id": "agent-cases-synthetic", "cases": "synthetic"}]}
+ ],
+ "comparisons": [
+  {"id": "d-ad-1", "task": "ad_policy", "set": "dev", "a": "prompt-short", "b": "agent"},
+  {"id": "d-ad-2", "task": "ad_policy", "set": "dev", "a": "agent", "b": "agent-cases"},
+  {"id": "d-ad-3", "task": "ad_policy", "set": "dev", "a": "agent-cases", "b": "agent-cases-check"},
+  {"id": "d-ad-e", "task": "ad_policy", "set": "dev", "a": "agent-cases-check", "b": "agent-cases-check-medium"},
+  {"id": "d-asap-1", "task": "asap", "set": "dev", "a": "prompt-short", "b": "agent"},
+  {"id": "d-asap-2", "task": "asap", "set": "dev", "a": "agent", "b": "agent-cases"},
+  {"id": "d-asap-3", "task": "asap", "set": "dev", "a": "agent-cases", "b": "agent-cases-check"},
+  {"id": "d-asap-e", "task": "asap", "set": "dev", "a": "agent-cases-check", "b": "agent-cases-check-medium"},
+  {"id": "d-asap-s", "task": "asap", "set": "dev", "a": "agent-cases-synthetic", "b": "agent-cases"}
+ ]
+}

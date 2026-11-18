@@ -1,0 +1,146 @@
+{
+ "name": "main",
+ "preregistration": "experiments/PREREGISTRATION.md",
+ "runs": [
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arms": [
+    {
+     "arm": "prompt-short"
+    },
+    {
+     "arm": "prompt-rules"
+    },
+    {
+     "arm": "agent"
+    },
+    {
+     "arm": "agent-cases"
+    },
+    {
+     "arm": "agent-cases-check"
+    }
+   ]
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arms": [
+    {
+     "arm": "prompt-short"
+    },
+    {
+     "arm": "prompt-rules"
+    },
+    {
+     "arm": "agent"
+    },
+    {
+     "arm": "agent-cases"
+    },
+    {
+     "arm": "agent-cases-check"
+    },
+    {
+     "arm": "agent-cases",
+     "id": "agent-cases-synthetic",
+     "cases": "synthetic"
+    },
+    {
+     "arm": "agent-cases",
+     "id": "agent-cases-mixed",
+     "cases": "mixed"
+    }
+   ]
+  }
+ ],
+ "comparisons": [
+  {
+   "id": "H1-ad",
+   "task": "ad_policy",
+   "set": "test_a",
+   "a": "prompt-short",
+   "b": "agent"
+  },
+  {
+   "id": "H1-asap",
+   "task": "asap",
+   "set": "test_a",
+   "a": "prompt-short",
+   "b": "agent"
+  },
+  {
+   "id": "H2-ad",
+   "task": "ad_policy",
+   "set": "test_a",
+   "a": "agent",
+   "b": "agent-cases"
+  },
+  {
+   "id": "H2-asap",
+   "task": "asap",
+   "set": "test_a",
+   "a": "agent",
+   "b": "agent-cases"
+  },
+  {
+   "id": "H3-ad",
+   "task": "ad_policy",
+   "set": "test_a",
+   "a": "agent-cases",
+   "b": "agent-cases-check"
+  },
+  {
+   "id": "H3-asap",
+   "task": "asap",
+   "set": "test_a",
+   "a": "agent-cases",
+   "b": "agent-cases-check"
+  },
+  {
+   "id": "H4-ad",
+   "task": "ad_policy",
+   "set": "test_a",
+   "a": "prompt-rules",
+   "b": "agent"
+  },
+  {
+   "id": "H4-asap",
+   "task": "asap",
+   "set": "test_a",
+   "a": "prompt-rules",
+   "b": "agent"
+  },
+  {
+   "id": "H5a",
+   "task": "asap",
+   "set": "test_a",
+   "a": "agent-cases-synthetic",
+   "b": "agent-cases"
+  },
+  {
+   "id": "H5b",
+   "task": "asap",
+   "set": "test_a",
+   "a": "agent-cases-mixed",
+   "b": "agent-cases"
+  }
+ ],
+ "frozen": {
+  "prompts/v1.json": "ee6b7c3c8cd0",
+  "tasks/ad_policy/cases_synth.jsonl": "d569ed6a2627",
+  "tasks/ad_policy/items_dev.jsonl": "223817e58786",
+  "tasks/ad_policy/items_test_a.jsonl": "a70de712e5d1",
+  "tasks/ad_policy/items_test_b.jsonl": "36cda6184e2f",
+  "tasks/ad_policy/rules.json": "fc0a865e1783",
+  "tasks/ad_policy/task.json": "f75f00ad200a",
+  "tasks/asap/cases_real.jsonl": "16f85144391e",
+  "tasks/asap/cases_synth.jsonl": "47d6f19f5412",
+  "tasks/asap/items_dev.jsonl": "a793c41bd989",
+  "tasks/asap/items_test_a.jsonl": "9eab2dc85fbd",
+  "tasks/asap/items_test_b.jsonl": "aab7919703cc",
+  "tasks/asap/rules.json": "df9e816f0f43",
+  "tasks/asap/task.json": "604c19a47bec"
+ }
+}

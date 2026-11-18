@@ -1,0 +1,206 @@
+{
+ "summary": {
+  "task": "ad_policy",
+  "set": "test_a",
+  "arm": "agent-cases-check",
+  "items_with_failures": 4,
+  "decisions": 4,
+  "agreement": {
+   "k": 3,
+   "n": 4
+  },
+  "by_cause": {
+   "rule_conflict": 2,
+   "split": 1,
+   "prompt_defect": 1
+  },
+  "by_kind_and_cause": {
+   "false_positive": {
+    "split": 1,
+    "rule_conflict": 1
+   },
+   "miss": {
+    "prompt_defect": 1,
+    "rule_conflict": 1
+   }
+  },
+  "by_label": {
+   "GUARANTEE": {
+    "split": 1,
+    "rule_conflict": 1
+   },
+   "DATA": {
+    "prompt_defect": 1,
+    "rule_conflict": 1
+   }
+  },
+  "stable_errors": 2,
+  "cost_usd": 0.003077
+ },
+ "decisions": [
+  {
+   "item_id": "en-t28",
+   "label": "GUARANTEE",
+   "kind": "false_positive",
+   "same_error_arms": 4,
+   "other_arms": 4,
+   "rule_read": true,
+   "evidence": "Drop 3 dress sizes in 2 weeks",
+   "label_share_in_cases": 0.081,
+   "text": "Slimora 14-day plan.\nDrop 3 dress sizes in 2 weeks\nSlimora 14-day plan\nStart today",
+   "gold": [
+    "WEIGHT"
+   ],
+   "pred": [
+    "GUARANTEE",
+    "WEIGHT"
+   ],
+   "meta": {
+    "lang": "en",
+    "source": "written",
+    "difficulty": "violating",
+    "n_chars": 82,
+    "set": "test_a"
+   },
+   "pass1": {
+    "label": "GUARANTEE",
+    "kind": "false_positive",
+    "cause": "prompt_defect",
+    "why": "The ad promises a weight result but no guarantee, certainty or immediacy word appears; the rule's GUARANTEE+WEIGHT clause requires the result to be promised as certain or immediate, and the agent applied it to a plain weight claim, which every arm did.",
+    "fix": "Add to the GUARANTEE rule and the WEIGHT boundary: 'Drop N sizes in X days' without guaranteed, 100%, instantly or right away is WEIGHT only; add two or three such plain-timeframe weight cases to the case library as WEIGHT-only examples."
+   },
+   "pass2": {
+    "label": "GUARANTEE",
+    "kind": "false_positive",
+    "cause": "rule_conflict",
+    "why": "The rule says a weight result promised as certain or immediate gets both WEIGHT and GUARANTEE, but 'Drop 3 dress sizes in 2 weeks' is a plain imperative with no 'guaranteed', '100%', or certainty wording, so whether it counts as a certain promise is debatable and the agent read it as one.",
+    "fix": "Rule edit: under GUARANTEE boundary, state that GUARANTEE needs explicit certainty wording ('guaranteed', '100%', 'will') or an instant-result claim; add a look-alike case where a bare timed weight-loss claim gets WEIGHT only, and label this item WEIGHT only."
+   },
+   "cause": "split",
+   "agreed": false
+  },
+  {
+   "item_id": "ev-21",
+   "label": "GUARANTEE",
+   "kind": "false_positive",
+   "same_error_arms": 4,
+   "other_arms": 4,
+   "rule_read": true,
+   "evidence": "Melts belly fat overnight",
+   "label_share_in_cases": 0.081,
+   "text": "Ashby & Reed apple cider vinegar shots\nRaw apple cider vinegar\nGinger and lemon\nOne shot a morning\n12 shots $24\nMelts belly fat overnight",
+   "gold": [
+    "WEIGHT"
+   ],
+   "pred": [
+    "GUARANTEE",
+    "WEIGHT"
+   ],
+   "meta": {
+    "lang": "en",
+    "source": "video-words",
+    "difficulty": "violating",
+    "n_chars": 137,
+    "set": "test_a"
+   },
+   "pass1": {
+    "label": "GUARANTEE",
+    "kind": "false_positive",
+    "cause": "rule_conflict",
+    "why": "The rule says a weight result promised as certain or immediate gets both WEIGHT and GUARANTEE, but \"Melts belly fat overnight\" is a rhetorical, unhedged claim that does not use guarantee wording or a 'guaranteed' promise, so the boundary between a stated immediate effect and a promised outcome is unclear here.",
+    "fix": "Add a rule edit clarifying whether an immediate weight-loss claim without 'guaranteed' or '100%' (e.g. 'melts fat overnight') is WEIGHT only or WEIGHT plus GUARANTEE, and add look-alike cases with this wording labelled WEIGHT only if that is the dataset convention."
+   },
+   "pass2": {
+    "label": "GUARANTEE",
+    "kind": "false_positive",
+    "cause": "rule_conflict",
+    "why": "The GUARANTEE rule covers promised certain or immediate product effects, and 'melts belly fat overnight' is one, but the boundary text says a weight result promised as certain gets both WEIGHT and GUARANTEE, while the gold gives only WEIGHT; the 'overnight' wording is arguably the weight claim itself, so the two-label rule is ambiguous about whether a weight claim with no explicit 'guaranteed' word also triggers GUARANTEE.",
+    "fix": "Edit the GUARANTEE boundary to say: a weight-loss result stated as immediate or certain gets GUARANTEE only when the words 'guaranteed', '100%' or an equivalent certainty marker appear; otherwise WEIGHT alone, and add this ad as a worked example."
+   },
+   "cause": "rule_conflict",
+   "agreed": true
+  },
+  {
+   "item_id": "zh-h09",
+   "label": "DATA",
+   "kind": "miss",
+   "same_error_arms": 0,
+   "other_arms": 4,
+   "rule_read": true,
+   "considered": true,
+   "rejected_reason": "Re-checked: \"实测吸尘率 99.9%\" is a product performance figure, which the DATA rule excludes like its example \"续航 30 小时\". Dropped as unsure.",
+   "check": "dropped by the self-check",
+   "label_share_in_cases": 0.096,
+   "text": "澄心扫地机器人 S7，懒人必备。\n一键规划清扫路线\n实测吸尘率 99.9%\n史上最安静的扫地机",
+   "gold": [
+    "ABSOLUTE",
+    "DATA"
+   ],
+   "pred": [
+    "ABSOLUTE"
+   ],
+   "meta": {
+    "lang": "zh",
+    "source": "written-hard",
+    "difficulty": "violating",
+    "n_chars": 47,
+    "set": "test_a"
+   },
+   "pass1": {
+    "label": "DATA",
+    "kind": "miss",
+    "cause": "prompt_defect",
+    "why": "The agent read the DATA rule and considered \"实测吸尘率 99.9%\", but its self-check dropped the label by treating a percentage as a product spec. \"实测\" marks a test result rather than a spec parameter, and the other four arms labelled DATA, so the self-check overturned a correct answer.",
+    "fix": "Add a prompt edit to the self-check: a percentage introduced by 实测, 测试, 检测 or 实验 is a test result and needs a source, so it must not be dropped as a spec; add cases such as \"实测吸尘率 99.9%\" labelled DATA and \"续航 30 小时\" labelled none."
+   },
+   "pass2": {
+    "label": "DATA",
+    "kind": "miss",
+    "cause": "prompt_defect",
+    "why": "The rule was read and the agent reasoned to DATA, then the self-check dropped it by treating \"实测吸尘率 99.9%\" as a product spec. The word 实测 marks a test result with no source, so the spec exclusion (\"续航 30 小时\") does not fit, and the other four arms all labelled it DATA.",
+    "fix": "Prompt edit: in the self-check, do not drop a label just because the figure concerns the product. Keep DATA when a percentage or test result is framed as measured (实测, 测试, 检测显示) with no source. Add \"实测吸尘率 99.9%\" as a case that counts as DATA, next to the 续航 example, so the spec exclusion is limited to plain parameter statements."
+   },
+   "cause": "prompt_defect",
+   "agreed": true
+  },
+  {
+   "item_id": "zv-13",
+   "label": "DATA",
+   "kind": "miss",
+   "same_error_arms": 2,
+   "other_arms": 4,
+   "rule_read": true,
+   "considered": true,
+   "rejected_reason": "\"除菌率 99.99%\" states the product's own performance figure. The DATA rule excludes the product's own specifications (for example \"52%vol\"), and the ad cites no survey, study, or statistics source.",
+   "label_share_in_cases": 0.096,
+   "text": "白鹭 R5 净水器，厨下安装\n除菌率 99.99%\n厨下式安装\n滤芯三年一换\n以旧换新 ¥1599",
+   "gold": [
+    "DATA"
+   ],
+   "pred": [],
+   "meta": {
+    "lang": "zh",
+    "source": "video-words",
+    "difficulty": "violating",
+    "n_chars": 49,
+    "set": "test_a"
+   },
+   "pass1": {
+    "label": "DATA",
+    "kind": "miss",
+    "cause": "rule_conflict",
+    "why": "The DATA exclusion for the product's own specifications (\"52%vol\") can be read to cover \"除菌率 99.99%\", but a sterilization rate is a tested performance result rather than a fixed spec, and the rulebook never says which side performance claims fall on.",
+    "fix": "Add a rule edit and a case: efficacy percentages such as 除菌率, 过滤率, 去污率 are test results and need a stated source, so they are DATA unless the ad names the test or institution; add this ad as a positive example."
+   },
+   "pass2": {
+    "label": "DATA",
+    "kind": "miss",
+    "cause": "rule_conflict",
+    "why": "The ad gives a bare percentage efficacy claim (除菌率 99.99%) with no source, which the Applies-when list covers, but the agent read it as a product specification under the exclusion, and the rule's exclusion examples (52%vol, 续航 30 小时) do not separate performance-efficacy figures from specs.",
+    "fix": "Add a rule edit: performance or efficacy percentages (除菌率, 过滤率, 去污率, 有效率) with no named source are DATA even on a product; the spec exclusion covers only fixed physical parameters such as composition, capacity, battery life, and price. Add 2-3 cases of 净化率/除菌率 claims with no source labelled DATA."
+   },
+   "cause": "rule_conflict",
+   "agreed": true
+  }
+ ]
+}

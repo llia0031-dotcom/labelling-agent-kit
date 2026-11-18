@@ -1,0 +1,7 @@
+# Python 3.10 or later. The skills' scripts need only the standard library; these are for the agent,
+# the analysis and the tests.
+anthropic==2.8.0          # model calls (Message Batches); not needed for an offline rerun
+scikit-learn==1.9.1       # tests: metrics are checked against it
+statsmodels==0.15.0       # tests: Wilson intervals and McNemar are checked against it
+rank-bm25==0.2.2          # tests: BM25 scores are checked against it
+numpy==2.5.5

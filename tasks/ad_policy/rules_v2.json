@@ -1,0 +1,620 @@
+{
+  "task": "ad_policy",
+  "version": "2.0",
+  "multi_label": true,
+  "empty_allowed": true,
+  "applies_by": "lang",
+  "sources": {
+    "zh": "《中华人民共和国广告法》（2021 修正）第九、十一、十三、十七、十八、二十三、二十四、二十五条；市场监管总局《广告绝对化用语执法指南》（2023）第五、六、十一条",
+    "en": "TikTok Advertising Policies (global sections): Misleading and false content, Weight management, Alcohol, Deceptive practices, Financial services. Summarised in our own words; category wording follows grounded-review."
+  },
+  "general": {
+    "zh": [
+      "按广告对所推销的商品或服务实际说了什么来判断；同一个词放在别的语境里可能并不违规。",
+      "一条广告可以同时有多个标签，也可以一个都没有。没有把握时，看这个标签的“不适用”条目。",
+      "每个标签都要能指出广告里的原话作证据。"
+    ],
+    "en": [
+      "Judge what the ad actually claims about the product or service it promotes; the same word can be fine in another context.",
+      "An ad may carry several labels or none. When unsure, read the label's \"does not apply\" entries.",
+      "Every label needs the ad's own words as evidence."
+    ]
+  },
+  "labels": [
+    {
+      "id": "ABSOLUTE",
+      "name": {
+        "zh": "绝对化用语",
+        "en": "Absolute claim"
+      },
+      "applies_to": [
+        "zh",
+        "en"
+      ],
+      "definition": {
+        "zh": "用“国家级”“最高级”“最佳”“第一”“顶级”“唯一”等绝对化用语说所推销的商品或服务（广告法第九条第三项）。",
+        "en": "An absolute or superlative claim about the promoted product or service: best, No. 1, strongest, the only one, or an absolute term about the product in relation to time, region or brand."
+      },
+      "include": {
+        "zh": [
+          "绝对化用语指向所推销商品的性能、质量、效果或市场地位，例如“全网最好”“销量第一”（没有限定条件和依据）、“最强风力”。",
+          "医疗、保健食品、投资、教育培训广告里，和疗效、收益、培训效果有关的绝对化用语从严认定（执法指南第十一条）。"
+        ],
+        "en": [
+          "The superlative is about the product's quality, performance, effect or rank: \"the world's best mattress\", \"the fastest blender on Earth\", \"No. 1 on TikTok\", \"unbeatable\".",
+          "A ranking or \"No. 1\" claim with no stated basis."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只表明经营者的服务态度、经营理念、企业文化、主观愿望或目标追求，例如“顾客第一”“力求做到最好”（执法指南第五条）。",
+          "只用于同一品牌或同一企业商品的自我比较，例如“本品牌迄今最轻的一款”（第六条第一项）。",
+          "只是使用方法、使用时间、保存期限等消费提示，例如“最好在 3 天内饮用完”“最佳饮用温度”（第六条第二项）。",
+          "依据国家标准、行业标准等的分级用语并能说明依据，例如“特级初榨”“一级能效”（第六条第三项）。",
+          "商品名称、规格型号、注册商标或专利本身带有的字样（第六条第四项）；依国家规定评定的奖项、称号（第六条第五项）。",
+          "限定了具体时间、地域等条件，陈述销量、销售额、市场占有率等事实信息（第六条第六项）。这类说法有没有写出处，另看 DATA。"
+        ],
+        "en": [
+          "Usage advice such as \"for best results, reapply every 2 hours\".",
+          "A company's aim, attitude or motto that is not a claim about the product: \"we try our best for every customer\".",
+          "A comparison inside the same brand: \"our lightest model yet\", \"the fastest in our range\".",
+          "A word inside the product, model or brand name, or an official grade or award that is named.",
+          "A personal opinion clearly presented as taste, with no claim of rank: \"my favourite jacket this winter\"."
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "最",
+          "第一",
+          "顶级",
+          "唯一",
+          "国家级",
+          "首选",
+          "极致",
+          "之王",
+          "没有之一",
+          "全网",
+          "No.1"
+        ],
+        "en": [
+          "best",
+          "No. 1",
+          "No.1",
+          "number one",
+          "#1",
+          "the only",
+          "unbeatable",
+          "strongest",
+          "fastest",
+          "top-rated",
+          "world's",
+          "on earth",
+          "ever made",
+          "leading",
+          "ultimate"
+        ]
+      },
+      "boundary": [
+        {
+          "with": "DATA",
+          "rule": {
+            "zh": "带具体时间、地域限定的销量或排名属于事实陈述，不标 ABSOLUTE；它没有写数据出处时标 DATA。没有任何限定的“销量第一”标 ABSOLUTE。",
+            "en": "A sales or ranking fact limited to a stated time and place is a statement of fact, not ABSOLUTE."
+          }
+        },
+        {
+          "with": "GUARANTEE",
+          "rule": {
+            "zh": "“保证通过”“100% 有效”是保证性承诺，看 GUARANTEE；ABSOLUTE 只管“最”“第一”这类最高级说法。两种都出现就两个都标。",
+            "en": "\"Guaranteed\" or \"100% pass rate\" is a promised outcome (GUARANTEE). ABSOLUTE is only for superlatives and rank. Give both when both are present."
+          }
+        },
+        {
+          "with": "DISPARAGE",
+          "rule": {
+            "zh": "“比某某都好”只抬高自己不贬低对方时不标 DISPARAGE；说到“最”才标 ABSOLUTE。",
+            "en": "Saying the product is better than others without running a competitor down is not DISPARAGE; it is ABSOLUTE only when a superlative or rank is claimed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "MEDICAL",
+      "name": {
+        "zh": "疾病治疗功能",
+        "en": "Medical claim"
+      },
+      "applies_to": [
+        "zh",
+        "en"
+      ],
+      "definition": {
+        "zh": "医疗、药品、医疗器械以外的商品宣称疾病预防、治疗功能，或使用医疗用语、易与药品混淆的用语（广告法第十七条）；保健食品涉及疾病预防治疗，或对功效、安全性作断言或保证（第十八条）。",
+        "en": "A claim that the product prevents, treats or cures a disease or medical condition, including cures for conditions that cannot be cured."
+      },
+      "include": {
+        "zh": [
+          "点名疾病或症状并说能治、能防、能根除：根治失眠、降血压、降血糖、消炎、治好脱发、抗癌。",
+          "保健食品说“保证有效”“无任何副作用”，或说它是保障健康所必需。"
+        ],
+        "en": [
+          "Names a disease or condition and says the product cures, treats, heals or prevents it: \"cures anxiety and depression\", \"reverses diabetes\", \"cures dandruff\".",
+          "Says the product replaces medicine or a doctor."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说一般感受或日常保养，不涉及疾病：“喝着暖胃”“睡前放松”“补充水分”。",
+          "营养成分或配方的事实陈述：“含钙”“富含维生素 C”“0 蔗糖”。",
+          "提到疾病或健康问题，但没有说商品能预防或治疗它（例如带出处的调研数据、健康提醒）。",
+          "保健食品标注“本品不能代替药物”是法定要求，不是违规。"
+        ],
+        "en": [
+          "General comfort or wellbeing wording with no disease named: \"helps you unwind\", \"a calmer evening routine\".",
+          "Nutrient or ingredient facts: \"contains vitamin C\", \"no added sugar\".",
+          "Cosmetic appearance wording with no condition treated: \"skin looks smoother\".",
+          "A disease is mentioned but the product is not said to prevent or treat it."
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "治",
+          "根治",
+          "治愈",
+          "疗效",
+          "降血压",
+          "降血糖",
+          "消炎",
+          "抗癌",
+          "预防",
+          "药",
+          "无副作用",
+          "失眠",
+          "脱发"
+        ],
+        "en": [
+          "cure",
+          "cures",
+          "treat",
+          "treats",
+          "heal",
+          "heals",
+          "prevent",
+          "prevents",
+          "disease",
+          "diabetes",
+          "arthritis",
+          "anxiety",
+          "depression",
+          "cancer",
+          "insomnia",
+          "medicine"
+        ]
+      },
+      "boundary": [
+        {
+          "with": "WEIGHT",
+          "rule": {
+            "en": "Weight-loss, fat-burning and muscle-gain promises are WEIGHT. Add MEDICAL only when a disease or medical condition is also said to be treated."
+          }
+        },
+        {
+          "with": "GUARANTEE",
+          "rule": {
+            "zh": "保健食品或普通商品对疗效的保证（“保证治好”）归 MEDICAL（第十八条第一项）；GUARANTEE 只管教育培训和有投资回报预期的广告。",
+            "en": "A guaranteed cure is MEDICAL. Add GUARANTEE when the ad also promises a result in so many words (\"guaranteed\", \"100%\")."
+          }
+        }
+      ]
+    },
+    {
+      "id": "GUARANTEE",
+      "name": {
+        "zh": "保证性承诺",
+        "en": "Guaranteed outcome"
+      },
+      "applies_to": [
+        "zh",
+        "en"
+      ],
+      "definition": {
+        "zh": "教育、培训广告对升学、通过考试、拿证或培训效果作保证性承诺（广告法第二十四条）；招商、理财等有投资回报预期的广告对未来收益作保证，明示或暗示保本、无风险、保收益（第二十五条）。",
+        "en": "A promised or guaranteed outcome: exam results, investment returns, income, instant money, or a product effect promised as certain or immediate."
+      },
+      "include": {
+        "zh": [
+          "教育培训：“保过”“包过”“保证考上”“不过全额退款”“学完月薪过万”。",
+          "投资、理财、加盟：“保本保息”“稳赚不赔”“零风险”“月收益 2%，本金保障”“三个月回本”。"
+        ],
+        "en": [
+          "Exam or course results promised: \"guaranteed pass\", \"100% pass rate\".",
+          "Money promised: \"get cash in 10 seconds\", \"earn $500 a day, guaranteed\", \"risk-free returns\", get-rich-quick offers.",
+          "A product effect promised as certain or immediate: \"thicker hair in 30 days, guaranteed\", \"get slim legs right away\". For weight-loss and body results, see the boundary with WEIGHT."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "普通的售后或服务承诺：“七天无理由退货”“质保两年”“坏了包换”。",
+          "只介绍课程内容、师资、课时、往期安排，没有对结果作承诺。",
+          "理财、加盟广告如实写了风险提示，且没有保本、保收益的说法。",
+          "教育培训和投资以外的商品说效果好，不归这里（涉及疾病看 MEDICAL，涉及“最”看 ABSOLUTE）。"
+        ],
+        "en": [
+          "Ordinary service terms: \"30-day money-back guarantee\", \"2-year warranty\", \"free returns\".",
+          "A description of what a course covers or how a service works, with no promised result.",
+          "Hedged wording that promises nothing: \"may help\", \"designed to support\", \"results vary\".",
+          "A financial ad that states the risk and promises no return."
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "保证",
+          "保过",
+          "包过",
+          "稳赚",
+          "保本",
+          "保息",
+          "零风险",
+          "无风险",
+          "回本",
+          "收益",
+          "包教包会",
+          "必过",
+          "躺赚"
+        ],
+        "en": [
+          "guarantee",
+          "guaranteed",
+          "100%",
+          "risk-free",
+          "instantly",
+          "in seconds",
+          "right away",
+          "overnight",
+          "get rich",
+          "pass rate",
+          "no risk",
+          "promise"
+        ]
+      },
+      "boundary": [
+        {
+          "with": "WEIGHT",
+          "rule": {
+            "en": "A weight-loss or muscle claim, even an immediate or effortless one (\"melts fat overnight\"), is WEIGHT. Add GUARANTEE only when the ad promises the result in so many words: guaranteed, 100%, we promise, or your money back if it fails."
+          }
+        }
+      ]
+    },
+    {
+      "id": "DISPARAGE",
+      "name": {
+        "zh": "贬低其他经营者",
+        "en": "Disparaging competitors"
+      },
+      "applies_to": [
+        "zh",
+        "en"
+      ],
+      "definition": {
+        "zh": "贬低其他生产经营者的商品或服务（广告法第十三条）。",
+        "en": "Running down another business's products or services: negative judgements about a competitor's quality, price or features, accusing it of wrongdoing, or mocking its users."
+      },
+      "include": {
+        "zh": [
+          "点名或用“某宝货”“别家”“其他牌子”指向别的经营者，并说它差、有害、是智商税。",
+          "嘲讽使用别家商品的人。"
+        ],
+        "en": [
+          "Names a rival or points at \"other brands\" and says they are bad, junk, unsafe or a rip-off.",
+          "Mocks people who use a rival: \"Still using NovaClean? Enjoy your dirty floors.\""
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说自己的优点，没有提别的经营者。",
+          "和自家旧款或同品牌其他型号比较。",
+          "和一类做法或一种状态比较，没有指向经营者：“比手洗省时间”“告别久坐腰酸”。"
+        ],
+        "en": [
+          "Only the product's own strengths, with no other business mentioned.",
+          "A comparison with the brand's own earlier model.",
+          "A comparison with a way of doing things, not with a business: \"faster than washing by hand\"."
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "别家",
+          "其他牌子",
+          "某宝",
+          "某品牌",
+          "杂牌",
+          "智商税",
+          "别买",
+          "便宜货",
+          "老牌子",
+          "同行"
+        ],
+        "en": [
+          "other brands",
+          "competitors",
+          "still using",
+          "unlike",
+          "cheap",
+          "junk",
+          "rip-off",
+          "knock-off",
+          "so-called",
+          "overpriced"
+        ]
+      },
+      "boundary": []
+    },
+    {
+      "id": "DATA",
+      "name": {
+        "zh": "引证内容未表明出处",
+        "en": "Unsourced data"
+      },
+      "applies_to": [
+        "zh"
+      ],
+      "definition": {
+        "zh": "广告使用数据、统计资料、调查结果、文摘、引用语等引证内容，却没有表明出处（广告法第十一条第二款）。"
+      },
+      "include": {
+        "zh": [
+          "给出百分比、倍数、排名、“研究表明”“实验证明”“调查显示”“专家说”，广告里找不到是谁、什么时候、怎么得出的。",
+          "只写“据某机构”“权威数据”这类说不清来源的出处。",
+          "靠测试、检测、实验得出的效果百分比（“实测除菌率 99.9%”“过滤率 95%”“检测证明”），没写是谁、什么时候测的。"
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "数据后面写明了出处（机构或平台名称、统计时间或样本）。",
+          "商品自身的规格参数、价格、容量、时长：“52%vol”“续航 30 小时”“¥399”。效果百分比（除菌率、过滤率）不是规格，看上一条。",
+          "明显的个人体验，不是引证：“我用了两个月”。"
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "%",
+          "数据",
+          "调查",
+          "研究表明",
+          "实验",
+          "统计",
+          "专家",
+          "报告",
+          "倍",
+          "成",
+          "显示"
+        ]
+      },
+      "boundary": []
+    },
+    {
+      "id": "ALCOHOL",
+      "name": {
+        "zh": "酒类广告",
+        "en": "Alcohol"
+      },
+      "applies_to": [
+        "zh",
+        "en"
+      ],
+      "definition": {
+        "zh": "酒类广告诱导、怂恿饮酒或宣传无节制饮酒，出现饮酒的动作，表现驾驶活动，或明示、暗示饮酒有消除紧张焦虑、增加体力等功效（广告法第二十三条）。",
+        "en": "An alcohol ad that encourages drinking or excess, shows intoxication, offers alcohol as a prize or incentive, appeals to minors, or does not state the alcohol strength and carry a responsible-drinking message."
+      },
+      "include": {
+        "zh": [
+          "劝酒、拼酒、不醉不归、喝得越多越好。",
+          "说喝了能解压、消愁、提神、壮胆、增加体力：“喝了这杯，烦恼全无”。",
+          "描述正在喝酒的动作，或和开车连在一起。"
+        ],
+        "en": [
+          "Encourages drinking more: \"the more you drink, the more you save\", buy-more offers on drinks, alcohol as a prize.",
+          "Shows or praises getting drunk, drinking from the bottle, reckless behaviour.",
+          "Says drinking relieves stress, makes you confident or helps you sleep.",
+          "An ad for an alcoholic drink that gives no alcohol strength (ABV) or no responsible-drinking line."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只介绍酒的香型、产地、工艺、度数、容量、价格、礼盒。",
+          "不是酒类商品的广告。"
+        ],
+        "en": [
+          "A product presentation with the strength stated and a responsible-drinking line, and no encouragement to drink.",
+          "Not an ad for an alcoholic drink (alcohol-free drinks, bar food, glassware)."
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "酒",
+          "干杯",
+          "喝",
+          "醉",
+          "解压",
+          "消愁",
+          "畅饮",
+          "不醉不归",
+          "vol"
+        ],
+        "en": [
+          "beer",
+          "wine",
+          "vodka",
+          "whiskey",
+          "whisky",
+          "gin",
+          "rum",
+          "cocktail",
+          "cocktails",
+          "cider",
+          "drink",
+          "shots",
+          "ABV",
+          "happy hour",
+          "tipsy",
+          "drunk"
+        ]
+      },
+      "boundary": []
+    },
+    {
+      "id": "FLAG",
+      "name": {
+        "zh": "国旗国徽等",
+        "en": "National symbols"
+      },
+      "applies_to": [
+        "zh"
+      ],
+      "definition": {
+        "zh": "使用或变相使用中华人民共和国的国旗、国歌、国徽，军旗、军歌、军徽（广告法第九条第一项）。"
+      },
+      "include": {
+        "zh": [
+          "文字里写明用了国旗、国徽、军旗图案或国歌来宣传商品。"
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只提到“国货”“国潮”“中国红”这类说法，没有使用国旗国徽本身。",
+          "只有文字的广告通常判断不了画面，文字没有写到就不标。"
+        ]
+      },
+      "keywords": {
+        "zh": [
+          "国旗",
+          "国徽",
+          "国歌",
+          "军旗",
+          "军徽",
+          "五星红旗"
+        ]
+      },
+      "boundary": []
+    },
+    {
+      "id": "WEIGHT",
+      "name": {
+        "en": "Weight and body image"
+      },
+      "applies_to": [
+        "en"
+      ],
+      "definition": {
+        "en": "Exaggerated or harmful weight-loss or muscle-gain claims, or body shaming: unrealistic results, results without diet or exercise, easy or guaranteed loss, an ideal body, or a better life from a changed body."
+      },
+      "include": {
+        "en": [
+          "Unrealistic or effortless results: \"burn fat without exercise\", \"lose 10 kg in a week\", \"gain 5 kg of solid muscle\".",
+          "Says the product alone does it, or that losing weight is easy or certain.",
+          "Shames a body or sets an ideal one: \"a body you'll finally love to show off\", \"no more embarrassing belly\"."
+        ]
+      },
+      "exclude": {
+        "en": [
+          "A healthy-lifestyle message with no promised result: a gym timetable, a balanced meal plan, \"as part of a healthy diet and regular exercise\".",
+          "Sportswear, equipment or food described without a weight or body-shape promise.",
+          "Nutrition facts such as calories per serving."
+        ]
+      },
+      "keywords": {
+        "en": [
+          "weight",
+          "fat",
+          "slim",
+          "lose",
+          "kg",
+          "pounds",
+          "lbs",
+          "belly",
+          "muscle",
+          "diet",
+          "sizes",
+          "waistline",
+          "shredded",
+          "body"
+        ]
+      },
+      "boundary": [
+        {
+          "with": "BEFORE_AFTER",
+          "rule": {
+            "en": "A weight-loss ad built on a before-and-after comparison gets both labels."
+          }
+        }
+      ]
+    },
+    {
+      "id": "BEFORE_AFTER",
+      "name": {
+        "en": "Before-and-after comparison"
+      },
+      "applies_to": [
+        "en"
+      ],
+      "definition": {
+        "en": "A before-and-after comparison of the product's results that may give a false impression of what it achieves."
+      },
+      "include": {
+        "en": [
+          "The ad's words set a \"before\" state against an \"after\" state of a person's body, skin, hair or similar as proof of the product's effect, with figures or a described transformation."
+        ]
+      },
+      "exclude": {
+        "en": [
+          "The words BEFORE and AFTER appear only as picture captions and the text makes no claim about a change: without the picture this cannot be judged from text.",
+          "A product upgrade or a room makeover described without a personal result claim.",
+          "Ordinary time words: \"before bed\", \"after a workout\"."
+        ]
+      },
+      "keywords": {
+        "en": [
+          "before and after",
+          "before-and-after",
+          "before",
+          "after",
+          "transformation",
+          "used to",
+          "weeks later"
+        ]
+      },
+      "boundary": []
+    }
+  ],
+  "precedence": [
+    {
+      "labels": [
+        "ABSOLUTE",
+        "DATA"
+      ],
+      "rule": {
+        "zh": "没有限定条件的“销量第一”标 ABSOLUTE；限定了时间地域但没写出处标 DATA；两样都缺时两个都标。",
+        "en": "Not applicable to English ads."
+      }
+    },
+    {
+      "labels": [
+        "GUARANTEE",
+        "WEIGHT"
+      ],
+      "rule": {
+        "en": "Give both only when a weight or muscle result is explicitly guaranteed (guaranteed, 100%, promise, money back); an immediate or effortless weight claim alone is WEIGHT."
+      }
+    },
+    {
+      "labels": [
+        "MEDICAL",
+        "WEIGHT"
+      ],
+      "rule": {
+        "en": "Weight claims alone are WEIGHT; add MEDICAL only when a disease or condition is said to be treated."
+      }
+    }
+  ]
+}

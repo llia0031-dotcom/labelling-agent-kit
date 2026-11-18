@@ -1,0 +1,101 @@
+{
+ "runs": [
+  {
+   "run": "dev1",
+   "purpose": "development on dev, first agent design",
+   "answers": 1126,
+   "batch_answers": 1126,
+   "copied": 0,
+   "cost_usd": 0.2365,
+   "input_tokens": 1285288,
+   "output_tokens": 609912,
+   "cache_creation_input_tokens": 60872,
+   "cache_read_input_tokens": 3199178
+  },
+  {
+   "run": "dev2",
+   "purpose": "development on dev, retrieval step and tuning",
+   "answers": 1946,
+   "batch_answers": 1946,
+   "copied": 0,
+   "cost_usd": 0.5571,
+   "input_tokens": 4027497,
+   "output_tokens": 1290781,
+   "cache_creation_input_tokens": 55888,
+   "cache_read_input_tokens": 5913176
+  },
+  {
+   "run": "main/rca",
+   "purpose": "root-cause classification, two passes",
+   "answers": 338,
+   "batch_answers": 330,
+   "copied": 0,
+   "cost_usd": 0.1,
+   "input_tokens": 845332,
+   "output_tokens": 224972,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0
+  },
+  {
+   "run": "main/rca (translation)",
+   "purpose": "Chinese text of the root-cause reasons, for the Chinese viewer",
+   "answers": 34,
+   "batch_answers": 0,
+   "copied": 0,
+   "cost_usd": 0.0447,
+   "input_tokens": 86911,
+   "output_tokens": 72026,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0
+  },
+  {
+   "run": "main",
+   "purpose": "preregistered arms on test A",
+   "answers": 3826,
+   "batch_answers": 3823,
+   "copied": 0,
+   "cost_usd": 1.2642,
+   "input_tokens": 8373485,
+   "output_tokens": 3106059,
+   "cache_creation_input_tokens": 69054,
+   "cache_read_input_tokens": 12401086
+  },
+  {
+   "run": "smoke",
+   "purpose": "first check of the flow on dev (direct calls)",
+   "answers": 50,
+   "batch_answers": 0,
+   "copied": 0,
+   "cost_usd": 0.0302,
+   "input_tokens": 46760,
+   "output_tokens": 30381,
+   "cache_creation_input_tokens": 76771,
+   "cache_read_input_tokens": 74140
+  },
+  {
+   "run": "synth-asap",
+   "purpose": "700 synthetic reviews for the case-library comparison",
+   "answers": 700,
+   "batch_answers": 698,
+   "copied": 0,
+   "cost_usd": 0.2369,
+   "input_tokens": 92050,
+   "output_tokens": 857302,
+   "cache_creation_input_tokens": 13557,
+   "cache_read_input_tokens": 3149743
+  },
+  {
+   "run": "revision",
+   "purpose": "v1 and v2 on test B, v2 on test A",
+   "answers": 3026,
+   "batch_answers": 3017,
+   "copied": 1035,
+   "cost_usd": 1.1629,
+   "input_tokens": 9791669,
+   "output_tokens": 2446122,
+   "cache_creation_input_tokens": 67456,
+   "cache_read_input_tokens": 10035228
+  }
+ ],
+ "total_usd": 3.6325
+}

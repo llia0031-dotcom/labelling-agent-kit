@@ -1,0 +1,119 @@
+{
+ "experiment": "main",
+ "mode": "offline",
+ "units": [
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "prompt-short",
+   "items": 119,
+   "failed": 0,
+   "calls": 119,
+   "cost_usd": 0.00994
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "prompt-rules",
+   "items": 119,
+   "failed": 0,
+   "calls": 119,
+   "cost_usd": 0.01213
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "agent",
+   "items": 119,
+   "failed": 0,
+   "calls": 221,
+   "cost_usd": 0.02858
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "agent-cases",
+   "items": 119,
+   "failed": 0,
+   "calls": 203,
+   "cost_usd": 0.03349
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "agent-cases-check",
+   "items": 119,
+   "failed": 0,
+   "calls": 352,
+   "cost_usd": 0.06343
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "prompt-short",
+   "items": 201,
+   "failed": 0,
+   "calls": 201,
+   "cost_usd": 0.04157
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "prompt-rules",
+   "items": 201,
+   "failed": 0,
+   "calls": 201,
+   "cost_usd": 0.05047
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent",
+   "items": 201,
+   "failed": 0,
+   "calls": 430,
+   "cost_usd": 0.14466
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases",
+   "items": 201,
+   "failed": 0,
+   "calls": 429,
+   "cost_usd": 0.18363
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases-check",
+   "items": 201,
+   "failed": 0,
+   "calls": 683,
+   "cost_usd": 0.32035
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases-synthetic",
+   "items": 201,
+   "failed": 0,
+   "calls": 441,
+   "cost_usd": 0.19083
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases-mixed",
+   "items": 201,
+   "failed": 0,
+   "calls": 427,
+   "cost_usd": 0.18507
+  }
+ ],
+ "cost_usd": 1.26415,
+ "answers_sent_this_run": 0,
+ "answers_reused": 3826,
+ "batches_this_run": [],
+ "minutes": 2.5
+}

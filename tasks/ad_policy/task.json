@@ -1,0 +1,28 @@
+{
+  "name": "ad_policy",
+  "title": "Ad policy labels",
+  "item_noun": "ad",
+  "description": "Each item is the text of an ad (caption, plus the words shown on screen for image and video ads). Label every policy violation the text shows. Most ads have one label or none; look-alike ads use risky-sounding words in an allowed way.",
+  "scope_field": "meta.lang",
+  "rule_lang_field": "meta.lang",
+  "sets": {
+    "dev": "items_dev.jsonl",
+    "test_a": "items_test_a.jsonl",
+    "test_b": "items_test_b.jsonl"
+  },
+  "case_libraries": {
+    "synthetic": "cases_synth.jsonl"
+  },
+  "default_cases": "synthetic",
+  "case_scope_field": "lang",
+  "slices": [
+    "meta.lang",
+    "meta.source",
+    "meta.difficulty"
+  ],
+  "length_field": "text",
+  "has_empty_items": true,
+  "licence": "Items and cases: Policy Model Lab data_public (MIT), built from Grounded Review's public items, the words of its own video ads and its synthetic training ads.",
+  "prefetch_cases": 5,
+  "prefetch_snippet": 0
+}

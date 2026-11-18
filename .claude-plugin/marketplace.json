@@ -1,0 +1,107 @@
+{
+  "name": "labelling-agent-kit",
+  "owner": {
+    "name": "Liang Liyuan",
+    "url": "https://github.com/llia0031-dotcom"
+  },
+  "metadata": {
+    "description": "Agent skills for content labelling: per-label metrics with intervals, slices, multi-label confusion, case search and rulebook lookup. Each skill is a standard-library script plus instructions.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "label-metrics",
+      "description": "Precision, recall and F1 for every label with 95% intervals, micro and macro F1, miss and false-alarm rates, and a paired comparison of two runs on the same items. Standard library only.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/label-metrics"
+      ],
+      "license": "MIT",
+      "keywords": [
+        "metrics",
+        "precision",
+        "recall",
+        "F1",
+        "classification",
+        "labelling",
+        "evaluation",
+        "标注"
+      ]
+    },
+    {
+      "name": "slice-report",
+      "description": "Labelling metrics by slice (language, source, difficulty, length, label), with bootstrap intervals and a minimum slice size; names the slices that are measurably worse.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/slice-report"
+      ],
+      "license": "MIT",
+      "keywords": [
+        "slices",
+        "error analysis",
+        "labelling",
+        "evaluation",
+        "切片"
+      ]
+    },
+    {
+      "name": "confusion-report",
+      "description": "A confusion matrix that works when items carry several labels (MLCM), the most frequent confused pairs with item ids, and under-, over- and swapped-label counts.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/confusion-report"
+      ],
+      "license": "MIT",
+      "keywords": [
+        "confusion matrix",
+        "multi-label",
+        "error analysis",
+        "labelling",
+        "混淆"
+      ]
+    },
+    {
+      "name": "case-search",
+      "description": "Finds labelled cases that resemble a new item (BM25 for Chinese and English) and shows how cases containing a phrase were labelled.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/case-search"
+      ],
+      "license": "MIT",
+      "keywords": [
+        "retrieval",
+        "few-shot",
+        "precedents",
+        "labelling",
+        "案例"
+      ]
+    },
+    {
+      "name": "label-rules",
+      "description": "Looks up labelling rules in a JSON rulebook (applies, does not apply, boundaries between labels, keyword hints) and checks a rulebook for gaps.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/label-rules"
+      ],
+      "license": "MIT",
+      "keywords": [
+        "rules",
+        "codebook",
+        "guideline",
+        "policy",
+        "labelling",
+        "标注规范"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+ "experiment": "dev2",
+ "mode": "batch",
+ "units": [
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 87,
+   "failed": 0,
+   "calls": 87,
+   "cost_usd": 0.00761
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 87,
+   "failed": 0,
+   "calls": 87,
+   "cost_usd": 0.00921
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent",
+   "items": 87,
+   "failed": 0,
+   "calls": 162,
+   "cost_usd": 0.02063
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 87,
+   "failed": 0,
+   "calls": 141,
+   "cost_usd": 0.02271
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 87,
+   "failed": 0,
+   "calls": 251,
+   "cost_usd": 0.04536
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases-check-medium",
+   "items": 87,
+   "failed": 0,
+   "calls": 268,
+   "cost_usd": 0.05354
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 60,
+   "failed": 0,
+   "calls": 60,
+   "cost_usd": 0.01203
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 60,
+   "failed": 0,
+   "calls": 60,
+   "cost_usd": 0.01531
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent",
+   "items": 60,
+   "failed": 0,
+   "calls": 132,
+   "cost_usd": 0.04633
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 60,
+   "failed": 0,
+   "calls": 132,
+   "cost_usd": 0.05783
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 60,
+   "failed": 0,
+   "calls": 207,
+   "cost_usd": 0.09792
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases-check-medium",
+   "items": 60,
+   "failed": 0,
+   "calls": 230,
+   "cost_usd": 0.11309
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases-synthetic",
+   "items": 60,
+   "failed": 0,
+   "calls": 129,
+   "cost_usd": 0.05557
+  }
+ ],
+ "cost_usd": 0.55714,
+ "answers_sent_this_run": 94,
+ "answers_reused": 1852,
+ "batches_this_run": [
+  {
+   "id": "msgbatch_0171D94YncfvVv2jgEpvWDZS",
+   "requests": 81,
+   "minutes": 6.8,
+   "succeeded": 81,
+   "errored": 0,
+   "expired": 0
+  },
+  {
+   "id": "msgbatch_0138wnomf7Gaicw62EHfUXfV",
+   "requests": 13,
+   "minutes": 5.8,
+   "succeeded": 13,
+   "errored": 0,
+   "expired": 0
+  }
+ ],
+ "minutes": 12.9
+}

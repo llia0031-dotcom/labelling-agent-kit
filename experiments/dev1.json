@@ -1,0 +1,7 @@
+{
+ "name": "dev1",
+ "runs": [
+  {"task": "ad_policy", "set": "dev", "arms": [{"arm": "prompt-short"}, {"arm": "prompt-rules"}, {"arm": "agent"}, {"arm": "agent-cases"}, {"arm": "agent-cases-check"}]},
+  {"task": "asap", "set": "dev", "limit": 40, "arms": [{"arm": "prompt-short"}, {"arm": "prompt-rules"}, {"arm": "agent"}, {"arm": "agent-cases"}, {"arm": "agent-cases-check"}]}
+ ]
+}

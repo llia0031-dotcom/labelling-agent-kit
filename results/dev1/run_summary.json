@@ -1,0 +1,134 @@
+{
+ "experiment": "dev1",
+ "mode": "batch",
+ "units": [
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 86,
+   "failed": 0,
+   "calls": 86,
+   "cost_usd": 0.00732
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 86,
+   "failed": 0,
+   "calls": 86,
+   "cost_usd": 0.00922
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent",
+   "items": 86,
+   "failed": 0,
+   "calls": 157,
+   "cost_usd": 0.02065
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 86,
+   "failed": 0,
+   "calls": 149,
+   "cost_usd": 0.02065
+  },
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 86,
+   "failed": 0,
+   "calls": 245,
+   "cost_usd": 0.03916
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-short",
+   "items": 40,
+   "failed": 0,
+   "calls": 40,
+   "cost_usd": 0.00837
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "prompt-rules",
+   "items": 40,
+   "failed": 0,
+   "calls": 40,
+   "cost_usd": 0.01068
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent",
+   "items": 40,
+   "failed": 0,
+   "calls": 90,
+   "cost_usd": 0.02683
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases",
+   "items": 40,
+   "failed": 0,
+   "calls": 93,
+   "cost_usd": 0.03667
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "arm": "agent-cases-check",
+   "items": 40,
+   "failed": 0,
+   "calls": 140,
+   "cost_usd": 0.05699
+  }
+ ],
+ "cost_usd": 0.23654,
+ "answers_sent_this_run": 1126,
+ "answers_reused": 0,
+ "batches_this_run": [
+  {
+   "id": "msgbatch_01SgcbJCpfBsJRNuEEs5BC6j",
+   "requests": 338,
+   "minutes": 7.2,
+   "succeeded": 338,
+   "errored": 0,
+   "expired": 0
+  },
+  {
+   "id": "msgbatch_013WNUVTP9wFm2V26tE3m1ng",
+   "requests": 133,
+   "minutes": 6.1,
+   "succeeded": 133,
+   "errored": 0,
+   "expired": 0
+  },
+  {
+   "id": "msgbatch_01FGzKatEonbekpKvUcvweFp",
+   "requests": 24,
+   "minutes": 5.8,
+   "succeeded": 24,
+   "errored": 0,
+   "expired": 0
+  },
+  {
+   "id": "msgbatch_01TGb5TRAFey83TYYK957KUk",
+   "requests": 1,
+   "minutes": 2.4,
+   "succeeded": 1,
+   "errored": 0,
+   "expired": 0
+  }
+ ],
+ "minutes": 27.2
+}

@@ -1,0 +1,118 @@
+{
+ "name": "revision",
+ "preregistration": "experiments/REVISION.md",
+ "reuse": [
+  "main"
+ ],
+ "runs": [
+  {
+   "task": "ad_policy",
+   "set": "test_b",
+   "arms": [
+    {
+     "arm": "agent-cases-check"
+    },
+    {
+     "arm": "agent-cases-check",
+     "id": "agent-cases-check-v2",
+     "prompt": "v2",
+     "rules_file": "rules_v2.json"
+    }
+   ]
+  },
+  {
+   "task": "asap",
+   "set": "test_b",
+   "arms": [
+    {
+     "arm": "agent-cases-check"
+    },
+    {
+     "arm": "agent-cases-check",
+     "id": "agent-cases-check-v2",
+     "prompt": "v2",
+     "rules_file": "rules_v2.json"
+    }
+   ]
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arms": [
+    {
+     "arm": "agent-cases-check"
+    },
+    {
+     "arm": "agent-cases-check",
+     "id": "agent-cases-check-v2",
+     "prompt": "v2",
+     "rules_file": "rules_v2.json"
+    }
+   ]
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arms": [
+    {
+     "arm": "agent-cases-check"
+    },
+    {
+     "arm": "agent-cases-check",
+     "id": "agent-cases-check-v2",
+     "prompt": "v2",
+     "rules_file": "rules_v2.json"
+    }
+   ]
+  }
+ ],
+ "comparisons": [
+  {
+   "id": "H6-ad",
+   "task": "ad_policy",
+   "set": "test_b",
+   "a": "agent-cases-check",
+   "b": "agent-cases-check-v2"
+  },
+  {
+   "id": "H6-asap",
+   "task": "asap",
+   "set": "test_b",
+   "a": "agent-cases-check",
+   "b": "agent-cases-check-v2"
+  },
+  {
+   "id": "R-ad",
+   "task": "ad_policy",
+   "set": "test_a",
+   "a": "agent-cases-check",
+   "b": "agent-cases-check-v2"
+  },
+  {
+   "id": "R-asap",
+   "task": "asap",
+   "set": "test_a",
+   "a": "agent-cases-check",
+   "b": "agent-cases-check-v2"
+  }
+ ],
+ "frozen": {
+  "prompts/v1.json": "ee6b7c3c8cd0",
+  "prompts/v2.json": "d0adb199bf9b",
+  "tasks/ad_policy/cases_synth.jsonl": "d569ed6a2627",
+  "tasks/ad_policy/items_dev.jsonl": "223817e58786",
+  "tasks/ad_policy/items_test_a.jsonl": "a70de712e5d1",
+  "tasks/ad_policy/items_test_b.jsonl": "36cda6184e2f",
+  "tasks/ad_policy/rules.json": "fc0a865e1783",
+  "tasks/ad_policy/rules_v2.json": "5112348ab95b",
+  "tasks/ad_policy/task.json": "f75f00ad200a",
+  "tasks/asap/cases_real.jsonl": "16f85144391e",
+  "tasks/asap/cases_synth.jsonl": "47d6f19f5412",
+  "tasks/asap/items_dev.jsonl": "a793c41bd989",
+  "tasks/asap/items_test_a.jsonl": "9eab2dc85fbd",
+  "tasks/asap/items_test_b.jsonl": "aab7919703cc",
+  "tasks/asap/rules.json": "df9e816f0f43",
+  "tasks/asap/rules_v2.json": "b0263f90bf2c",
+  "tasks/asap/task.json": "604c19a47bec"
+ }
+}

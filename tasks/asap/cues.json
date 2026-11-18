@@ -1,0 +1,1627 @@
+{
+ "split": "train",
+ "reviews": 36850,
+ "min_count": 150,
+ "labels": {
+  "Food#Taste": {
+   "labelled_reviews": 34872,
+   "share": 0.946,
+   "cues": [
+    {
+     "phrase": "口感很",
+     "reviews_with_phrase": 935,
+     "of_which_labelled": 935,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.027
+    },
+    {
+     "phrase": "很好喝",
+     "reviews_with_phrase": 835,
+     "of_which_labelled": 835,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "点咸",
+     "reviews_with_phrase": 626,
+     "of_which_labelled": 626,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "超级好吃",
+     "reviews_with_phrase": 542,
+     "of_which_labelled": 542,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.016
+    },
+    {
+     "phrase": "道真的",
+     "reviews_with_phrase": 520,
+     "of_which_labelled": 520,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "的一道菜",
+     "reviews_with_phrase": 509,
+     "of_which_labelled": 509,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "外皮",
+     "reviews_with_phrase": 507,
+     "of_which_labelled": 507,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "软糯",
+     "reviews_with_phrase": 495,
+     "of_which_labelled": 495,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "嫩滑",
+     "reviews_with_phrase": 482,
+     "of_which_labelled": 482,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "感很好",
+     "reviews_with_phrase": 425,
+     "of_which_labelled": 425,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "停不",
+     "reviews_with_phrase": 424,
+     "of_which_labelled": 424,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "嫩嫩",
+     "reviews_with_phrase": 409,
+     "of_which_labelled": 409,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.012
+    }
+   ]
+  },
+  "Food#Appearance": {
+   "labelled_reviews": 9391,
+   "share": 0.255,
+   "cues": [
+    {
+     "phrase": "卖相",
+     "reviews_with_phrase": 756,
+     "of_which_labelled": 685,
+     "precision": 0.906,
+     "share_of_labelled_reviews": 0.073
+    },
+    {
+     "phrase": "摆盘",
+     "reviews_with_phrase": 752,
+     "of_which_labelled": 668,
+     "precision": 0.888,
+     "share_of_labelled_reviews": 0.071
+    },
+    {
+     "phrase": "造型",
+     "reviews_with_phrase": 578,
+     "of_which_labelled": 475,
+     "precision": 0.822,
+     "share_of_labelled_reviews": 0.051
+    },
+    {
+     "phrase": "香味俱",
+     "reviews_with_phrase": 163,
+     "of_which_labelled": 134,
+     "precision": 0.822,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "味俱全",
+     "reviews_with_phrase": 163,
+     "of_which_labelled": 134,
+     "precision": 0.822,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "很精致",
+     "reviews_with_phrase": 457,
+     "of_which_labelled": 372,
+     "precision": 0.814,
+     "share_of_labelled_reviews": 0.04
+    },
+    {
+     "phrase": "色泽",
+     "reviews_with_phrase": 245,
+     "of_which_labelled": 198,
+     "precision": 0.808,
+     "share_of_labelled_reviews": 0.021
+    },
+    {
+     "phrase": "色香味",
+     "reviews_with_phrase": 244,
+     "of_which_labelled": 196,
+     "precision": 0.803,
+     "share_of_labelled_reviews": 0.021
+    },
+    {
+     "phrase": "颜色",
+     "reviews_with_phrase": 812,
+     "of_which_labelled": 595,
+     "precision": 0.733,
+     "share_of_labelled_reviews": 0.063
+    },
+    {
+     "phrase": "很好看",
+     "reviews_with_phrase": 272,
+     "of_which_labelled": 200,
+     "precision": 0.735,
+     "share_of_labelled_reviews": 0.021
+    },
+    {
+     "phrase": "精美",
+     "reviews_with_phrase": 150,
+     "of_which_labelled": 108,
+     "precision": 0.72,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "很有食欲",
+     "reviews_with_phrase": 242,
+     "of_which_labelled": 173,
+     "precision": 0.715,
+     "share_of_labelled_reviews": 0.018
+    }
+   ]
+  },
+  "Food#Portion": {
+   "labelled_reviews": 16075,
+   "share": 0.436,
+   "cues": [
+    {
+     "phrase": "分量也",
+     "reviews_with_phrase": 369,
+     "of_which_labelled": 363,
+     "precision": 0.984,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "份量也",
+     "reviews_with_phrase": 182,
+     "of_which_labelled": 179,
+     "precision": 0.984,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "量也很足",
+     "reviews_with_phrase": 172,
+     "of_which_labelled": 169,
+     "precision": 0.983,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "量十",
+     "reviews_with_phrase": 159,
+     "of_which_labelled": 156,
+     "precision": 0.981,
+     "share_of_labelled_reviews": 0.01
+    },
+    {
+     "phrase": "分量还",
+     "reviews_with_phrase": 182,
+     "of_which_labelled": 178,
+     "precision": 0.978,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "份量很",
+     "reviews_with_phrase": 201,
+     "of_which_labelled": 196,
+     "precision": 0.975,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "分量很",
+     "reviews_with_phrase": 416,
+     "of_which_labelled": 405,
+     "precision": 0.974,
+     "share_of_labelled_reviews": 0.025
+    },
+    {
+     "phrase": "量有点",
+     "reviews_with_phrase": 177,
+     "of_which_labelled": 172,
+     "precision": 0.972,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "量很足",
+     "reviews_with_phrase": 671,
+     "of_which_labelled": 650,
+     "precision": 0.969,
+     "share_of_labelled_reviews": 0.04
+    },
+    {
+     "phrase": "量很大",
+     "reviews_with_phrase": 391,
+     "of_which_labelled": 379,
+     "precision": 0.969,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "分量不",
+     "reviews_with_phrase": 225,
+     "of_which_labelled": 218,
+     "precision": 0.969,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "量足",
+     "reviews_with_phrase": 625,
+     "of_which_labelled": 601,
+     "precision": 0.962,
+     "share_of_labelled_reviews": 0.037
+    }
+   ]
+  },
+  "Food#Recommend": {
+   "labelled_reviews": 6833,
+   "share": 0.185,
+   "cues": [
+    {
+     "phrase": "不推荐",
+     "reviews_with_phrase": 819,
+     "of_which_labelled": 692,
+     "precision": 0.845,
+     "share_of_labelled_reviews": 0.101
+    },
+    {
+     "phrase": "荐的是",
+     "reviews_with_phrase": 172,
+     "of_which_labelled": 143,
+     "precision": 0.831,
+     "share_of_labelled_reviews": 0.021
+    },
+    {
+     "phrase": "特别推荐",
+     "reviews_with_phrase": 326,
+     "of_which_labelled": 266,
+     "precision": 0.816,
+     "share_of_labelled_reviews": 0.039
+    },
+    {
+     "phrase": "推荐他",
+     "reviews_with_phrase": 160,
+     "of_which_labelled": 130,
+     "precision": 0.812,
+     "share_of_labelled_reviews": 0.019
+    },
+    {
+     "phrase": "荐一下",
+     "reviews_with_phrase": 171,
+     "of_which_labelled": 135,
+     "precision": 0.789,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "很推荐",
+     "reviews_with_phrase": 241,
+     "of_which_labelled": 184,
+     "precision": 0.763,
+     "share_of_labelled_reviews": 0.027
+    },
+    {
+     "phrase": "较推荐",
+     "reviews_with_phrase": 163,
+     "of_which_labelled": 124,
+     "precision": 0.761,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "比较推",
+     "reviews_with_phrase": 163,
+     "of_which_labelled": 122,
+     "precision": 0.748,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "强烈推荐",
+     "reviews_with_phrase": 663,
+     "of_which_labelled": 478,
+     "precision": 0.721,
+     "share_of_labelled_reviews": 0.07
+    },
+    {
+     "phrase": "推荐一",
+     "reviews_with_phrase": 278,
+     "of_which_labelled": 199,
+     "precision": 0.716,
+     "share_of_labelled_reviews": 0.029
+    },
+    {
+     "phrase": "得推荐",
+     "reviews_with_phrase": 887,
+     "of_which_labelled": 556,
+     "precision": 0.627,
+     "share_of_labelled_reviews": 0.081
+    },
+    {
+     "phrase": "值得推",
+     "reviews_with_phrase": 908,
+     "of_which_labelled": 567,
+     "precision": 0.624,
+     "share_of_labelled_reviews": 0.083
+    }
+   ]
+  },
+  "Price#Level": {
+   "labelled_reviews": 18222,
+   "share": 0.494,
+   "cues": [
+    {
+     "phrase": "价格偏",
+     "reviews_with_phrase": 220,
+     "of_which_labelled": 218,
+     "precision": 0.991,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "有点贵",
+     "reviews_with_phrase": 332,
+     "of_which_labelled": 328,
+     "precision": 0.988,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "价格适",
+     "reviews_with_phrase": 185,
+     "of_which_labelled": 183,
+     "precision": 0.989,
+     "share_of_labelled_reviews": 0.01
+    },
+    {
+     "phrase": "格适中",
+     "reviews_with_phrase": 181,
+     "of_which_labelled": 179,
+     "precision": 0.989,
+     "share_of_labelled_reviews": 0.01
+    },
+    {
+     "phrase": "不算便宜",
+     "reviews_with_phrase": 169,
+     "of_which_labelled": 167,
+     "precision": 0.988,
+     "share_of_labelled_reviews": 0.009
+    },
+    {
+     "phrase": "偏贵",
+     "reviews_with_phrase": 365,
+     "of_which_labelled": 360,
+     "precision": 0.986,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "格不贵",
+     "reviews_with_phrase": 287,
+     "of_which_labelled": 283,
+     "precision": 0.986,
+     "share_of_labelled_reviews": 0.016
+    },
+    {
+     "phrase": "虽然价",
+     "reviews_with_phrase": 155,
+     "of_which_labelled": 153,
+     "precision": 0.987,
+     "share_of_labelled_reviews": 0.008
+    },
+    {
+     "phrase": "小贵",
+     "reviews_with_phrase": 741,
+     "of_which_labelled": 728,
+     "precision": 0.982,
+     "share_of_labelled_reviews": 0.04
+    },
+    {
+     "phrase": "格也不贵",
+     "reviews_with_phrase": 275,
+     "of_which_labelled": 270,
+     "precision": 0.982,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "略贵",
+     "reviews_with_phrase": 227,
+     "of_which_labelled": 222,
+     "precision": 0.978,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "价格也不",
+     "reviews_with_phrase": 495,
+     "of_which_labelled": 483,
+     "precision": 0.976,
+     "share_of_labelled_reviews": 0.027
+    }
+   ]
+  },
+  "Price#Cost_effective": {
+   "labelled_reviews": 8199,
+   "share": 0.222,
+   "cues": [
+    {
+     "phrase": "性价比还",
+     "reviews_with_phrase": 407,
+     "of_which_labelled": 401,
+     "precision": 0.985,
+     "share_of_labelled_reviews": 0.049
+    },
+    {
+     "phrase": "价比超",
+     "reviews_with_phrase": 193,
+     "of_which_labelled": 190,
+     "precision": 0.984,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "比不高",
+     "reviews_with_phrase": 229,
+     "of_which_labelled": 225,
+     "precision": 0.983,
+     "share_of_labelled_reviews": 0.027
+    },
+    {
+     "phrase": "性价比很",
+     "reviews_with_phrase": 456,
+     "of_which_labelled": 446,
+     "precision": 0.978,
+     "share_of_labelled_reviews": 0.054
+    },
+    {
+     "phrase": "价比还是",
+     "reviews_with_phrase": 237,
+     "of_which_labelled": 232,
+     "precision": 0.979,
+     "share_of_labelled_reviews": 0.028
+    },
+    {
+     "phrase": "比很高",
+     "reviews_with_phrase": 408,
+     "of_which_labelled": 398,
+     "precision": 0.975,
+     "share_of_labelled_reviews": 0.049
+    },
+    {
+     "phrase": "价比不",
+     "reviews_with_phrase": 448,
+     "of_which_labelled": 436,
+     "precision": 0.973,
+     "share_of_labelled_reviews": 0.053
+    },
+    {
+     "phrase": "价比高",
+     "reviews_with_phrase": 324,
+     "of_which_labelled": 313,
+     "precision": 0.966,
+     "share_of_labelled_reviews": 0.038
+    },
+    {
+     "phrase": "是性价",
+     "reviews_with_phrase": 186,
+     "of_which_labelled": 179,
+     "precision": 0.962,
+     "share_of_labelled_reviews": 0.022
+    },
+    {
+     "phrase": "的性价比",
+     "reviews_with_phrase": 169,
+     "of_which_labelled": 160,
+     "precision": 0.947,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "物美价",
+     "reviews_with_phrase": 200,
+     "of_which_labelled": 177,
+     "precision": 0.885,
+     "share_of_labelled_reviews": 0.022
+    },
+    {
+     "phrase": "美价廉",
+     "reviews_with_phrase": 207,
+     "of_which_labelled": 182,
+     "precision": 0.879,
+     "share_of_labelled_reviews": 0.022
+    }
+   ]
+  },
+  "Price#Discount": {
+   "labelled_reviews": 11880,
+   "share": 0.322,
+   "cues": [
+    {
+     "phrase": "中霸王",
+     "reviews_with_phrase": 194,
+     "of_which_labelled": 192,
+     "precision": 0.99,
+     "share_of_labelled_reviews": 0.016
+    },
+    {
+     "phrase": "评的霸王",
+     "reviews_with_phrase": 171,
+     "of_which_labelled": 169,
+     "precision": 0.988,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "点评的霸",
+     "reviews_with_phrase": 171,
+     "of_which_labelled": 169,
+     "precision": 0.988,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "中了霸王",
+     "reviews_with_phrase": 220,
+     "of_which_labelled": 217,
+     "precision": 0.986,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "了霸王餐",
+     "reviews_with_phrase": 296,
+     "of_which_labelled": 291,
+     "precision": 0.983,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "次霸王",
+     "reviews_with_phrase": 159,
+     "of_which_labelled": 156,
+     "precision": 0.981,
+     "share_of_labelled_reviews": 0.013
+    },
+    {
+     "phrase": "的霸王餐",
+     "reviews_with_phrase": 558,
+     "of_which_labelled": 545,
+     "precision": 0.977,
+     "share_of_labelled_reviews": 0.046
+    },
+    {
+     "phrase": "霸王餐活",
+     "reviews_with_phrase": 162,
+     "of_which_labelled": 157,
+     "precision": 0.969,
+     "share_of_labelled_reviews": 0.013
+    },
+    {
+     "phrase": "王餐活动",
+     "reviews_with_phrase": 162,
+     "of_which_labelled": 157,
+     "precision": 0.969,
+     "share_of_labelled_reviews": 0.013
+    },
+    {
+     "phrase": "元代",
+     "reviews_with_phrase": 186,
+     "of_which_labelled": 180,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "次抽",
+     "reviews_with_phrase": 170,
+     "of_which_labelled": 164,
+     "precision": 0.965,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "抽中了",
+     "reviews_with_phrase": 361,
+     "of_which_labelled": 345,
+     "precision": 0.956,
+     "share_of_labelled_reviews": 0.029
+    }
+   ]
+  },
+  "Location#Downtown": {
+   "labelled_reviews": 6330,
+   "share": 0.172,
+   "cues": [
+    {
+     "phrase": "万达广场",
+     "reviews_with_phrase": 156,
+     "of_which_labelled": 147,
+     "precision": 0.942,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "在万达",
+     "reviews_with_phrase": 186,
+     "of_which_labelled": 167,
+     "precision": 0.898,
+     "share_of_labelled_reviews": 0.026
+    },
+    {
+     "phrase": "百货",
+     "reviews_with_phrase": 270,
+     "of_which_labelled": 230,
+     "precision": 0.852,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "广场的",
+     "reviews_with_phrase": 243,
+     "of_which_labelled": 204,
+     "precision": 0.84,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "商场",
+     "reviews_with_phrase": 546,
+     "of_which_labelled": 422,
+     "precision": 0.773,
+     "share_of_labelled_reviews": 0.067
+    },
+    {
+     "phrase": "购物",
+     "reviews_with_phrase": 335,
+     "of_which_labelled": 256,
+     "precision": 0.764,
+     "share_of_labelled_reviews": 0.04
+    },
+    {
+     "phrase": "商业",
+     "reviews_with_phrase": 263,
+     "of_which_labelled": 200,
+     "precision": 0.76,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "优越",
+     "reviews_with_phrase": 160,
+     "of_which_labelled": 121,
+     "precision": 0.756,
+     "share_of_labelled_reviews": 0.019
+    },
+    {
+     "phrase": "万象城",
+     "reviews_with_phrase": 154,
+     "of_which_labelled": 109,
+     "precision": 0.708,
+     "share_of_labelled_reviews": 0.017
+    },
+    {
+     "phrase": "负一",
+     "reviews_with_phrase": 240,
+     "of_which_labelled": 155,
+     "precision": 0.646,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "场里",
+     "reviews_with_phrase": 233,
+     "of_which_labelled": 150,
+     "precision": 0.644,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "五楼",
+     "reviews_with_phrase": 231,
+     "of_which_labelled": 144,
+     "precision": 0.623,
+     "share_of_labelled_reviews": 0.023
+    }
+   ]
+  },
+  "Location#Transportation": {
+   "labelled_reviews": 7349,
+   "share": 0.199,
+   "cues": [
+    {
+     "phrase": "交通还",
+     "reviews_with_phrase": 170,
+     "of_which_labelled": 169,
+     "precision": 0.994,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "通便",
+     "reviews_with_phrase": 1268,
+     "of_which_labelled": 1254,
+     "precision": 0.989,
+     "share_of_labelled_reviews": 0.171
+    },
+    {
+     "phrase": "很便利",
+     "reviews_with_phrase": 331,
+     "of_which_labelled": 327,
+     "precision": 0.988,
+     "share_of_labelled_reviews": 0.044
+    },
+    {
+     "phrase": "交通也",
+     "reviews_with_phrase": 177,
+     "of_which_labelled": 175,
+     "precision": 0.989,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "交通很",
+     "reviews_with_phrase": 272,
+     "of_which_labelled": 268,
+     "precision": 0.985,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "通方便",
+     "reviews_with_phrase": 1308,
+     "of_which_labelled": 1280,
+     "precision": 0.979,
+     "share_of_labelled_reviews": 0.174
+    },
+    {
+     "phrase": "交通方",
+     "reviews_with_phrase": 1318,
+     "of_which_labelled": 1288,
+     "precision": 0.977,
+     "share_of_labelled_reviews": 0.175
+    },
+    {
+     "phrase": "通很便",
+     "reviews_with_phrase": 209,
+     "of_which_labelled": 205,
+     "precision": 0.981,
+     "share_of_labelled_reviews": 0.028
+    },
+    {
+     "phrase": "号线",
+     "reviews_with_phrase": 649,
+     "of_which_labelled": 632,
+     "precision": 0.974,
+     "share_of_labelled_reviews": 0.086
+    },
+    {
+     "phrase": "交站",
+     "reviews_with_phrase": 185,
+     "of_which_labelled": 179,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "便利的",
+     "reviews_with_phrase": 176,
+     "of_which_labelled": 169,
+     "precision": 0.96,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "公交车站",
+     "reviews_with_phrase": 290,
+     "of_which_labelled": 276,
+     "precision": 0.952,
+     "share_of_labelled_reviews": 0.038
+    }
+   ]
+  },
+  "Location#Easy_to_find": {
+   "labelled_reviews": 7077,
+   "share": 0.192,
+   "cues": [
+    {
+     "phrase": "置很好找",
+     "reviews_with_phrase": 515,
+     "of_which_labelled": 511,
+     "precision": 0.992,
+     "share_of_labelled_reviews": 0.072
+    },
+    {
+     "phrase": "挺好找的",
+     "reviews_with_phrase": 257,
+     "of_which_labelled": 255,
+     "precision": 0.992,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "是很好找",
+     "reviews_with_phrase": 213,
+     "of_which_labelled": 209,
+     "precision": 0.981,
+     "share_of_labelled_reviews": 0.03
+    },
+    {
+     "phrase": "常好找",
+     "reviews_with_phrase": 236,
+     "of_which_labelled": 230,
+     "precision": 0.975,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "较好找",
+     "reviews_with_phrase": 281,
+     "of_which_labelled": 273,
+     "precision": 0.972,
+     "share_of_labelled_reviews": 0.039
+    },
+    {
+     "phrase": "很好找的",
+     "reviews_with_phrase": 181,
+     "of_which_labelled": 176,
+     "precision": 0.972,
+     "share_of_labelled_reviews": 0.025
+    },
+    {
+     "phrase": "很容易找",
+     "reviews_with_phrase": 158,
+     "of_which_labelled": 153,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.022
+    },
+    {
+     "phrase": "位置很好",
+     "reviews_with_phrase": 635,
+     "of_which_labelled": 611,
+     "precision": 0.962,
+     "share_of_labelled_reviews": 0.086
+    },
+    {
+     "phrase": "太好找",
+     "reviews_with_phrase": 158,
+     "of_which_labelled": 146,
+     "precision": 0.924,
+     "share_of_labelled_reviews": 0.021
+    },
+    {
+     "phrase": "不好找",
+     "reviews_with_phrase": 155,
+     "of_which_labelled": 139,
+     "precision": 0.897,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "难找",
+     "reviews_with_phrase": 363,
+     "of_which_labelled": 316,
+     "precision": 0.871,
+     "share_of_labelled_reviews": 0.045
+    },
+    {
+     "phrase": "易找到",
+     "reviews_with_phrase": 179,
+     "of_which_labelled": 155,
+     "precision": 0.866,
+     "share_of_labelled_reviews": 0.022
+    }
+   ]
+  },
+  "Service#Queue": {
+   "labelled_reviews": 5544,
+   "share": 0.15,
+   "cues": [
+    {
+     "phrase": "轮到",
+     "reviews_with_phrase": 176,
+     "of_which_labelled": 142,
+     "precision": 0.807,
+     "share_of_labelled_reviews": 0.026
+    },
+    {
+     "phrase": "在等位",
+     "reviews_with_phrase": 155,
+     "of_which_labelled": 123,
+     "precision": 0.794,
+     "share_of_labelled_reviews": 0.022
+    },
+    {
+     "phrase": "取号",
+     "reviews_with_phrase": 158,
+     "of_which_labelled": 125,
+     "precision": 0.791,
+     "share_of_labelled_reviews": 0.023
+    },
+    {
+     "phrase": "排队",
+     "reviews_with_phrase": 3628,
+     "of_which_labelled": 2444,
+     "precision": 0.674,
+     "share_of_labelled_reviews": 0.441
+    },
+    {
+     "phrase": "不用排",
+     "reviews_with_phrase": 379,
+     "of_which_labelled": 281,
+     "precision": 0.741,
+     "share_of_labelled_reviews": 0.051
+    },
+    {
+     "phrase": "拿号",
+     "reviews_with_phrase": 309,
+     "of_which_labelled": 227,
+     "precision": 0.735,
+     "share_of_labelled_reviews": 0.041
+    },
+    {
+     "phrase": "需要等位",
+     "reviews_with_phrase": 164,
+     "of_which_labelled": 121,
+     "precision": 0.738,
+     "share_of_labelled_reviews": 0.022
+    },
+    {
+     "phrase": "需要排",
+     "reviews_with_phrase": 237,
+     "of_which_labelled": 174,
+     "precision": 0.734,
+     "share_of_labelled_reviews": 0.031
+    },
+    {
+     "phrase": "用等位",
+     "reviews_with_phrase": 262,
+     "of_which_labelled": 192,
+     "precision": 0.733,
+     "share_of_labelled_reviews": 0.035
+    },
+    {
+     "phrase": "队的人",
+     "reviews_with_phrase": 246,
+     "of_which_labelled": 178,
+     "precision": 0.724,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "的队",
+     "reviews_with_phrase": 250,
+     "of_which_labelled": 179,
+     "precision": 0.716,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "排到",
+     "reviews_with_phrase": 263,
+     "of_which_labelled": 185,
+     "precision": 0.703,
+     "share_of_labelled_reviews": 0.033
+    }
+   ]
+  },
+  "Service#Hospitality": {
+   "labelled_reviews": 21154,
+   "share": 0.574,
+   "cues": [
+    {
+     "phrase": "员的态",
+     "reviews_with_phrase": 317,
+     "of_which_labelled": 317,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "态度非常",
+     "reviews_with_phrase": 226,
+     "of_which_labelled": 226,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "服务真的",
+     "reviews_with_phrase": 194,
+     "of_which_labelled": 194,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.009
+    },
+    {
+     "phrase": "务也不错",
+     "reviews_with_phrase": 187,
+     "of_which_labelled": 187,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.009
+    },
+    {
+     "phrase": "态度一",
+     "reviews_with_phrase": 172,
+     "of_which_labelled": 172,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.008
+    },
+    {
+     "phrase": "度非常好",
+     "reviews_with_phrase": 162,
+     "of_which_labelled": 162,
+     "precision": 1.0,
+     "share_of_labelled_reviews": 0.008
+    },
+    {
+     "phrase": "务态度很",
+     "reviews_with_phrase": 418,
+     "of_which_labelled": 417,
+     "precision": 0.998,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "服务员态",
+     "reviews_with_phrase": 1168,
+     "of_which_labelled": 1163,
+     "precision": 0.996,
+     "share_of_labelled_reviews": 0.055
+    },
+    {
+     "phrase": "务员态度",
+     "reviews_with_phrase": 1168,
+     "of_which_labelled": 1163,
+     "precision": 0.996,
+     "share_of_labelled_reviews": 0.055
+    },
+    {
+     "phrase": "也很热情",
+     "reviews_with_phrase": 243,
+     "of_which_labelled": 242,
+     "precision": 0.996,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "有礼貌",
+     "reviews_with_phrase": 242,
+     "of_which_labelled": 241,
+     "precision": 0.996,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "服务态",
+     "reviews_with_phrase": 2493,
+     "of_which_labelled": 2476,
+     "precision": 0.993,
+     "share_of_labelled_reviews": 0.117
+    }
+   ]
+  },
+  "Service#Parking": {
+   "labelled_reviews": 2476,
+   "share": 0.067,
+   "cues": [
+    {
+     "phrase": "停车",
+     "reviews_with_phrase": 2285,
+     "of_which_labelled": 2124,
+     "precision": 0.93,
+     "share_of_labelled_reviews": 0.858
+    },
+    {
+     "phrase": "车位",
+     "reviews_with_phrase": 752,
+     "of_which_labelled": 735,
+     "precision": 0.977,
+     "share_of_labelled_reviews": 0.297
+    },
+    {
+     "phrase": "可以停",
+     "reviews_with_phrase": 150,
+     "of_which_labelled": 147,
+     "precision": 0.98,
+     "share_of_labelled_reviews": 0.059
+    },
+    {
+     "phrase": "好停",
+     "reviews_with_phrase": 165,
+     "of_which_labelled": 159,
+     "precision": 0.964,
+     "share_of_labelled_reviews": 0.064
+    },
+    {
+     "phrase": "有停",
+     "reviews_with_phrase": 292,
+     "of_which_labelled": 277,
+     "precision": 0.949,
+     "share_of_labelled_reviews": 0.112
+    },
+    {
+     "phrase": "费停",
+     "reviews_with_phrase": 231,
+     "of_which_labelled": 215,
+     "precision": 0.931,
+     "share_of_labelled_reviews": 0.087
+    },
+    {
+     "phrase": "车场",
+     "reviews_with_phrase": 610,
+     "of_which_labelled": 545,
+     "precision": 0.893,
+     "share_of_labelled_reviews": 0.22
+    },
+    {
+     "phrase": "的停",
+     "reviews_with_phrase": 252,
+     "of_which_labelled": 210,
+     "precision": 0.833,
+     "share_of_labelled_reviews": 0.085
+    },
+    {
+     "phrase": "车也",
+     "reviews_with_phrase": 209,
+     "of_which_labelled": 170,
+     "precision": 0.813,
+     "share_of_labelled_reviews": 0.069
+    },
+    {
+     "phrase": "停在",
+     "reviews_with_phrase": 197,
+     "of_which_labelled": 160,
+     "precision": 0.812,
+     "share_of_labelled_reviews": 0.065
+    },
+    {
+     "phrase": "车的",
+     "reviews_with_phrase": 342,
+     "of_which_labelled": 191,
+     "precision": 0.558,
+     "share_of_labelled_reviews": 0.077
+    },
+    {
+     "phrase": "开车",
+     "reviews_with_phrase": 670,
+     "of_which_labelled": 319,
+     "precision": 0.476,
+     "share_of_labelled_reviews": 0.129
+    }
+   ]
+  },
+  "Service#Timely": {
+   "labelled_reviews": 5676,
+   "share": 0.154,
+   "cues": [
+    {
+     "phrase": "菜速度也",
+     "reviews_with_phrase": 206,
+     "of_which_labelled": 205,
+     "precision": 0.995,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "菜的速度",
+     "reviews_with_phrase": 205,
+     "of_which_labelled": 203,
+     "precision": 0.99,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "上菜的速",
+     "reviews_with_phrase": 195,
+     "of_which_labelled": 193,
+     "precision": 0.99,
+     "share_of_labelled_reviews": 0.034
+    },
+    {
+     "phrase": "菜速度还",
+     "reviews_with_phrase": 150,
+     "of_which_labelled": 148,
+     "precision": 0.987,
+     "share_of_labelled_reviews": 0.026
+    },
+    {
+     "phrase": "上菜速",
+     "reviews_with_phrase": 1240,
+     "of_which_labelled": 1215,
+     "precision": 0.98,
+     "share_of_labelled_reviews": 0.214
+    },
+    {
+     "phrase": "菜速度很",
+     "reviews_with_phrase": 217,
+     "of_which_labelled": 211,
+     "precision": 0.972,
+     "share_of_labelled_reviews": 0.037
+    },
+    {
+     "phrase": "上菜很快",
+     "reviews_with_phrase": 193,
+     "of_which_labelled": 179,
+     "precision": 0.927,
+     "share_of_labelled_reviews": 0.032
+    },
+    {
+     "phrase": "速度很快",
+     "reviews_with_phrase": 307,
+     "of_which_labelled": 278,
+     "precision": 0.906,
+     "share_of_labelled_reviews": 0.049
+    },
+    {
+     "phrase": "上菜也",
+     "reviews_with_phrase": 187,
+     "of_which_labelled": 167,
+     "precision": 0.893,
+     "share_of_labelled_reviews": 0.029
+    },
+    {
+     "phrase": "挺快",
+     "reviews_with_phrase": 444,
+     "of_which_labelled": 363,
+     "precision": 0.818,
+     "share_of_labelled_reviews": 0.064
+    },
+    {
+     "phrase": "慢了",
+     "reviews_with_phrase": 169,
+     "of_which_labelled": 139,
+     "precision": 0.822,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "点慢",
+     "reviews_with_phrase": 198,
+     "of_which_labelled": 162,
+     "precision": 0.818,
+     "share_of_labelled_reviews": 0.029
+    }
+   ]
+  },
+  "Ambience#Decoration": {
+   "labelled_reviews": 16408,
+   "share": 0.445,
+   "cues": [
+    {
+     "phrase": "装修比",
+     "reviews_with_phrase": 152,
+     "of_which_labelled": 149,
+     "precision": 0.98,
+     "share_of_labelled_reviews": 0.009
+    },
+    {
+     "phrase": "修的很",
+     "reviews_with_phrase": 180,
+     "of_which_labelled": 176,
+     "precision": 0.978,
+     "share_of_labelled_reviews": 0.011
+    },
+    {
+     "phrase": "修还",
+     "reviews_with_phrase": 209,
+     "of_which_labelled": 204,
+     "precision": 0.976,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "境很不",
+     "reviews_with_phrase": 204,
+     "of_which_labelled": 199,
+     "precision": 0.975,
+     "share_of_labelled_reviews": 0.012
+    },
+    {
+     "phrase": "修很",
+     "reviews_with_phrase": 482,
+     "of_which_labelled": 469,
+     "precision": 0.973,
+     "share_of_labelled_reviews": 0.029
+    },
+    {
+     "phrase": "修风格",
+     "reviews_with_phrase": 893,
+     "of_which_labelled": 866,
+     "precision": 0.97,
+     "share_of_labelled_reviews": 0.053
+    },
+    {
+     "phrase": "装修风",
+     "reviews_with_phrase": 890,
+     "of_which_labelled": 863,
+     "precision": 0.97,
+     "share_of_labelled_reviews": 0.053
+    },
+    {
+     "phrase": "内装",
+     "reviews_with_phrase": 251,
+     "of_which_labelled": 244,
+     "precision": 0.972,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "的装修",
+     "reviews_with_phrase": 919,
+     "of_which_labelled": 891,
+     "precision": 0.97,
+     "share_of_labelled_reviews": 0.054
+    },
+    {
+     "phrase": "装修的",
+     "reviews_with_phrase": 756,
+     "of_which_labelled": 732,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.045
+    },
+    {
+     "phrase": "店面装",
+     "reviews_with_phrase": 167,
+     "of_which_labelled": 162,
+     "precision": 0.97,
+     "share_of_labelled_reviews": 0.01
+    },
+    {
+     "phrase": "环境优雅",
+     "reviews_with_phrase": 188,
+     "of_which_labelled": 182,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.011
+    }
+   ]
+  },
+  "Ambience#Noise": {
+   "labelled_reviews": 10556,
+   "share": 0.286,
+   "cues": [
+    {
+     "phrase": "嘈杂",
+     "reviews_with_phrase": 405,
+     "of_which_labelled": 392,
+     "precision": 0.968,
+     "share_of_labelled_reviews": 0.037
+    },
+    {
+     "phrase": "很安静",
+     "reviews_with_phrase": 200,
+     "of_which_labelled": 189,
+     "precision": 0.945,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "吵闹",
+     "reviews_with_phrase": 151,
+     "of_which_labelled": 141,
+     "precision": 0.934,
+     "share_of_labelled_reviews": 0.013
+    },
+    {
+     "phrase": "环境很好",
+     "reviews_with_phrase": 546,
+     "of_which_labelled": 501,
+     "precision": 0.918,
+     "share_of_labelled_reviews": 0.047
+    },
+    {
+     "phrase": "境很不错",
+     "reviews_with_phrase": 198,
+     "of_which_labelled": 180,
+     "precision": 0.909,
+     "share_of_labelled_reviews": 0.017
+    },
+    {
+     "phrase": "环境一般",
+     "reviews_with_phrase": 496,
+     "of_which_labelled": 448,
+     "precision": 0.903,
+     "share_of_labelled_reviews": 0.042
+    },
+    {
+     "phrase": "环境很不",
+     "reviews_with_phrase": 202,
+     "of_which_labelled": 183,
+     "precision": 0.906,
+     "share_of_labelled_reviews": 0.017
+    },
+    {
+     "phrase": "境也不错",
+     "reviews_with_phrase": 210,
+     "of_which_labelled": 186,
+     "precision": 0.886,
+     "share_of_labelled_reviews": 0.018
+    },
+    {
+     "phrase": "境非",
+     "reviews_with_phrase": 228,
+     "of_which_labelled": 201,
+     "precision": 0.882,
+     "share_of_labelled_reviews": 0.019
+    },
+    {
+     "phrase": "环境不错",
+     "reviews_with_phrase": 916,
+     "of_which_labelled": 797,
+     "precision": 0.87,
+     "share_of_labelled_reviews": 0.076
+    },
+    {
+     "phrase": "环境也不",
+     "reviews_with_phrase": 239,
+     "of_which_labelled": 209,
+     "precision": 0.874,
+     "share_of_labelled_reviews": 0.02
+    },
+    {
+     "phrase": "境还不错",
+     "reviews_with_phrase": 287,
+     "of_which_labelled": 249,
+     "precision": 0.868,
+     "share_of_labelled_reviews": 0.024
+    }
+   ]
+  },
+  "Ambience#Space": {
+   "labelled_reviews": 12988,
+   "share": 0.352,
+   "cues": [
+    {
+     "phrase": "宽敞",
+     "reviews_with_phrase": 803,
+     "of_which_labelled": 751,
+     "precision": 0.935,
+     "share_of_labelled_reviews": 0.058
+    },
+    {
+     "phrase": "境很不",
+     "reviews_with_phrase": 204,
+     "of_which_labelled": 189,
+     "precision": 0.926,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "环境一般",
+     "reviews_with_phrase": 496,
+     "of_which_labelled": 451,
+     "precision": 0.909,
+     "share_of_labelled_reviews": 0.035
+    },
+    {
+     "phrase": "很宽",
+     "reviews_with_phrase": 227,
+     "of_which_labelled": 206,
+     "precision": 0.907,
+     "share_of_labelled_reviews": 0.016
+    },
+    {
+     "phrase": "积不",
+     "reviews_with_phrase": 150,
+     "of_which_labelled": 136,
+     "precision": 0.907,
+     "share_of_labelled_reviews": 0.01
+    },
+    {
+     "phrase": "拥挤",
+     "reviews_with_phrase": 427,
+     "of_which_labelled": 385,
+     "precision": 0.902,
+     "share_of_labelled_reviews": 0.03
+    },
+    {
+     "phrase": "环境很好",
+     "reviews_with_phrase": 546,
+     "of_which_labelled": 491,
+     "precision": 0.899,
+     "share_of_labelled_reviews": 0.038
+    },
+    {
+     "phrase": "环境不错",
+     "reviews_with_phrase": 916,
+     "of_which_labelled": 810,
+     "precision": 0.884,
+     "share_of_labelled_reviews": 0.062
+    },
+    {
+     "phrase": "境还不错",
+     "reviews_with_phrase": 287,
+     "of_which_labelled": 252,
+     "precision": 0.878,
+     "share_of_labelled_reviews": 0.019
+    },
+    {
+     "phrase": "面积",
+     "reviews_with_phrase": 438,
+     "of_which_labelled": 382,
+     "precision": 0.872,
+     "share_of_labelled_reviews": 0.029
+    },
+    {
+     "phrase": "环境还不",
+     "reviews_with_phrase": 290,
+     "of_which_labelled": 253,
+     "precision": 0.872,
+     "share_of_labelled_reviews": 0.019
+    },
+    {
+     "phrase": "店面不大",
+     "reviews_with_phrase": 433,
+     "of_which_labelled": 377,
+     "precision": 0.871,
+     "share_of_labelled_reviews": 0.029
+    }
+   ]
+  },
+  "Ambience#Sanitary": {
+   "labelled_reviews": 12341,
+   "share": 0.335,
+   "cues": [
+    {
+     "phrase": "净整洁",
+     "reviews_with_phrase": 457,
+     "of_which_labelled": 451,
+     "precision": 0.987,
+     "share_of_labelled_reviews": 0.037
+    },
+    {
+     "phrase": "干净整",
+     "reviews_with_phrase": 486,
+     "of_which_labelled": 478,
+     "precision": 0.984,
+     "share_of_labelled_reviews": 0.039
+    },
+    {
+     "phrase": "环境干净",
+     "reviews_with_phrase": 170,
+     "of_which_labelled": 166,
+     "precision": 0.976,
+     "share_of_labelled_reviews": 0.013
+    },
+    {
+     "phrase": "干净卫生",
+     "reviews_with_phrase": 369,
+     "of_which_labelled": 358,
+     "precision": 0.97,
+     "share_of_labelled_reviews": 0.029
+    },
+    {
+     "phrase": "挺干净的",
+     "reviews_with_phrase": 198,
+     "of_which_labelled": 182,
+     "precision": 0.919,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "也很干净",
+     "reviews_with_phrase": 196,
+     "of_which_labelled": 179,
+     "precision": 0.913,
+     "share_of_labelled_reviews": 0.015
+    },
+    {
+     "phrase": "比较干净",
+     "reviews_with_phrase": 326,
+     "of_which_labelled": 295,
+     "precision": 0.905,
+     "share_of_labelled_reviews": 0.024
+    },
+    {
+     "phrase": "环境很好",
+     "reviews_with_phrase": 546,
+     "of_which_labelled": 492,
+     "precision": 0.901,
+     "share_of_labelled_reviews": 0.04
+    },
+    {
+     "phrase": "环境一般",
+     "reviews_with_phrase": 496,
+     "of_which_labelled": 445,
+     "precision": 0.897,
+     "share_of_labelled_reviews": 0.036
+    },
+    {
+     "phrase": "环境不错",
+     "reviews_with_phrase": 916,
+     "of_which_labelled": 811,
+     "precision": 0.885,
+     "share_of_labelled_reviews": 0.066
+    },
+    {
+     "phrase": "境很不错",
+     "reviews_with_phrase": 198,
+     "of_which_labelled": 176,
+     "precision": 0.889,
+     "share_of_labelled_reviews": 0.014
+    },
+    {
+     "phrase": "环境很不",
+     "reviews_with_phrase": 202,
+     "of_which_labelled": 179,
+     "precision": 0.886,
+     "share_of_labelled_reviews": 0.015
+    }
+   ]
+  }
+ }
+}

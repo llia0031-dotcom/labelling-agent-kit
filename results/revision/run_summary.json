@@ -1,0 +1,83 @@
+{
+ "experiment": "revision",
+ "mode": "offline",
+ "units": [
+  {
+   "task": "ad_policy",
+   "set": "test_b",
+   "arm": "agent-cases-check",
+   "items": 118,
+   "failed": 0,
+   "calls": 341,
+   "cost_usd": 0.06182
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_b",
+   "arm": "agent-cases-check-v2",
+   "items": 118,
+   "failed": 0,
+   "calls": 349,
+   "cost_usd": 0.06566
+  },
+  {
+   "task": "asap",
+   "set": "test_b",
+   "arm": "agent-cases-check",
+   "items": 199,
+   "failed": 0,
+   "calls": 679,
+   "cost_usd": 0.31919
+  },
+  {
+   "task": "asap",
+   "set": "test_b",
+   "arm": "agent-cases-check-v2",
+   "items": 199,
+   "failed": 0,
+   "calls": 655,
+   "cost_usd": 0.32287
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "agent-cases-check",
+   "items": 119,
+   "failed": 0,
+   "calls": 352,
+   "cost_usd": 0.06343
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "arm": "agent-cases-check-v2",
+   "items": 119,
+   "failed": 0,
+   "calls": 346,
+   "cost_usd": 0.06379
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases-check",
+   "items": 201,
+   "failed": 0,
+   "calls": 683,
+   "cost_usd": 0.32035
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "arm": "agent-cases-check-v2",
+   "items": 201,
+   "failed": 0,
+   "calls": 656,
+   "cost_usd": 0.32955
+  }
+ ],
+ "cost_usd": 1.54666,
+ "answers_sent_this_run": 0,
+ "answers_reused": 4061,
+ "batches_this_run": [],
+ "minutes": 2.2
+}

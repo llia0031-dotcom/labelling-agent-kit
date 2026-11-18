@@ -1,0 +1,11 @@
+{
+ "generated": 700,
+ "rejected": {
+  "strong cue of an aspect outside the spec": 17,
+  "language or length": 3,
+  "evidence missing or not verbatim": 1
+ },
+ "accepted_before_cap": 600,
+ "kept": 600,
+ "cost_usd": 0.23693
+}

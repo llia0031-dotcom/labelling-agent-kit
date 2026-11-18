@@ -1,0 +1,756 @@
+{
+ "thresholds": {
+  "near_dup_jaccard": 0.6,
+  "near_dup_share": 0.01,
+  "leak_jaccard": 0.3,
+  "length_within": 0.95,
+  "label_share_diff": 0.1,
+  "cue_precision": 0.95,
+  "cue_conflict_share": 0.05
+ },
+ "files": [
+  {
+   "task": "ad_policy",
+   "set": "dev",
+   "file": "items_dev.jsonl",
+   "rows": 87,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "42 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, test_b",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A8",
+     "name": "length within the real data's 1st-99th percentile for 95% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "98.9% within 24-287 characters",
+     "examples": []
+    },
+    {
+     "code": "A9",
+     "name": "each label's share within 10 points of the real data",
+     "blocking": false,
+     "passed": true,
+     "detail": "largest gaps: MEDICAL 5% vs 12%, GUARANTEE 16% vs 12%, DISPARAGE 9% vs 6%",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_a",
+   "file": "items_test_a.jsonl",
+   "rows": 119,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "52 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_b, dev",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "ad_policy",
+   "set": "test_b",
+   "file": "items_test_b.jsonl",
+   "rows": 118,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "57 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, dev",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "ad_policy",
+   "set": "cases:synthetic",
+   "file": "cases_synth.jsonl",
+   "rows": 600,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "262 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, test_b",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A8",
+     "name": "length within the real data's 1st-99th percentile for 95% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "99.8% within 24-287 characters",
+     "examples": []
+    },
+    {
+     "code": "A9",
+     "name": "each label's share within 10 points of the real data",
+     "blocking": false,
+     "passed": true,
+     "detail": "largest gaps: BEFORE_AFTER 4% vs 0%, GUARANTEE 8% vs 12%, ALCOHOL 8% vs 5%",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "asap",
+   "set": "dev",
+   "file": "items_dev.jsonl",
+   "rows": 120,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, test_b",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A8",
+     "name": "length within the real data's 1st-99th percentile for 95% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "98.3% within 197-806 characters",
+     "examples": []
+    },
+    {
+     "code": "A9",
+     "name": "each label's share within 10 points of the real data",
+     "blocking": false,
+     "passed": false,
+     "detail": "largest gaps: Ambience#Noise 38% vs 27%, Ambience#Sanitary 40% vs 32%, Food#Recommend 23% vs 16%",
+     "examples": []
+    },
+    {
+     "code": "A10",
+     "name": "strong cue of a label that the row does not carry in at most 5% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "0 rows (0.0%) contain a phrase whose training-split precision for a missing label is >= 0.95",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [
+    "A9"
+   ],
+   "accepted": true
+  },
+  {
+   "task": "asap",
+   "set": "test_a",
+   "file": "items_test_a.jsonl",
+   "rows": 201,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "2 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_b, dev",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A10",
+     "name": "strong cue of a label that the row does not carry in at most 5% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "7 rows (3.5%) contain a phrase whose training-split precision for a missing label is >= 0.95",
+     "examples": [
+      "asap-test-1513:Service#Hospitality",
+      "asap-test-16055:Service#Parking",
+      "asap-test-26427:Location#Transportation",
+      "asap-test-32060:Price#Level",
+      "asap-test-36331:Price#Discount"
+     ]
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "asap",
+   "set": "test_b",
+   "file": "items_test_b.jsonl",
+   "rows": 199,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, dev",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A10",
+     "name": "strong cue of a label that the row does not carry in at most 5% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "3 rows (1.5%) contain a phrase whose training-split precision for a missing label is >= 0.95",
+     "examples": [
+      "asap-test-24825:Food#Portion",
+      "asap-test-32045:Service#Parking",
+      "asap-test-36005:Ambience#Decoration"
+     ]
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "asap",
+   "set": "cases:real",
+   "file": "cases_real.jsonl",
+   "rows": 600,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, test_b",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A8",
+     "name": "length within the real data's 1st-99th percentile for 95% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "98.2% within 197-806 characters",
+     "examples": []
+    },
+    {
+     "code": "A9",
+     "name": "each label's share within 10 points of the real data",
+     "blocking": false,
+     "passed": true,
+     "detail": "largest gaps: Service#Timely 13% vs 13%, Service#Queue 17% vs 17%, Service#Parking 6% vs 6%",
+     "examples": []
+    },
+    {
+     "code": "A10",
+     "name": "strong cue of a label that the row does not carry in at most 5% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "7 rows (1.2%) contain a phrase whose training-split precision for a missing label is >= 0.95",
+     "examples": [
+      "asap-train-34811:Service#Timely",
+      "asap-train-27811:Location#Transportation",
+      "asap-train-36689:Location#Easy_to_find",
+      "asap-train-20709:Ambience#Decoration",
+      "asap-train-30986:Location#Easy_to_find"
+     ]
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [],
+   "accepted": true
+  },
+  {
+   "task": "asap",
+   "set": "cases:synthetic",
+   "file": "cases_synth.jsonl",
+   "rows": 600,
+   "checks": [
+    {
+     "code": "A1",
+     "name": "schema: unique id, text, label list",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 malformed rows, 0 duplicate ids",
+     "examples": []
+    },
+    {
+     "code": "A2",
+     "name": "labels exist in the rulebook and fit the item's scope",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows with unknown labels, 0 with a label outside the item's scope",
+     "examples": []
+    },
+    {
+     "code": "A3",
+     "name": "empty-label rows only where the rulebook allows them",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a label; rulebook allows them",
+     "examples": []
+    },
+    {
+     "code": "A4",
+     "name": "text is in the stated language",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows in another language",
+     "examples": []
+    },
+    {
+     "code": "A5",
+     "name": "no exact duplicates; near duplicates at most 1%",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 exact duplicate texts; 0 near duplicates (0.0%, character 5-gram Jaccard >= 0.6)",
+     "examples": []
+    },
+    {
+     "code": "A6",
+     "name": "no overlap with the frozen test sets",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 pairs with character 8-gram Jaccard >= 0.3 against test_a, test_b",
+     "examples": []
+    },
+    {
+     "code": "A7",
+     "name": "every row states where it comes from",
+     "blocking": true,
+     "passed": true,
+     "detail": "0 rows without a source",
+     "examples": []
+    },
+    {
+     "code": "A8",
+     "name": "length within the real data's 1st-99th percentile for 95% of rows",
+     "blocking": false,
+     "passed": false,
+     "detail": "59.0% within 197-806 characters",
+     "examples": []
+    },
+    {
+     "code": "A9",
+     "name": "each label's share within 10 points of the real data",
+     "blocking": false,
+     "passed": true,
+     "detail": "largest gaps: Location#Transportation 19% vs 24%, Food#Recommend 20% vs 16%, Food#Appearance 27% vs 23%",
+     "examples": []
+    },
+    {
+     "code": "A10",
+     "name": "strong cue of a label that the row does not carry in at most 5% of rows",
+     "blocking": false,
+     "passed": true,
+     "detail": "0 rows (0.0%) contain a phrase whose training-split precision for a missing label is >= 0.95",
+     "examples": []
+    }
+   ],
+   "blocking_failed": [],
+   "warnings": [
+    "A8"
+   ],
+   "accepted": true
+  }
+ ]
+}

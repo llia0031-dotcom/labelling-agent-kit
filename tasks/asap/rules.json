@@ -1,0 +1,827 @@
+{
+  "task": "asap",
+  "version": "1.1",
+  "multi_label": true,
+  "empty_allowed": true,
+  "sources": {
+    "zh": "标签定义来自 ASAP 论文表 1（Bu 等，NAACL 2021）；“适用”“不适用”里的标注习惯来自 ASAP 训练集 36,850 条点评的统计（tasks/asap/cues.json，括号里是训练集中含该说法的点评带这个标签的比例）。",
+    "en": "Definitions are from Table 1 of the ASAP paper (Bu et al., NAACL 2021). The conventions under \"applies\" and \"does not apply\" come from statistics over the 36,850 training reviews (tasks/asap/cues.json); a figure in brackets is the share of training reviews containing the phrase that carry the label."
+  },
+  "general": {
+    "zh": [
+      "只标点评里提到的方面，不管评价是好是坏；明说和暗示都算提到。",
+      "只标点评人对这个方面有评价的地方（好、不好，或者“还行”“一般”这样的轻微评价）。只陈述事实、没有评价的不标：例如“抽中了一张现金券”没说优惠力度如何，“提前一天预约了”没说等位怎样，“点了七个菜”没说分量。依据：ASAP 是方面情感数据集，标注时每个提到的方面都要给出正面、中性或负面。",
+      "只看被点评的这家店；点评里顺带提到的别家店不算。",
+      "一条点评通常有好几个标签（平均约 6 个），几乎都会有“口味”；没有提到任何方面时可以一个都不标。",
+      "每个标签都要能指出点评里的原话作证据。"
+    ],
+    "en": [
+      "Label every aspect the review mentions, whether the opinion is good or bad; explicit and implied mentions both count.",
+      "Label an aspect only where the reviewer judges it (good, bad, or mildly, such as \"OK\" or \"average\"). A plain fact with no judgement is not labelled: \"won a voucher\" without saying how good the offer is, \"booked a day ahead\" without a word on the wait, \"ordered seven dishes\" without a word on portions. Basis: ASAP is an aspect-sentiment dataset; every mentioned aspect was annotated with a positive, neutral or negative polarity.",
+      "Only the restaurant being reviewed counts, not other restaurants mentioned in passing.",
+      "A review usually carries several labels (about 6 on average) and almost always Food#Taste; a review that mentions no aspect gets none.",
+      "Every label needs the review's own words as evidence."
+    ]
+  },
+  "labels": [
+    {
+      "id": "Food#Taste",
+      "name": {
+        "zh": "口味",
+        "en": "Food taste"
+      },
+      "definition": {
+        "zh": "菜品、饮品的味道和口感。",
+        "en": "How the food or drink tastes."
+      },
+      "include": {
+        "zh": [
+          "说到好吃、难吃、味道、口感、咸淡、鲜嫩、入味等（含“味道”的点评 99% 带此标签）。",
+          "只要评价了任何一道菜或饮品的味道就算。"
+        ],
+        "en": [
+          "Any comment on how a dish or drink tastes: delicious, bland, salty, tender, texture (99% of reviews with 味道)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "整条点评完全没有谈吃的东西（很少见，训练集里只有 5%）。"
+        ],
+        "en": [
+          "The review says nothing at all about how anything tastes (rare: 5% of training reviews)."
+        ]
+      },
+      "keywords": [
+        "味道",
+        "好吃",
+        "口感",
+        "难吃",
+        "入味",
+        "鲜",
+        "嫩",
+        "香",
+        "咸",
+        "甜",
+        "辣"
+      ],
+      "boundary": [
+        {
+          "with": "Food#Recommend",
+          "rule": {
+            "zh": "夸一道菜好吃只标口味；明确说“推荐”“不推荐”“值得一试”才加推荐。",
+            "en": "Praising a dish is Taste only; add Recommend when the reviewer explicitly recommends or advises against it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Food#Appearance",
+      "name": {
+        "zh": "外观",
+        "en": "Food appearance"
+      },
+      "definition": {
+        "zh": "菜品的外观、卖相。",
+        "en": "How the food looks."
+      },
+      "include": {
+        "zh": [
+          "卖相（91%）、摆盘（89%）、造型、色泽、颜色好看、精致（73%）、颜值（69%）。"
+        ],
+        "en": [
+          "Presentation, plating, colour, shape, \"looks delicate\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说食材新鲜不算外观（含“新鲜”的点评只有 41% 带此标签）。",
+          "说餐具、店面好看属于装修。"
+        ],
+        "en": [
+          "Freshness alone is not appearance (41%).",
+          "Good-looking tableware or interior is Decoration."
+        ]
+      },
+      "keywords": [
+        "卖相",
+        "摆盘",
+        "造型",
+        "色泽",
+        "精致",
+        "颜值",
+        "好看",
+        "色香味"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Food#Portion",
+      "name": {
+        "zh": "分量",
+        "en": "Food portion"
+      },
+      "definition": {
+        "zh": "菜品的分量。",
+        "en": "The size of the portions."
+      },
+      "include": {
+        "zh": [
+          "分量、份量、量大、量足、量少、吃不完、吃不饱、够几个人吃（“分量”96%）。"
+        ],
+        "en": [
+          "Portion size, generous or small servings, \"could not finish\", \"enough for three\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只列出点了几道菜、几个人吃，没有评价多少。",
+          "“店面很大”“杯子很大”说的不是菜量（含“很大”的只有 66%）。"
+        ],
+        "en": [
+          "Listing how many dishes were ordered, with no comment on amount.",
+          "\"Big\" about the room or a cup, not the food."
+        ]
+      },
+      "keywords": [
+        "分量",
+        "份量",
+        "量大",
+        "量足",
+        "量少",
+        "吃不完",
+        "吃不饱",
+        "吃撑",
+        "很足"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Food#Recommend",
+      "name": {
+        "zh": "推荐程度",
+        "en": "Whether the food is recommended"
+      },
+      "definition": {
+        "zh": "菜品是否值得推荐。",
+        "en": "Whether the food is worth recommending."
+      },
+      "include": {
+        "zh": [
+          "点评人明确表态推荐或不推荐菜品：特别推荐（82%）、很推荐（76%）、不推荐（84%）、推荐他家的某某（81%）。"
+        ],
+        "en": [
+          "The reviewer explicitly recommends, or advises against, the food: \"highly recommend\", \"would not recommend\", \"I recommend their ...\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只出现“推荐”两个字不够：含“推荐”的点评只有 54% 带此标签，例如“服务员推荐的”“朋友推荐来的”“推荐菜”是别人推荐，不是点评人表态。",
+          "“必点”（31%）、“值得”（38%）、“还会再来”（21%）、“招牌菜”多数不标。",
+          "只夸好吃，没有推荐的话。"
+        ],
+        "en": [
+          "The word 推荐 alone is not enough (54%): \"the waiter recommended\", \"a friend recommended this place\", \"recommended dishes\" are someone else's recommendation.",
+          "\"Must-order\" (31%), \"worth it\" (38%), \"will come again\" (21%), \"signature dish\" mostly do not get the label.",
+          "Praise without a recommendation."
+        ]
+      },
+      "keywords": [
+        "特别推荐",
+        "很推荐",
+        "强烈推荐",
+        "不推荐",
+        "推荐他",
+        "推荐一下",
+        "值得推荐",
+        "比较推荐"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Price#Level",
+      "name": {
+        "zh": "价格水平",
+        "en": "Price level"
+      },
+      "definition": {
+        "zh": "价格高低。",
+        "en": "How high or low the prices are."
+      },
+      "include": {
+        "zh": [
+          "价格（91%）、贵（91%）、便宜（88%）、人均多少（94%）、价位、实惠（82%）。",
+          "写出具体花了多少钱并带评价。"
+        ],
+        "en": [
+          "Price, expensive, cheap, cost per person, affordable.",
+          "A stated amount spent with a comment on it."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只写了某道菜的标价或套餐金额，没有任何高低评价，多数不标。"
+        ],
+        "en": [
+          "A dish price or set-menu amount with no comment on whether it is high or low."
+        ]
+      },
+      "keywords": [
+        "价格",
+        "贵",
+        "便宜",
+        "人均",
+        "价位",
+        "实惠",
+        "不贵",
+        "偏贵",
+        "消费"
+      ],
+      "boundary": [
+        {
+          "with": "Price#Cost_effective",
+          "rule": {
+            "zh": "“性价比”“值不值”标性价比；同时谈到价钱高低时两个都标（含“性价比”的点评 67% 也带价格水平）。",
+            "en": "Value for money is Cost_effective; give both when the price level is also discussed (67% of reviews with 性价比 also carry Price#Level)."
+          }
+        },
+        {
+          "with": "Price#Discount",
+          "rule": {
+            "zh": "团购、优惠券、打折是折扣；团购价后面评价了便宜或贵，再加价格水平。",
+            "en": "Group deals, coupons and discounts are Discount; add Price#Level only if the price is also judged."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Price#Cost_effective",
+      "name": {
+        "zh": "性价比",
+        "en": "Value for money"
+      },
+      "definition": {
+        "zh": "这家店的性价比。",
+        "en": "Whether the restaurant is good value for money."
+      },
+      "include": {
+        "zh": [
+          "性价比（96%）、划算（71%）、实惠（66%）、值这个价、物超所值、不值。"
+        ],
+        "en": [
+          "Value for money, \"worth the price\", \"a good deal\", \"not worth it\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说贵或便宜，没有拿价钱和东西好坏比。"
+        ],
+        "en": [
+          "Only cheap or expensive, with no weighing of price against quality."
+        ]
+      },
+      "keywords": [
+        "性价比",
+        "划算",
+        "实惠",
+        "物超所值",
+        "不值",
+        "超值",
+        "物美价廉"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Price#Discount",
+      "name": {
+        "zh": "折扣力度",
+        "en": "Discounts"
+      },
+      "definition": {
+        "zh": "折扣、优惠的力度。",
+        "en": "The strength of discounts and offers."
+      },
+      "include": {
+        "zh": [
+          "团购（84%）、优惠（80%）、券（86%）、打折（73%）、活动（77%）、满减、赠送。",
+          "大众点评的霸王餐、免费试吃（96%）。"
+        ],
+        "en": [
+          "Group-buy deals, coupons, discounts, promotions, freebies.",
+          "Dianping's free trial meals (霸王餐)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说点了“套餐”，没有提优惠（53%）。",
+          "“免费”说的是免费停车、免费茶水（51%）。"
+        ],
+        "en": [
+          "Only says a set menu was ordered, with no offer mentioned (53%).",
+          "\"Free\" about parking or tea (51%)."
+        ]
+      },
+      "keywords": [
+        "团购",
+        "优惠",
+        "券",
+        "打折",
+        "折扣",
+        "活动",
+        "霸王餐",
+        "试吃",
+        "满减",
+        "赠送",
+        "特价"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Location#Downtown",
+      "name": {
+        "zh": "是否靠近商圈",
+        "en": "Near a commercial centre"
+      },
+      "definition": {
+        "zh": "餐厅是否在商圈、市中心附近。",
+        "en": "Whether the restaurant is located near downtown or a shopping area."
+      },
+      "include": {
+        "zh": [
+          "在某某广场（84%）、商场（77%）、百货、步行街、购物中心里或旁边，在市中心、商圈。"
+        ],
+        "en": [
+          "Inside or next to a named plaza, mall, department store or pedestrian street; in the city centre."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只给了路名、门牌或“在几楼”。",
+          "只说离家近、离公司近。"
+        ],
+        "en": [
+          "Only a street name, address or floor.",
+          "Only \"near my home\" or \"near the office\"."
+        ]
+      },
+      "keywords": [
+        "广场",
+        "商场",
+        "百货",
+        "购物中心",
+        "步行街",
+        "市中心",
+        "商圈",
+        "万达",
+        "商业街"
+      ],
+      "boundary": [
+        {
+          "with": "Location#Transportation",
+          "rule": {
+            "zh": "说在商场、广场里标商圈；说地铁、公交、交通方便标交通；“市中心”常常两个都标。",
+            "en": "A mall or plaza is Downtown; metro, bus or \"easy to get to\" is Transportation; \"city centre\" often gets both."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Location#Transportation",
+      "name": {
+        "zh": "交通是否便利",
+        "en": "Transport"
+      },
+      "definition": {
+        "zh": "到餐厅的公共交通是否方便。",
+        "en": "How convenient it is to reach the restaurant by public transport."
+      },
+      "include": {
+        "zh": [
+          "交通方便或不方便（97%）、地铁（92%）、公交（94%）、离某站几分钟、打车。"
+        ],
+        "en": [
+          "Convenient or awkward to reach, metro, bus, minutes from a station, taxi."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说附近有什么（含“附近”的只有 44%）。",
+          "只说停车，属于停车。"
+        ],
+        "en": [
+          "Only what is nearby (44%).",
+          "Only parking, which is Service#Parking."
+        ]
+      },
+      "keywords": [
+        "交通",
+        "地铁",
+        "公交",
+        "站",
+        "方便",
+        "打车",
+        "号线"
+      ],
+      "boundary": [
+        {
+          "with": "Location#Easy_to_find",
+          "rule": {
+            "zh": "怎么到达标交通；到了以后店好不好找标是否好找。",
+            "en": "Getting there is Transportation; spotting the place once there is Easy_to_find."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Location#Easy_to_find",
+      "name": {
+        "zh": "是否容易寻找",
+        "en": "Easy to find"
+      },
+      "definition": {
+        "zh": "餐厅是否容易找到。",
+        "en": "Whether the restaurant is easy to find."
+      },
+      "include": {
+        "zh": [
+          "好找（96%）、难找（87%）、不好找、位置显眼、位置偏、招牌明显、藏在巷子里。",
+          "“位置很好”多数也标（96%）。"
+        ],
+        "en": [
+          "Easy or hard to find, prominent or tucked away, clear signage.",
+          "\"Great location\" usually gets it too (96%)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "“位置”指座位、包间位置（含“位置”的只有 52%）。"
+        ],
+        "en": [
+          "位置 meaning a seat or table (only 52% of reviews with 位置)."
+        ]
+      },
+      "keywords": [
+        "好找",
+        "难找",
+        "不好找",
+        "位置",
+        "显眼",
+        "招牌",
+        "导航",
+        "路口",
+        "巷子"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Service#Queue",
+      "name": {
+        "zh": "排队等候",
+        "en": "Queue"
+      },
+      "definition": {
+        "zh": "排队等位的时间是否可以接受。",
+        "en": "Whether the wait for a table is acceptable."
+      },
+      "include": {
+        "zh": [
+          "排队（67%）、等位（70%）、取号、拿号、轮到、不用排队、人多要等、去得早没排队。"
+        ],
+        "en": [
+          "Queueing, waiting for a table, taking a number, \"no queue\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "等的是上菜，属于上菜速度（“等了”55% 标排队、48% 标上菜速度，看等的是位子还是菜）。",
+          "只说人多、生意好、很火，没有说要等位。"
+        ],
+        "en": [
+          "Waiting for the food is Service#Timely (等了: 55% Queue, 48% Timely; it depends on what was waited for).",
+          "Only \"busy\" or \"popular\", with no wait for a table."
+        ]
+      },
+      "keywords": [
+        "排队",
+        "等位",
+        "取号",
+        "拿号",
+        "叫号",
+        "轮到",
+        "等了",
+        "人多"
+      ],
+      "boundary": [
+        {
+          "with": "Service#Timely",
+          "rule": {
+            "zh": "等位子是排队，等菜是上菜速度；两样都说到就两个都标。",
+            "en": "Waiting for a table is Queue, waiting for food is Timely; give both when both are described."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service#Hospitality",
+      "name": {
+        "zh": "服务态度",
+        "en": "Staff attitude"
+      },
+      "definition": {
+        "zh": "服务人员的态度和待客。",
+        "en": "The attitude and hospitality of the staff."
+      },
+      "include": {
+        "zh": [
+          "服务（91%）、服务员（90%）、态度（99%）、热情（98%）、周到、老板人好、爱答不理、主动加水换盘。"
+        ],
+        "en": [
+          "Service, waiters, attitude, friendly, attentive, the owner is kind, ignored us, topped up water unasked."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说自助点餐、扫码下单，没有评价人。"
+        ],
+        "en": [
+          "Only self-service ordering, with no comment on people."
+        ]
+      },
+      "keywords": [
+        "服务",
+        "服务员",
+        "态度",
+        "热情",
+        "周到",
+        "老板",
+        "店员",
+        "小哥",
+        "阿姨"
+      ],
+      "boundary": [
+        {
+          "with": "Service#Timely",
+          "rule": {
+            "zh": "说上菜快慢标上菜速度；含“上菜”的点评 73% 同时带服务态度，点评里评价了服务人员就两个都标。",
+            "en": "Speed of serving is Timely; 73% of reviews with 上菜 also carry Hospitality, so give both when the staff are also judged."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service#Parking",
+      "name": {
+        "zh": "停车",
+        "en": "Parking"
+      },
+      "definition": {
+        "zh": "停车是否方便。",
+        "en": "How convenient parking is."
+      },
+      "include": {
+        "zh": [
+          "停车（93%）、车位（98%）、停车场、好停、不好停、免费停车。"
+        ],
+        "en": [
+          "Parking, parking spaces, car park, easy or hard to park, free parking."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说开车去、打车去，没有提停车。"
+        ],
+        "en": [
+          "Only says they drove or took a taxi, with no mention of parking."
+        ]
+      },
+      "keywords": [
+        "停车",
+        "车位",
+        "停车场",
+        "好停",
+        "泊车"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Service#Timely",
+      "name": {
+        "zh": "上菜速度",
+        "en": "Speed of service"
+      },
+      "definition": {
+        "zh": "点菜、上菜的时间。",
+        "en": "How long ordering and serving take."
+      },
+      "include": {
+        "zh": [
+          "上菜快或慢（“上菜速度”98%、“上菜很快”93%）、菜等了很久、催菜、出餐快、很快就上齐了。"
+        ],
+        "en": [
+          "Fast or slow serving, a long wait for the food, had to chase the kitchen, \"everything arrived quickly\"."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只描述上了哪些菜、上菜顺序，没有说快慢（含“上菜”的只有 73%）。",
+          "等的是位子，属于排队。"
+        ],
+        "en": [
+          "Only which dishes arrived or in what order, with no comment on speed (73% of reviews with 上菜).",
+          "Waiting for a table, which is Queue."
+        ]
+      },
+      "keywords": [
+        "上菜",
+        "出餐",
+        "速度",
+        "催",
+        "等了",
+        "很快",
+        "太慢",
+        "半天"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Ambience#Decoration",
+      "name": {
+        "zh": "装修",
+        "en": "Decoration"
+      },
+      "definition": {
+        "zh": "装修的档次和风格。",
+        "en": "The level and style of the decoration."
+      },
+      "include": {
+        "zh": [
+          "装修（95%）、风格、布置、氛围（78%）、有情调、小清新、古色古香、高大上、店面简陋。",
+          "笼统地评价“环境”时标（见本标签和另外三个环境标签的边界说明）。"
+        ],
+        "en": [
+          "Decoration, style, layout, atmosphere, \"plain little shop\".",
+          "A general verdict on the surroundings (see the boundary note shared by the four Ambience labels)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说干净不干净（属于卫生，含“环境干净”的只有 55% 带装修）。"
+        ],
+        "en": [
+          "Only clean or dirty, which is Sanitary (55%)."
+        ]
+      },
+      "keywords": [
+        "装修",
+        "环境",
+        "风格",
+        "氛围",
+        "情调",
+        "布置",
+        "格调",
+        "雅致",
+        "简陋"
+      ],
+      "boundary": [
+        {
+          "with": "Ambience#Noise",
+          "rule": {
+            "zh": "数据集的习惯：笼统地说“环境很好”“环境不错”“环境一般”，没有具体指哪方面时，装修、嘈杂、空间、卫生四个标签都标（训练集里含“环境很好”的点评，这四个标签分别有 94%、92%、90%、90%）。只具体说了某一方面（“装修很有格调”“很安静”“挺宽敞”“很干净”）时只标那一方面。",
+            "en": "Dataset convention: a general verdict such as 环境很好 / 环境不错 / 环境一般, with nothing specific, gets all four Ambience labels (94%, 92%, 90%, 90% of training reviews with 环境很好). A specific remark (stylish decor, quiet, spacious, clean) gets only that aspect."
+          }
+        },
+        {
+          "with": "Ambience#Space",
+          "rule": {
+            "zh": "同上：笼统评价环境时四个环境标签都标。",
+            "en": "Same convention: a general verdict on the surroundings gets all four Ambience labels."
+          }
+        },
+        {
+          "with": "Ambience#Sanitary",
+          "rule": {
+            "zh": "同上：笼统评价环境时四个环境标签都标；“环境干净”只标卫生（98%）。",
+            "en": "Same convention; 环境干净 (\"clean surroundings\") gets Sanitary only (98%)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "Ambience#Noise",
+      "name": {
+        "zh": "嘈杂情况",
+        "en": "Noise"
+      },
+      "definition": {
+        "zh": "餐厅是否嘈杂。",
+        "en": "Whether the restaurant is noisy."
+      },
+      "include": {
+        "zh": [
+          "安静（90%）、吵（86%）、嘈杂（97%）、闹哄哄、适合聊天、人声鼎沸。",
+          "笼统地评价“环境”时标（见装修的边界说明）。"
+        ],
+        "en": [
+          "Quiet, noisy, loud, good for a conversation.",
+          "A general verdict on the surroundings (see Decoration's boundary note)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说人多、生意好，没有说吵不吵。"
+        ],
+        "en": [
+          "Only crowded or busy, with nothing about noise."
+        ]
+      },
+      "keywords": [
+        "安静",
+        "吵",
+        "嘈杂",
+        "闹",
+        "清静",
+        "环境"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Ambience#Space",
+      "name": {
+        "zh": "就餐空间",
+        "en": "Space"
+      },
+      "definition": {
+        "zh": "就餐空间和座位大小。",
+        "en": "Dining space and seat size."
+      },
+      "include": {
+        "zh": [
+          "宽敞（94%）、拥挤、店面小、桌子挤、位子多、包间大小、地方不大。",
+          "笼统地评价“环境”时标（见装修的边界说明）。"
+        ],
+        "en": [
+          "Spacious, cramped, small shop, tables close together, plenty of seats, size of private rooms.",
+          "A general verdict on the surroundings (see Decoration's boundary note)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "只说订了座位、坐在哪里（含“座位”的只有 56%）。"
+        ],
+        "en": [
+          "Only that a seat was booked or where they sat (56% of reviews with 座位)."
+        ]
+      },
+      "keywords": [
+        "宽敞",
+        "拥挤",
+        "挤",
+        "空间",
+        "店面",
+        "座位",
+        "包间",
+        "地方",
+        "环境"
+      ],
+      "boundary": []
+    },
+    {
+      "id": "Ambience#Sanitary",
+      "name": {
+        "zh": "卫生",
+        "en": "Cleanliness"
+      },
+      "definition": {
+        "zh": "卫生状况。",
+        "en": "How clean the restaurant is."
+      },
+      "include": {
+        "zh": [
+          "干净（85%）、卫生（88%）、整洁、脏、油腻的桌子、餐具干净、有苍蝇。",
+          "笼统地评价“环境”时标（见装修的边界说明）。"
+        ],
+        "en": [
+          "Clean, hygienic, tidy, dirty, greasy tables, clean tableware.",
+          "A general verdict on the surroundings (see Decoration's boundary note)."
+        ]
+      },
+      "exclude": {
+        "zh": [
+          "说食材干净、吃着放心但没有说店里卫生，多数仍标口味而不标卫生。"
+        ],
+        "en": [
+          "Clean ingredients or \"safe to eat\" with nothing about the premises."
+        ]
+      },
+      "keywords": [
+        "干净",
+        "卫生",
+        "整洁",
+        "脏",
+        "油腻",
+        "环境"
+      ],
+      "boundary": []
+    }
+  ],
+  "precedence": []
+}

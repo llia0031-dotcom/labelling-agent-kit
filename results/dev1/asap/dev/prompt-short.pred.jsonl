@@ -1,0 +1,40 @@
+{"id": "asap-dev-8824", "labels": ["Ambience#Decoration", "Ambience#Sanitary", "Ambience#Space", "Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Transportation", "Price#Cost_effective", "Price#Discount", "Service#Hospitality", "Service#Parking"]}
+{"id": "asap-dev-6445", "labels": ["Ambience#Space", "Food#Portion", "Food#Recommend", "Food#Taste", "Price#Cost_effective"]}
+{"id": "asap-dev-37415", "labels": ["Ambience#Space", "Food#Appearance", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Level", "Service#Queue"]}
+{"id": "asap-dev-4747", "labels": ["Ambience#Decoration", "Ambience#Noise", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Downtown", "Location#Transportation", "Price#Cost_effective", "Price#Level", "Service#Hospitality", "Service#Queue"]}
+{"id": "asap-dev-12612", "labels": ["Food#Appearance", "Food#Recommend", "Food#Taste", "Service#Queue", "Service#Timely"]}
+{"id": "asap-dev-40784", "labels": ["Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Discount", "Price#Level", "Service#Queue"]}
+{"id": "asap-dev-36560", "labels": ["Ambience#Sanitary", "Ambience#Space", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Downtown", "Location#Transportation", "Price#Cost_effective", "Price#Discount", "Price#Level", "Service#Queue", "Service#Timely"]}
+{"id": "asap-dev-13458", "labels": ["Ambience#Space", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Downtown", "Price#Cost_effective", "Price#Level"]}
+{"id": "asap-dev-44121", "labels": ["Food#Portion", "Food#Recommend", "Food#Taste", "Price#Discount"]}
+{"id": "asap-dev-41504", "labels": ["Ambience#Space", "Food#Appearance", "Food#Portion", "Food#Taste", "Price#Cost_effective", "Service#Hospitality", "Service#Timely"]}
+{"id": "asap-dev-5082", "labels": ["Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Price#Level", "Service#Hospitality"]}
+{"id": "asap-dev-38565", "labels": ["Food#Recommend", "Food#Taste", "Service#Queue"]}
+{"id": "asap-dev-15317", "labels": ["Ambience#Decoration", "Ambience#Noise", "Ambience#Sanitary", "Food#Recommend", "Food#Taste", "Location#Easy_to_find", "Service#Hospitality", "Service#Parking", "Service#Timely"]}
+{"id": "asap-dev-36989", "labels": ["Ambience#Decoration", "Ambience#Sanitary", "Ambience#Space", "Food#Appearance", "Service#Queue", "Service#Timely"]}
+{"id": "asap-dev-12720", "labels": ["Ambience#Decoration", "Ambience#Space", "Food#Taste", "Service#Hospitality", "Service#Timely"]}
+{"id": "asap-dev-15723", "labels": ["Ambience#Sanitary", "Food#Recommend", "Food#Taste", "Price#Cost_effective"]}
+{"id": "asap-dev-5218", "labels": ["Ambience#Decoration", "Ambience#Noise", "Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Level", "Service#Hospitality", "Service#Queue"]}
+{"id": "asap-dev-8201", "labels": ["Food#Taste", "Price#Discount", "Service#Hospitality", "Service#Timely"]}
+{"id": "asap-dev-41224", "labels": ["Ambience#Decoration", "Ambience#Space", "Food#Portion", "Food#Recommend", "Food#Taste", "Price#Discount", "Service#Hospitality"]}
+{"id": "asap-dev-33589", "labels": ["Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Discount"]}
+{"id": "asap-dev-2197", "labels": ["Food#Portion", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Service#Timely"]}
+{"id": "asap-dev-20188", "labels": ["Ambience#Noise", "Ambience#Sanitary", "Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Service#Hospitality", "Service#Queue", "Service#Timely"]}
+{"id": "asap-dev-4951", "labels": ["Ambience#Space", "Food#Taste", "Price#Cost_effective", "Service#Hospitality", "Service#Queue"]}
+{"id": "asap-dev-4501", "labels": ["Ambience#Decoration", "Ambience#Noise", "Ambience#Space", "Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Easy_to_find", "Location#Transportation", "Price#Cost_effective", "Price#Discount", "Price#Level", "Service#Timely"]}
+{"id": "asap-dev-12313", "labels": ["Ambience#Decoration", "Ambience#Noise", "Ambience#Space", "Location#Downtown", "Location#Transportation", "Price#Discount", "Price#Level"]}
+{"id": "asap-dev-16486", "labels": ["Food#Portion", "Food#Taste"]}
+{"id": "asap-dev-29747", "labels": ["Ambience#Sanitary", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Transportation", "Price#Cost_effective", "Price#Level", "Service#Hospitality"]}
+{"id": "asap-dev-36930", "labels": ["Ambience#Decoration", "Ambience#Space", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Discount"]}
+{"id": "asap-dev-14149", "labels": ["Food#Appearance", "Food#Portion", "Food#Recommend", "Food#Taste", "Location#Downtown", "Location#Transportation", "Service#Hospitality"]}
+{"id": "asap-dev-43057", "labels": ["Ambience#Decoration", "Food#Taste", "Location#Transportation", "Price#Discount", "Service#Hospitality"]}
+{"id": "asap-dev-29420", "labels": ["Food#Portion", "Food#Recommend", "Food#Taste", "Location#Easy_to_find", "Price#Discount", "Service#Hospitality"]}
+{"id": "asap-dev-5609", "labels": ["Food#Portion", "Food#Recommend", "Food#Taste", "Location#Easy_to_find", "Price#Discount"]}
+{"id": "asap-dev-12622", "labels": ["Food#Recommend", "Food#Taste", "Service#Queue", "Service#Timely"]}
+{"id": "asap-dev-18508", "labels": ["Ambience#Decoration", "Ambience#Space", "Food#Appearance", "Food#Recommend", "Food#Taste", "Service#Hospitality", "Service#Parking", "Service#Timely"]}
+{"id": "asap-dev-14853", "labels": ["Ambience#Decoration", "Ambience#Noise", "Ambience#Space", "Food#Taste", "Location#Downtown", "Price#Cost_effective", "Price#Level"]}
+{"id": "asap-dev-34331", "labels": ["Food#Taste", "Price#Cost_effective", "Price#Discount", "Service#Hospitality"]}
+{"id": "asap-dev-18666", "labels": ["Ambience#Space", "Food#Appearance", "Food#Recommend", "Food#Taste"]}
+{"id": "asap-dev-783", "labels": ["Food#Appearance", "Food#Portion", "Food#Taste", "Price#Discount"]}
+{"id": "asap-dev-30126", "labels": ["Food#Portion", "Food#Taste", "Location#Downtown", "Price#Cost_effective", "Price#Discount", "Price#Level"]}
+{"id": "asap-dev-36760", "labels": ["Food#Portion", "Food#Recommend", "Food#Taste", "Price#Cost_effective", "Price#Discount", "Service#Queue"]}
